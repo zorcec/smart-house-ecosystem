@@ -1,0 +1,43 @@
+version: "3"
+services:
+  home-assistant:
+    container_name: home-assistant
+    build: ./home-assistant
+    ports:
+      - "0.0.0.0:8123:8123"
+    links:
+      - mosquitto:mqtt
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./home-assistant/config:/config
+
+  mosquitto:
+    container_name: mosquitto
+    build: ./mosquitto
+    ports:
+      - "0.0.0.0:1883:1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config/
+
+  snips-master:
+    container_name: snips-master
+    build: ./snips-master
+    links:
+      - mosquitto:mqtt
+    volumes:
+      - ./snips-master/config/:/config
+
+  snips-satellite:
+    container_name: snips-satellite
+    build: ./snips-satellite
+    links:
+      - mosquitto:mqtt
+
+  mqtt-deamon:
+    container_name: mqtt-deamon
+    build: ./mqtt-deamon
+    links:
+      - mosquitto:mqtt
+    volumes:
+      - ./mqtt-deamon/files:/files
+      - ./mqtt-deamon/config:/config

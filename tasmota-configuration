@@ -1,0 +1,22 @@
+Touch example:
+cmnd/DVES_B46629/Power1 => on/off/toggle
+cmnd/DVES_B46629/Status1
+
+Enable hold & double:
+SetOption1 1
+SetOption11 1
+StateText3 DOUBLE
+ButtonTopic touch
+
+// mqtt
+FullTopic %prefix%/DVES_B46629/
+MqttClient DVES_B46629
+
+mqtt msgs:
+stat/DVES_B46629/POWER = ON
+cmnd/DVES_B46629_CMD/POWER = HOLD
+cmnd/DVES_B46629_CMD/POWER = DOUBLE
+
+
+List of commands:
+https://github.com/arendst/Sonoff-Tasmota/wiki/Commands

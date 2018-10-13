@@ -1,0 +1,171 @@
+{
+  "entityNameToFilename": {
+    "bye": "e_0.snips", 
+    "hello": "e_1.snips"
+  }, 
+  "injectionsEngine": {
+    "version": 1
+  }, 
+  "language": "en", 
+  "decoderConfig": {
+    "useFinalProbs": true, 
+    "latticeBeamSize": 1.0, 
+    "maxActive": 2000, 
+    "minActive": 200, 
+    "acousticScale": 0.83, 
+    "beamSize": 10.0
+  }, 
+  "cacheSizeDynamic": 536870912, 
+  "asrModel": {
+    "version": "0.1.0"
+  }, 
+  "asrLmAdaptation": {
+    "version": "0.9.2"
+  }, 
+  "endpointingRules": {
+    "rule3": {
+      "maxRelativeCost": 8.0, 
+      "minTrailingSilence": 1.0, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": true
+    }, 
+    "rule2": {
+      "maxRelativeCost": 3.5, 
+      "minTrailingSilence": 0.5, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": true
+    }, 
+    "rule1": {
+      "maxRelativeCost": 10000000000.0, 
+      "minTrailingSilence": 4.0, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": false
+    }, 
+    "rule5": {
+      "maxRelativeCost": 10000000000.0, 
+      "minTrailingSilence": 0.0, 
+      "minUtteranceLength": 10.0, 
+      "mustContainNonsilence": false
+    }, 
+    "rule4": {
+      "maxRelativeCost": 10000000000.0, 
+      "minTrailingSilence": 2.0, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": true
+    }
+  }, 
+  "postprocessors": [
+    {
+      "Regex": {
+        "pattern": "`b3229189-b061-4778-962d-b5de910da4c0`START .[^`]*? `b3229189-b061-4778-962d-b5de910da4c0`DECOY`EMPTY `b3229189-b061-4778-962d-b5de910da4c0`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`b3229189-b061-4778-962d-b5de910da4c0`START .[^`]*? `b3229189-b061-4778-962d-b5de910da4c0`DECOY`INSIDE .*? `b3229189-b061-4778-962d-b5de910da4c0`END`DECOY `b3229189-b061-4778-962d-b5de910da4c0`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`b3229189-b061-4778-962d-b5de910da4c0`START`DECOY (.*?) `b3229189-b061-4778-962d-b5de910da4c0`END`DECOY", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`b3229189-b061-4778-962d-b5de910da4c0`START (.*?) `b3229189-b061-4778-962d-b5de910da4c0`END", 
+        "flags": "i", 
+        "replacement": "$1"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`b3229189-b061-4778-962d-b5de910da4c0`START ", 
+        "flags": "i", 
+        "replacement": ""
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`START .[^`]*? `bd775eab-3012-40fc-9a3e-d6c21294bccd`DECOY`EMPTY `bd775eab-3012-40fc-9a3e-d6c21294bccd`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`START .[^`]*? `bd775eab-3012-40fc-9a3e-d6c21294bccd`DECOY`INSIDE .*? `bd775eab-3012-40fc-9a3e-d6c21294bccd`END`DECOY `bd775eab-3012-40fc-9a3e-d6c21294bccd`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`START`DECOY (.*?) `bd775eab-3012-40fc-9a3e-d6c21294bccd`END`DECOY", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`START (.*?) `bd775eab-3012-40fc-9a3e-d6c21294bccd`END", 
+        "flags": "i", 
+        "replacement": "$1"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`START ", 
+        "flags": "i", 
+        "replacement": ""
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`PATTERN`DECOY`START .*? `PATTERN`DECOY`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }
+  ], 
+  "asrEngine": {
+    "version": "0.1.0"
+  }, 
+  "entitiesFstMap": [
+    [
+      101, 
+      "__root__"
+    ], 
+    [
+      102, 
+      "e_0.snips"
+    ], 
+    [
+      103, 
+      "e_1.snips"
+    ]
+  ], 
+  "entityNameToDisambigs": {
+    "bye": {
+      "start": "`b3229189-b061-4778-962d-b5de910da4c0`START", 
+      "end": "`b3229189-b061-4778-962d-b5de910da4c0`END", 
+      "empty": [
+        "`b3229189-b061-4778-962d-b5de910da4c0`DECOY`EMPTY", 
+        4
+      ]
+    }, 
+    "hello": {
+      "start": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`START", 
+      "end": "`bd775eab-3012-40fc-9a3e-d6c21294bccd`END", 
+      "empty": [
+        "`bd775eab-3012-40fc-9a3e-d6c21294bccd`DECOY`EMPTY", 
+        4
+      ]
+    }
+  }
+}

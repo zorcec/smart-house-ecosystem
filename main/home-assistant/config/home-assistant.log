@@ -1,0 +1,1 @@
+2018-10-13 15:50:00 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "sensor". Check lines 42 and 57.
