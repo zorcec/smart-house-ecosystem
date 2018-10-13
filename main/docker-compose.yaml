@@ -3,6 +3,7 @@ services:
   home-assistant:
     container_name: home-assistant
     build: ./home-assistant
+    restart: always
     ports:
       - "0.0.0.0:8123:8123"
     links:
@@ -14,6 +15,7 @@ services:
   mosquitto:
     container_name: mosquitto
     build: ./mosquitto
+    restart: always
     ports:
       - "0.0.0.0:1883:1883"
     volumes:
@@ -22,14 +24,19 @@ services:
   snips-master:
     container_name: snips-master
     build: ./snips-master
+    restart: always
+    privileged: true
     links:
       - mosquitto:mqtt
     volumes:
       - ./snips-master/config/:/config
+      - ./snips-master/files/:/files
 
   snips-satellite:
     container_name: snips-satellite
     build: ./snips-satellite
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
     links:
       - mosquitto:mqtt
 
