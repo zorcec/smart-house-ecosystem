@@ -101,43 +101,19 @@
       {
         "args": {
           "collections": {
-            "article": [
-              "fear of height", 
-              "neanderthals", 
-              "extremism", 
-              "time", 
-              "jame bond", 
-              "season", 
-              "world war ii", 
-              "infinity", 
-              "fear of height", 
-              "christma eve", 
-              "thunderstorm", 
-              "sustain", 
-              "time", 
-              "season", 
-              "neanderthal man", 
-              "infinity", 
-              "univers", 
-              "grizzly", 
-              "neanderthal man", 
-              "jame bond", 
-              "diseas", 
-              "donald trump", 
-              "sustain", 
-              "christma eve", 
-              "mammal", 
-              "thunderstorm", 
-              "donald trump", 
-              "world war ii", 
-              "polar light", 
-              "extremism", 
-              "grizzly", 
-              "polar light", 
-              "diseas", 
-              "univers", 
-              "neanderthals", 
-              "mammal"
+            "bye": [
+              "good", 
+              "later", 
+              "see", 
+              "later", 
+              "leter", 
+              "bye", 
+              "go", 
+              "see", 
+              "good", 
+              "leter", 
+              "go", 
+              "bye"
             ]
           }, 
           "language_code": "en", 
@@ -192,11 +168,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modeld3Dm57.crfsuite", 
-  "intent": "CrystalMethod:searchWikipedia", 
+  "crf_model_file": "modelsM7TXV.crfsuite", 
+  "intent": "SirBuildsALot7:bye", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "article_indicator": "article"
+    "bye": "bye"
   }, 
   "unit_name": "crf_slot_filler"
 }

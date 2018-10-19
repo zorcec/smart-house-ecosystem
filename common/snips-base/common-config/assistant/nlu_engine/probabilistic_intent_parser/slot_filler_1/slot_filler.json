@@ -101,19 +101,27 @@
       {
         "args": {
           "collections": {
-            "bye": [
+            "hello": [
+              "howdy", 
               "good", 
-              "later", 
-              "see", 
-              "later", 
-              "leter", 
-              "bye", 
-              "go", 
-              "see", 
               "good", 
-              "leter", 
-              "go", 
-              "bye"
+              "hi", 
+              "hay", 
+              "howdy", 
+              "salutations", 
+              "greet", 
+              "hey", 
+              "aloha", 
+              "hello", 
+              "hello", 
+              "hay", 
+              "hi", 
+              "hey", 
+              "aloha", 
+              "day", 
+              "salutations", 
+              "day", 
+              "greet"
             ]
           }, 
           "language_code": "en", 
@@ -168,11 +176,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelswNEL_.crfsuite", 
-  "intent": "SirBuildsALot7:bye", 
+  "crf_model_file": "modelSSMWGY.crfsuite", 
+  "intent": "SirBuildsALot7:hello", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "bye": "bye"
+    "hello": "hello"
   }, 
   "unit_name": "crf_slot_filler"
 }

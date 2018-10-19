@@ -101,27 +101,40 @@
       {
         "args": {
           "collections": {
-            "hello": [
-              "howdy", 
-              "good", 
-              "good", 
-              "hi", 
-              "hay", 
-              "howdy", 
-              "salutations", 
-              "greet", 
-              "hey", 
-              "aloha", 
-              "hello", 
-              "hello", 
-              "hay", 
-              "hi", 
-              "hey", 
-              "aloha", 
-              "day", 
-              "salutations", 
-              "day", 
-              "greet"
+            "Item": [
+              "background light", 
+              "background light", 
+              "ambient light", 
+              "ambientlight", 
+              "light", 
+              "bedroom", 
+              "mainlight", 
+              "light", 
+              "main light", 
+              "ambientlight", 
+              "ambient light", 
+              "light", 
+              "mainlight", 
+              "ambient light", 
+              "bedroom", 
+              "ambientlight", 
+              "main light", 
+              "background light", 
+              "mainlight", 
+              "main light", 
+              "light", 
+              "background light", 
+              "ambient light", 
+              "main light"
+            ], 
+            "room": [
+              "sleep room", 
+              "light", 
+              "bedroom", 
+              "bedroom", 
+              "light", 
+              "bedroom", 
+              "sleep room"
             ]
           }, 
           "language_code": "en", 
@@ -176,11 +189,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modele6G7Cy.crfsuite", 
-  "intent": "SirBuildsALot7:hello", 
+  "crf_model_file": "modelpfBEeg.crfsuite", 
+  "intent": "zorcec:turnOn", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "hello": "hello"
+    "item": "Item", 
+    "room": "room"
   }, 
   "unit_name": "crf_slot_filler"
 }

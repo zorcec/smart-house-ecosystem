@@ -156,15 +156,15 @@
   }, 
   "slot_fillers": [
     {
-      "intent": "CrystalMethod:searchWikipedia", 
+      "intent": "SirBuildsALot7:bye", 
       "slot_filler_name": "slot_filler_0"
     }, 
     {
-      "intent": "SirBuildsALot7:bye", 
+      "intent": "SirBuildsALot7:hello", 
       "slot_filler_name": "slot_filler_1"
     }, 
     {
-      "intent": "SirBuildsALot7:hello", 
+      "intent": "zorcec:turnOn", 
       "slot_filler_name": "slot_filler_2"
     }
   ], 

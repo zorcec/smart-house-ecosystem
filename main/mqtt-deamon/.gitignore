@@ -1,2 +1,2 @@
-/files/**.log
-/files/**.messages
+/files/**/*.log
+/files/**/*.messages

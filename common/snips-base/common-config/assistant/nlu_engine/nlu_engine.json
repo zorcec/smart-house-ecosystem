@@ -166,45 +166,33 @@
   }, 
   "dataset_metadata": {
     "entities": {
-      "article": {
-        "automatically_extensible": true, 
+      "Item": {
+        "automatically_extensible": false, 
         "utterances": {
-          "Christmas Eve": "christmas eve", 
-          "Disease": "disease", 
-          "Donald Trump": "donald trump", 
-          "Extremism": "extremism", 
-          "Fear Of Heights": "fear of heights", 
-          "Grizzly": "grizzly", 
-          "Infinity": "infinity", 
-          "James Bond": "james bond", 
-          "Mammal": "mammal", 
-          "Neanderthal Man": "neanderthal man", 
-          "Neanderthals": "neanderthals", 
-          "Polar Lights": "polar lights", 
-          "Seasons": "seasons", 
-          "Sustainability": "sustainability", 
-          "Thunderstorm": "thunderstorm", 
-          "Time": "time", 
-          "Universe": "universe", 
-          "World War Ii": "world war ii", 
-          "christmas eve": "christmas eve", 
-          "disease": "disease", 
-          "donald trump": "donald trump", 
-          "extremism": "extremism", 
-          "fear of heights": "fear of heights", 
-          "grizzly": "grizzly", 
-          "infinity": "infinity", 
-          "james bond": "james bond", 
-          "mammal": "mammal", 
-          "neanderthal man": "neanderthal man", 
-          "neanderthals": "neanderthals", 
-          "polar lights": "polar lights", 
-          "seasons": "seasons", 
-          "sustainability": "sustainability", 
-          "thunderstorm": "thunderstorm", 
-          "time": "time", 
-          "universe": "universe", 
-          "world war ii": "world war ii"
+          "Ambient Light": "ambientLight", 
+          "Ambient Lights": "ambientLight", 
+          "Ambientlight": "ambientLight", 
+          "Background Light": "ambientLight", 
+          "Background Lights": "ambientLight", 
+          "Bedroom": "bedroom", 
+          "Light": "mainLight", 
+          "Lights": "mainLight", 
+          "Main Light": "mainLight", 
+          "Main Lights": "mainLight", 
+          "Mainlight": "mainLight", 
+          "ambient light": "ambientLight", 
+          "ambient lights": "ambientLight", 
+          "ambientLight": "ambientLight", 
+          "ambientlight": "ambientLight", 
+          "background light": "ambientLight", 
+          "background lights": "ambientLight", 
+          "bedroom": "bedroom", 
+          "light": "mainLight", 
+          "lights": "mainLight", 
+          "main light": "mainLight", 
+          "main lights": "mainLight", 
+          "mainLight": "mainLight", 
+          "mainlight": "mainLight"
         }
       }, 
       "bye": {
@@ -248,18 +236,31 @@
           "howdy": "howdy", 
           "salutations": "salutations"
         }
+      }, 
+      "room": {
+        "automatically_extensible": false, 
+        "utterances": {
+          "Bedroom": "bedRoom", 
+          "Lights": "lights", 
+          "Sleeping Room": "bedRoom", 
+          "bedRoom": "bedRoom", 
+          "bedroom": "bedRoom", 
+          "lights": "lights", 
+          "sleeping room": "bedRoom"
+        }
       }
     }, 
     "language_code": "en", 
     "slot_name_mappings": {
-      "CrystalMethod:searchWikipedia": {
-        "article_indicator": "article"
-      }, 
       "SirBuildsALot7:bye": {
         "bye": "bye"
       }, 
       "SirBuildsALot7:hello": {
         "hello": "hello"
+      }, 
+      "zorcec:turnOn": {
+        "item": "Item", 
+        "room": "room"
       }
     }
   }, 

@@ -2,6 +2,27 @@
   "id" : "proj_E6gMV1A3wWo0",
   "name" : "House",
   "intents" : [ {
+    "id" : "zorcec:turnOn",
+    "type" : "registry",
+    "version" : "0.24.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "item",
+      "id" : "EoHnjVdrb",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "Which item would you like to turn on?",
+      "required" : true,
+      "description" : "The item that can be turned on"
+    }, {
+      "name" : "room",
+      "id" : "Ha7VsR1aN",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Room where we want to turn something on"
+    } ],
+    "name" : "turnOn"
+  }, {
     "id" : "SirBuildsALot7:bye",
     "type" : "registry",
     "version" : "2.0.0",
@@ -29,19 +50,6 @@
       "description" : "Says hello"
     } ],
     "name" : "hello"
-  }, {
-    "id" : "CrystalMethod:searchWikipedia",
-    "type" : "registry",
-    "version" : "2.0.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "article_indicator",
-      "id" : "HyBZ5DK-X",
-      "entityId" : "entity_W5lGBG2k2YwB",
-      "missingQuestion" : "",
-      "required" : false
-    } ],
-    "name" : "searchWikipedia"
   } ],
   "createdAt" : "2018-09-23T06:52:34.209Z",
   "language" : "en",
@@ -56,5 +64,5 @@
   },
   "analyticsEnabled" : true,
   "heartbeatEnabled" : true,
-  "hotword" : "personal_hotword"
+  "hotword" : "hey_snips"
 }
