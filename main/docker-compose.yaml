@@ -26,19 +26,41 @@ services:
     build: ./snips-master
     restart: always
     privileged: true
+    devices:
+      - "/dev/snd"
     links:
       - mosquitto:mqtt
+    depends_on:
+      - mosquitto
     volumes:
       - ./snips-master/config/:/config
-      - ./snips-master/files/:/files
+      - /var/run/dbus:/var/run/dbus
+      - /etc/machine-id:/etc/machine-id
 
   snips-satellite:
     container_name: snips-satellite
     build: ./snips-satellite
     devices:
-      - "/dev/ttyUSB0:/dev/ttyUSB0"
+      - "/dev/snd"
     links:
       - mosquitto:mqtt
+    depends_on:
+      - mosquitto
+      - snips-master
+    volumes:
+      - ./snips-master/config/:/config
+      - /var/run/dbus:/var/run/dbus
+      - /etc/machine-id:/etc/machine-id
+
+  snips-watch:
+    container_name: snips-watch
+    build: ./snips-watch
+    restart: always
+    privileged: true
+    links:
+      - mosquitto:mqtt
+    volumes:
+      - ./snips-master/config/:/config
 
   mqtt-deamon:
     container_name: mqtt-deamon

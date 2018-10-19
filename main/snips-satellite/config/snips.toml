@@ -1,21 +1,9 @@
 [snips-common]
-# bus = "mqtt"
-# mqtt = "localhost:1883"
-# audio = ["+@mqtt"]
-# assistant = "/usr/share/snips/assistant"
-# user_dir = "/var/lib/snips"
-
-## MQTT authentication
-# mqtt_username = ""
-# mqtt_password = ""
-
-## MQTT TLS configuration
-# mqtt_tls_hostname = ""
-# mqtt_tls_disable_root_store = false
-# mqtt_tls_cafile = ""
-# mqtt_tls_capath = ""
-# mqtt_tls_client_cert = ""
-# mqtt_tls_client_key = ""
+bus = "mqtt"
+mqtt = "mqtt:1883"
+audio = ["snips-datellite-dev@mqtt"]
+assistant = "/config/assistant"
+user_dir = "/config/snips"
 
 [snips-analytics]
 
@@ -31,7 +19,7 @@
 
 [snips-audio-server]
 # frame = 256
-# bind = "default@mqtt"
+bind = "snips-satellite-dev@mqtt"
 # mike = "Built-in Microphone"
 # disable_playback = false
 
@@ -43,10 +31,10 @@
 # sound_feedback_enabled_default = true
 
 [snips-hotword]
-# model = "/usr/share/snips/hotword"
-# hotword_id = "default"
-# sensitivity = "0.5"
-# audio = ["+@mqtt"]
+model = "/usr/share/snips/hotword"
+hotword_id = "default"
+sensitivity = "0.6"
+audio = ["snips-satellite-dev@mqtt"]
 
 [snips-nlu]
 

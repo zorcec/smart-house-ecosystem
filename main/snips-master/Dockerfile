@@ -1,23 +1,22 @@
-FROM debian:stretch-slim
+FROM common_snips-base:latest
 
-ENV ARHITECTURE amd64
+ARG HOSTUID=1000
+ARG HOSTGID=1000
 
 RUN apt-get update
 
-# Install snips
-RUN apt-get install -y dirmngr apt-transport-https ca-certificates && \
-    bash -c  'echo "deb https://debian.snips.ai/stretch stable main" > /etc/apt/sources.list.d/snips.list' && \
-    apt-key adv --keyserver pgp.mit.edu --recv-keys F727C778CCB0A455 && \
-    apt-get update && \
-    apt-get install -y snips-platform-voice
+# Install and configure supervisor
+RUN apt-get install -y supervisor
+COPY config/supervisor/* /etc/supervisor/conf.d/
+RUN chown -R $HOSTUID:$HOSTGID /etc/supervisor/conf.d/
+RUN adduser --disabled-password --gecos $HOSTUID service_user
 
+RUN mkdir -p /config
+VOLUME /config
+COPY /files/* /files
+COPY /config/snips.toml /etc/snips.toml
+    
 # Cleanup    
 RUN apt-get clean
 
-RUN mkdir -p /config /files
-VOLUME /config
-VOLUME /files
-
-COPY /config/snips.toml /etc/snips.toml
-
-CMD ["sh", "/files/start.sh"]
+CMD ["bash", "/files/start.sh"]
