@@ -1,0 +1,60 @@
+{
+  "id" : "proj_E6gMV1A3wWo0",
+  "name" : "House",
+  "intents" : [ {
+    "id" : "SirBuildsALot7:bye",
+    "type" : "registry",
+    "version" : "2.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "bye",
+      "id" : "BJhInnWOf",
+      "entityId" : "entity_Eknp6qM6bk0",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "bye"
+    } ],
+    "name" : "bye"
+  }, {
+    "id" : "SirBuildsALot7:hello",
+    "type" : "registry",
+    "version" : "2.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "hello",
+      "id" : "BkFd_3WdM",
+      "entityId" : "entity_bDbwyAx11om",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Says hello"
+    } ],
+    "name" : "hello"
+  }, {
+    "id" : "CrystalMethod:searchWikipedia",
+    "type" : "registry",
+    "version" : "2.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "article_indicator",
+      "id" : "HyBZ5DK-X",
+      "entityId" : "entity_W5lGBG2k2YwB",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "searchWikipedia"
+  } ],
+  "createdAt" : "2018-09-23T06:52:34.209Z",
+  "language" : "en",
+  "version" : {
+    "nluModel" : "0.16.0"
+  },
+  "platform" : {
+    "type" : "raspberrypi"
+  },
+  "asr" : {
+    "type" : "snips"
+  },
+  "analyticsEnabled" : true,
+  "heartbeatEnabled" : true,
+  "hotword" : "personal_hotword"
+}

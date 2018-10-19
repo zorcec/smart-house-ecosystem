@@ -11,8 +11,6 @@ COPY config/supervisor/* /etc/supervisor/conf.d/
 RUN chown -R $HOSTUID:$HOSTGID /etc/supervisor/conf.d/
 RUN adduser --disabled-password --gecos $HOSTUID service_user
 
-RUN mkdir -p /config
-VOLUME /config
 COPY /files/* /files
 COPY /config/snips.toml /etc/snips.toml
     

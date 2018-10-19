@@ -9,7 +9,10 @@ RUN apt-get install -y dirmngr apt-transport-https ca-certificates && \
     bash -c  'echo "deb https://debian.snips.ai/stretch stable main" > /etc/apt/sources.list.d/snips.list' && \
     apt-key adv --keyserver pgp.mit.edu --recv-keys F727C778CCB0A455 && \
     apt-get update && \
-    apt-get install -y snips-platform-voice
+    apt-get install -y snips-platform-voice snips-skill-server
+
+RUN mkdir -p /common-config
+VOLUME /common-config
 
 # Sound config & test
 COPY /files/* /files/
@@ -22,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 	pulseaudio-utils \
 	--no-install-recommends
 
-COPY /config/pulse/* /etc/pulse/
+COPY /common-config/pulse/* /etc/pulse/
 
 # Cleanup    
 RUN apt-get clean

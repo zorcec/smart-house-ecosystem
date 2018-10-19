@@ -1,0 +1,219 @@
+{
+  "entityNameToFilename": {
+    "article": "e_0.snips", 
+    "bye": "e_1.snips", 
+    "hello": "e_2.snips"
+  }, 
+  "injectionsEngine": {
+    "version": 1
+  }, 
+  "language": "en", 
+  "decoderConfig": {
+    "useFinalProbs": true, 
+    "latticeBeamSize": 1.0, 
+    "maxActive": 2000, 
+    "minActive": 200, 
+    "acousticScale": 0.83, 
+    "beamSize": 10.0
+  }, 
+  "cacheSizeDynamic": 536870912, 
+  "asrModel": {
+    "version": "0.1.0"
+  }, 
+  "asrLmAdaptation": {
+    "version": "0.9.2"
+  }, 
+  "endpointingRules": {
+    "rule3": {
+      "maxRelativeCost": 8.0, 
+      "minTrailingSilence": 1.0, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": true
+    }, 
+    "rule2": {
+      "maxRelativeCost": 3.5, 
+      "minTrailingSilence": 0.5, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": true
+    }, 
+    "rule1": {
+      "maxRelativeCost": 10000000000.0, 
+      "minTrailingSilence": 4.0, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": false
+    }, 
+    "rule5": {
+      "maxRelativeCost": 10000000000.0, 
+      "minTrailingSilence": 0.0, 
+      "minUtteranceLength": 10.0, 
+      "mustContainNonsilence": false
+    }, 
+    "rule4": {
+      "maxRelativeCost": 10000000000.0, 
+      "minTrailingSilence": 2.0, 
+      "minUtteranceLength": 0.0, 
+      "mustContainNonsilence": true
+    }
+  }, 
+  "postprocessors": [
+    {
+      "Regex": {
+        "pattern": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`START .[^`]*? `187cc047-0fc8-4c56-83dc-590aaeb7aa29`DECOY`EMPTY `187cc047-0fc8-4c56-83dc-590aaeb7aa29`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`START .[^`]*? `187cc047-0fc8-4c56-83dc-590aaeb7aa29`DECOY`INSIDE .*? `187cc047-0fc8-4c56-83dc-590aaeb7aa29`END`DECOY `187cc047-0fc8-4c56-83dc-590aaeb7aa29`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`START`DECOY (.*?) `187cc047-0fc8-4c56-83dc-590aaeb7aa29`END`DECOY", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`START (.*?) `187cc047-0fc8-4c56-83dc-590aaeb7aa29`END", 
+        "flags": "i", 
+        "replacement": "$1"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`START ", 
+        "flags": "i", 
+        "replacement": ""
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`START .[^`]*? `bff9cb12-e0f4-44e5-af43-b144f73b6a67`DECOY`EMPTY `bff9cb12-e0f4-44e5-af43-b144f73b6a67`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`START .[^`]*? `bff9cb12-e0f4-44e5-af43-b144f73b6a67`DECOY`INSIDE .*? `bff9cb12-e0f4-44e5-af43-b144f73b6a67`END`DECOY `bff9cb12-e0f4-44e5-af43-b144f73b6a67`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`START`DECOY (.*?) `bff9cb12-e0f4-44e5-af43-b144f73b6a67`END`DECOY", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`START (.*?) `bff9cb12-e0f4-44e5-af43-b144f73b6a67`END", 
+        "flags": "i", 
+        "replacement": "$1"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`START ", 
+        "flags": "i", 
+        "replacement": ""
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`START .[^`]*? `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`DECOY`EMPTY `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`START .[^`]*? `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`DECOY`INSIDE .*? `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`END`DECOY `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`START`DECOY (.*?) `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`END`DECOY", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`START (.*?) `520a073e-e5f2-4e48-8e7a-e11db32e8ed7`END", 
+        "flags": "i", 
+        "replacement": "$1"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`START ", 
+        "flags": "i", 
+        "replacement": ""
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`PATTERN`DECOY`START .*? `PATTERN`DECOY`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }
+  ], 
+  "asrEngine": {
+    "version": "0.1.0"
+  }, 
+  "entitiesFstMap": [
+    [
+      165, 
+      "__root__"
+    ], 
+    [
+      166, 
+      "e_0.snips"
+    ], 
+    [
+      167, 
+      "e_1.snips"
+    ], 
+    [
+      168, 
+      "e_2.snips"
+    ]
+  ], 
+  "entityNameToDisambigs": {
+    "article": {
+      "start": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`START", 
+      "end": "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`END", 
+      "empty": [
+        "`187cc047-0fc8-4c56-83dc-590aaeb7aa29`DECOY`EMPTY", 
+        4
+      ]
+    }, 
+    "bye": {
+      "start": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`START", 
+      "end": "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`END", 
+      "empty": [
+        "`bff9cb12-e0f4-44e5-af43-b144f73b6a67`DECOY`EMPTY", 
+        4
+      ]
+    }, 
+    "hello": {
+      "start": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`START", 
+      "end": "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`END", 
+      "empty": [
+        "`520a073e-e5f2-4e48-8e7a-e11db32e8ed7`DECOY`EMPTY", 
+        4
+      ]
+    }
+  }
+}

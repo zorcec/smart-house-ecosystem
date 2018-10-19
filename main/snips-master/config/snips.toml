@@ -2,8 +2,8 @@
 bus = "mqtt"
 mqtt = "mqtt:1883"
 audio = ["+@mqtt"]
-assistant = "/config/assistant"
-user_dir = "/config/snips"
+assistant = "/common-config/assistant"
+user_dir = "/common-config/snips"
 
 ## MQTT authentication
 # mqtt_username = ""

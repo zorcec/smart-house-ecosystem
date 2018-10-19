@@ -1,0 +1,23 @@
+[snips-common]
+bus = "mqtt"
+mqtt = "mqtt:1883"
+audio = ["snips-datellite-dev@mqtt"]
+assistant = "/common-config/assistant"
+user_dir = "/common-config/snips"
+
+[snips-audio-server]
+bind = "snips-satellite-dev@mqtt"
+
+[snips-hotword]
+model = "/usr/share/snips/hotword"
+hotword_id = "default"
+sensitivity = "0.6"
+audio = ["snips-satellite-dev@mqtt"]
+
+[snips-tts]
+## Choose one tts provider (defaults to picotts)
+# provider = "picotts"
+# provider = "makerstts"
+# provider = "customtts"
+## customtts specific configuration (here configured to use picotts)
+# customtts = { command = ["pico2wave", "-w", "%%OUTPUT_FILE%%", "-l", "%%LANG%%", "%%TEXT%%"] }

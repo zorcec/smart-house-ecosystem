@@ -2,41 +2,17 @@
 bus = "mqtt"
 mqtt = "mqtt:1883"
 audio = ["snips-datellite-dev@mqtt"]
-assistant = "/config/assistant"
-user_dir = "/config/snips"
-
-[snips-analytics]
-
-[snips-asr]
-# no_fst_map = true
-# beam_size = 8
-# model = "/usr/share/snips/asr"
-# audio = ["+@mqtt"]
-
-[snips-asr-google]
-# credentials = "/usr/share/snips/googlecredentials.json"
-# audio = ["+@mqtt"]
+assistant = "/common-config/assistant"
+user_dir = "/common-config/snips"
 
 [snips-audio-server]
-# frame = 256
 bind = "snips-satellite-dev@mqtt"
-# mike = "Built-in Microphone"
-# disable_playback = false
-
-[snips-dialogue]
-# resources = "/usr/share/snips/dialogue"
-# session_timeout = 15
-# lambda_timeout = 5
-# retry_count = 3
-# sound_feedback_enabled_default = true
 
 [snips-hotword]
 model = "/usr/share/snips/hotword"
-hotword_id = "default"
-sensitivity = "0.6"
-audio = ["snips-satellite-dev@mqtt"]
-
-[snips-nlu]
+# hotword_id = "default"
+# sensitivity = "0.5"
+audio = ["+@mqtt"]
 
 [snips-tts]
 ## Choose one tts provider (defaults to picotts)

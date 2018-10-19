@@ -15,6 +15,7 @@ RUN mkdir -p /config
 VOLUME /config
 COPY /files/* /files
 COPY /config/snips.toml /etc/snips.toml
+COPY /config/pulse/* /etc/pulse/
     
 # Cleanup    
 RUN apt-get clean
