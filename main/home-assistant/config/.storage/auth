@@ -188,7 +188,7 @@
                 "created_at": "2018-10-13T13:50:23.014880+00:00",
                 "id": "027a59d0f4974c5da0c87a482cd820f0",
                 "jwt_key": "7c4adea2e34bfd73182e4d5a922095a5b235c66d66fc2073d7610431251328fc401c69c6a8785aec91212371a2dea9b986d350b31738c8ec2a688241e4a34ec5",
-                "last_used_at": "2018-10-13T13:50:23.014980+00:00",
+                "last_used_at": "2018-10-20T10:11:40.359892+00:00",
                 "last_used_ip": "172.18.0.1",
                 "token": "731d83c927e477ef16008aafa80f234543549e61c3851deac928c4b67663cb9d9f8e6a7fad92105b4584d857024479ced0d32ad745bfa9453566264a81974f36",
                 "token_type": "normal",

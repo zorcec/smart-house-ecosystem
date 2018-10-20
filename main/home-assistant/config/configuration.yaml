@@ -56,3 +56,13 @@ script: !include customize/scripts.yaml
 
 light: !include_dir_list customize/devices/lights/
 sensor: !include_dir_list customize/devices/sensors/
+
+snips:
+
+intent_script:
+  turnOn:
+    speech:
+      text: Hello!
+    action:
+      - service: light.turn_on
+      

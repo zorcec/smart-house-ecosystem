@@ -12,4 +12,4 @@ bind = "snips-satellite-dev@mqtt"
 model = "/usr/share/snips/hotword"
 # hotword_id = "default"
 # sensitivity = "0.5"
-audio = ["snips-datellite-dev@mqtt"]
+audio = ["snips-satellite-dev@mqtt"]

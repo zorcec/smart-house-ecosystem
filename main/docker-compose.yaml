@@ -1,5 +1,6 @@
 version: "3"
 services:
+  
   home-assistant:
     container_name: home-assistant
     build: ./home-assistant
@@ -25,18 +26,17 @@ services:
     container_name: snips-master
     build: ./snips-master
     restart: always
-    privileged: true
     links:
       - mosquitto:mqtt
     depends_on:
       - mosquitto
     volumes:
       - ../common/snips-base/common-config/:/common-config
-      - ./mqtt-deamon/config:/config
 
   snips-satellite:
     container_name: snips-satellite
     build: ./snips-satellite
+    privileged: true
     devices:
       - "/dev/snd"
     links:
@@ -45,16 +45,15 @@ services:
       - mosquitto
       - snips-master
     volumes:
-      - ../common/snips-base/common-config/:/common-config
-      - ./mqtt-deamon/config:/config
-      - /var/run/dbus:/var/run/dbus
+      - /run/user/1000/pulse:/run/user/1000/pulse
       - /etc/machine-id:/etc/machine-id
+      - ~/.config/pulse/cookie:/root/.config/pulse/cookie
+      - ../common/snips-base/common-config/:/common-config
 
   snips-watch:
     container_name: snips-watch
     build: ./snips-watch
     restart: always
-    privileged: true
     links:
       - mosquitto:mqtt
     volumes:

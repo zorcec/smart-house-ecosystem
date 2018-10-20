@@ -16,6 +16,7 @@
 	<Subscription topic="tele/#" />
 	<Subscription topic="cmnd/#" />
 	<Subscription topic="stat/#" />
+	<Subscription topic="hermes/intent/#" />
 			
 	<!-- Publishing sample messages; use the built-in sample -->
 	<BackgroundScript>
