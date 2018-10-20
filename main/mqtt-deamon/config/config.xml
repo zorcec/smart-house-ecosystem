@@ -13,6 +13,9 @@
 	
 	<!-- Receive messages publish by the sample_publish script -->
 	<Subscription topic="mqtt-spy-daemon/#" />
+	<Subscription topic="tele/#" />
+	<Subscription topic="cmnd/#" />
+	<Subscription topic="stat/#" />
 			
 	<!-- Publishing sample messages; use the built-in sample -->
 	<BackgroundScript>
