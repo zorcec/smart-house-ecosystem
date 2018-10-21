@@ -1,6 +1,6 @@
+# light.development_main_light
 platform: mqtt
-name: "Development: Light switch"
-entity_id: "light.development.main_light"
+name: "Development: Main Light"
 state_topic: "stat/DVES_B46629/POWER"
 command_topic: "cmnd/DVES_B46629/POWER"
 availability_topic: "tele/DVES_B46629/LWT"

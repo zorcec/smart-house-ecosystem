@@ -39,10 +39,6 @@ map:
 # Track the sun
 sun:
 
-# Weather prediction
-sensor:
-  - platform: yr
-
 # Text to speech
 tts:
   - platform: google
@@ -62,19 +58,21 @@ snips:
 intent_script:
   turn_on:
     speech:
+      type: plain
       text: Turning on {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.turn_on
-    data_template:
-      entity_id: light.{{ site_id | replace("satellite-", "") }}.{{ item }}
+        data_template:
+          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
 
   turn_off:
     speech:
+      type: plain
       text: Turning off {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.turn_off
-    data_template:
-      entity_id: light.{{ site_id | replace("satellite-", "") }}.{{ item }}
+        data_template:
+          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
 
   toggle:
     speech:
@@ -82,5 +80,5 @@ intent_script:
       text: Toggling {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.toggle
-    data_template:
-      entity_id: light.{{ site_id | replace("satellite-", "") }}.{{ item }}
+        data_template:
+          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
