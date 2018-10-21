@@ -101,38 +101,41 @@
       {
         "args": {
           "collections": {
-            "Item": [
+            "item": [
               "background light", 
-              "background light", 
-              "ambient light", 
-              "ambientlight", 
-              "light", 
-              "bedroom", 
-              "mainlight", 
-              "light", 
-              "main light", 
-              "ambientlight", 
-              "ambient light", 
-              "light", 
-              "mainlight", 
-              "ambient light", 
-              "bedroom", 
-              "ambientlight", 
-              "main light", 
               "background light", 
               "mainlight", 
+              "background lightn", 
+              "ambient light", 
+              "light", 
+              "ambient_light", 
+              "light", 
+              "main light", 
+              "ambient_light", 
+              "ambient light", 
+              "light", 
+              "main_light", 
+              "mainlight", 
+              "ambient light", 
+              "main light", 
+              "background light", 
+              "background lightn", 
+              "ambientlight", 
               "main light", 
               "light", 
               "background light", 
+              "ambientlight", 
               "ambient light", 
+              "main_light", 
               "main light"
             ], 
             "room": [
+              "develop", 
+              "develop", 
               "sleep room", 
-              "light", 
               "bedroom", 
-              "bedroom", 
-              "light", 
+              "dev", 
+              "dev", 
               "bedroom", 
               "sleep room"
             ]
@@ -189,11 +192,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelpfBEeg.crfsuite", 
-  "intent": "zorcec:turnOn", 
+  "crf_model_file": "modelpa9uiw.crfsuite", 
+  "intent": "zorcec:toggle", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "item": "Item", 
+    "item": "item", 
     "room": "room"
   }, 
   "unit_name": "crf_slot_filler"

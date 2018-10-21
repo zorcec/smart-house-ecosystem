@@ -166,100 +166,160 @@
   }, 
   "dataset_metadata": {
     "entities": {
-      "Item": {
-        "automatically_extensible": false, 
+      "item": {
+        "automatically_extensible": true, 
         "utterances": {
-          "Ambient Light": "ambientLight", 
-          "Ambient Lights": "ambientLight", 
-          "Ambientlight": "ambientLight", 
-          "Background Light": "ambientLight", 
-          "Background Lights": "ambientLight", 
-          "Bedroom": "bedroom", 
-          "Light": "mainLight", 
-          "Lights": "mainLight", 
-          "Main Light": "mainLight", 
-          "Main Lights": "mainLight", 
-          "Mainlight": "mainLight", 
-          "ambient light": "ambientLight", 
-          "ambient lights": "ambientLight", 
-          "ambientLight": "ambientLight", 
-          "ambientlight": "ambientLight", 
-          "background light": "ambientLight", 
-          "background lights": "ambientLight", 
-          "bedroom": "bedroom", 
-          "light": "mainLight", 
-          "lights": "mainLight", 
-          "main light": "mainLight", 
-          "main lights": "mainLight", 
-          "mainLight": "mainLight", 
-          "mainlight": "mainLight"
+          "Ambient Light": "ambient_light", 
+          "Ambient Lights": "ambient_light", 
+          "AmbientLight": "ambient_light", 
+          "Ambient_Light": "ambient_light", 
+          "Background Light": "ambient_light", 
+          "Background Lightning": "background lightning", 
+          "Background Lights": "ambient_light", 
+          "Light": "main_light", 
+          "Lights": "main_light", 
+          "Main Light": "main_light", 
+          "Main Lights": "main_light", 
+          "MainLight": "main_light", 
+          "Main_Light": "main_light", 
+          "ambient light": "ambient_light", 
+          "ambient lights": "ambient_light", 
+          "ambient_light": "ambient_light", 
+          "ambientlight": "ambient_light", 
+          "background light": "ambient_light", 
+          "background lightning": "background lightning", 
+          "background lights": "ambient_light", 
+          "light": "main_light", 
+          "lights": "main_light", 
+          "main light": "main_light", 
+          "main lights": "main_light", 
+          "main_light": "main_light", 
+          "mainlight": "main_light"
         }
       }, 
-      "bye": {
+      "light_temperature": {
         "automatically_extensible": false, 
         "utterances": {
-          "Bye": "bye", 
-          "Go": "go", 
-          "Good": "good", 
-          "Later": "later", 
-          "Leter": "leter", 
-          "See": "see", 
-          "bye": "bye", 
-          "go": "go", 
-          "good": "good", 
-          "later": "later", 
-          "leter": "leter", 
-          "see": "see"
-        }
-      }, 
-      "hello": {
-        "automatically_extensible": false, 
-        "utterances": {
-          "Aloha": "Aloha", 
-          "Day": "day", 
-          "Good": "good", 
-          "Greetings": "Greetings", 
-          "Hay": "hay", 
-          "Hello": "hello", 
-          "Hey": "hey", 
-          "Hi": "hi", 
-          "Howdy": "howdy", 
-          "Salutations": "salutations", 
-          "aloha": "Aloha", 
-          "day": "day", 
-          "good": "good", 
-          "greetings": "Greetings", 
-          "hay": "hay", 
-          "hello": "hello", 
-          "hey": "hey", 
-          "hi": "hi", 
-          "howdy": "howdy", 
-          "salutations": "salutations"
+          "Cold": "cold", 
+          "Colder": "colder", 
+          "Day": "cold", 
+          "Daytime": "cold", 
+          "Night": "warm", 
+          "Warm": "warm", 
+          "Warmer": "warmer", 
+          "cold": "cold", 
+          "colder": "colder", 
+          "day": "cold", 
+          "daytime": "cold", 
+          "night": "warm", 
+          "warm": "warm", 
+          "warmer": "warmer"
         }
       }, 
       "room": {
         "automatically_extensible": false, 
         "utterances": {
-          "Bedroom": "bedRoom", 
-          "Lights": "lights", 
-          "Sleeping Room": "bedRoom", 
-          "bedRoom": "bedRoom", 
-          "bedroom": "bedRoom", 
-          "lights": "lights", 
-          "sleeping room": "bedRoom"
+          "Bedrom": "bedrom", 
+          "Bedroom": "bedroom", 
+          "Dev": "development", 
+          "Development": "development", 
+          "Sleeping Room": "bedroom", 
+          "bedrom": "bedrom", 
+          "bedroom": "bedroom", 
+          "dev": "development", 
+          "development": "development", 
+          "sleeping room": "bedroom"
+        }
+      }, 
+      "tasmotaColor": {
+        "automatically_extensible": false, 
+        "utterances": {
+          "1": "1", 
+          "10": "10", 
+          "11": "11", 
+          "12": "12", 
+          "2": "2", 
+          "3": "3", 
+          "4": "4", 
+          "5": "5", 
+          "6": "6", 
+          "7": "7", 
+          "8": "8", 
+          "9": "9", 
+          "Amber": "7", 
+          "Blue": "3", 
+          "Cyan": "8", 
+          "Eight": "8", 
+          "Eleven": "11", 
+          "Five": "5", 
+          "Four": "4", 
+          "Green": "2", 
+          "Light Blue": "6", 
+          "Light Green": "5", 
+          "Nine": "9", 
+          "One": "1", 
+          "Orange": "4", 
+          "Pink": "11", 
+          "Purple": "9", 
+          "Red": "1", 
+          "Seven": "7", 
+          "Six": "6", 
+          "Ten": "10", 
+          "Three": "3", 
+          "Twelve": "12", 
+          "Two": "2", 
+          "White": "12", 
+          "Yellow": "10", 
+          "amber": "7", 
+          "blue": "3", 
+          "cyan": "8", 
+          "eight": "8", 
+          "eleven": "11", 
+          "five": "5", 
+          "four": "4", 
+          "green": "2", 
+          "light blue": "6", 
+          "light green": "5", 
+          "nine": "9", 
+          "one": "1", 
+          "orange": "4", 
+          "pink": "11", 
+          "purple": "9", 
+          "red": "1", 
+          "seven": "7", 
+          "six": "6", 
+          "ten": "10", 
+          "three": "3", 
+          "twelve": "12", 
+          "two": "2", 
+          "white": "12", 
+          "yellow": "10"
         }
       }
     }, 
     "language_code": "en", 
     "slot_name_mappings": {
-      "SirBuildsALot7:bye": {
-        "bye": "bye"
+      "zorcec:light_temperature": {
+        "item": "item", 
+        "light_temperature": "light_temperature", 
+        "room": "room"
       }, 
-      "SirBuildsALot7:hello": {
-        "hello": "hello"
+      "zorcec:set_lights": {
+        "brightness": "snips/percentage", 
+        "color": "tasmotaColor", 
+        "item": "item", 
+        "room": "room"
       }, 
-      "zorcec:turnOn": {
-        "item": "Item", 
+      "zorcec:toggle": {
+        "item": "item", 
+        "room": "room"
+      }, 
+      "zorcec:turn_off": {
+        "item": "item", 
+        "room": "room"
+      }, 
+      "zorcec:turn_on": {
+        "item": "item", 
         "room": "room"
       }
     }

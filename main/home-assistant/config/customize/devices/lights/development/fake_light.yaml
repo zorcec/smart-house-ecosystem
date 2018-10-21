@@ -1,0 +1,10 @@
+platform: mqtt
+name: "Development: Fake switch"
+entity_id: "light.development.ambient_light"
+state_topic: "stat/fake/POWER"
+command_topic: "cmnd/fake/POWER"
+availability_topic: "tele/fake/LWT"
+qos: 1
+payload_on: "ON"
+payload_off: "OFF"
+retain: false

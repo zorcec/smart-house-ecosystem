@@ -156,16 +156,24 @@
   }, 
   "slot_fillers": [
     {
-      "intent": "SirBuildsALot7:bye", 
+      "intent": "zorcec:light_temperature", 
       "slot_filler_name": "slot_filler_0"
     }, 
     {
-      "intent": "SirBuildsALot7:hello", 
+      "intent": "zorcec:set_lights", 
       "slot_filler_name": "slot_filler_1"
     }, 
     {
-      "intent": "zorcec:turnOn", 
+      "intent": "zorcec:toggle", 
       "slot_filler_name": "slot_filler_2"
+    }, 
+    {
+      "intent": "zorcec:turn_off", 
+      "slot_filler_name": "slot_filler_3"
+    }, 
+    {
+      "intent": "zorcec:turn_on", 
+      "slot_filler_name": "slot_filler_4"
     }
   ], 
   "unit_name": "probabilistic_intent_parser"

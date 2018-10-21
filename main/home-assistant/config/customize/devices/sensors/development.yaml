@@ -1,6 +1,0 @@
-platform: mqtt
-name: "Development: Light switch commands"
-state_topic: "cmnd/DVES_B46629/POWER"
-qos: 1
-expire_after: "1"
-    

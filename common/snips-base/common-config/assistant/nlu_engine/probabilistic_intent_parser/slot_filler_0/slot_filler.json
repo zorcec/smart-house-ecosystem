@@ -101,19 +101,57 @@
       {
         "args": {
           "collections": {
-            "bye": [
-              "good", 
-              "later", 
-              "see", 
-              "later", 
-              "leter", 
-              "bye", 
-              "go", 
-              "see", 
-              "good", 
-              "leter", 
-              "go", 
-              "bye"
+            "item": [
+              "background light", 
+              "background light", 
+              "mainlight", 
+              "ambient light", 
+              "light", 
+              "ambient_light", 
+              "light", 
+              "main light", 
+              "ambient_light", 
+              "ambient light", 
+              "light", 
+              "main_light", 
+              "mainlight", 
+              "ambient light", 
+              "main light", 
+              "background light", 
+              "ambientlight", 
+              "main light", 
+              "light", 
+              "background light", 
+              "ambientlight", 
+              "ambient light", 
+              "main_light", 
+              "main light"
+            ], 
+            "light_temperature": [
+              "night", 
+              "colder", 
+              "cold", 
+              "daytime", 
+              "day", 
+              "warm", 
+              "warm", 
+              "warmer", 
+              "daytime", 
+              "night", 
+              "warmer", 
+              "cold", 
+              "colder", 
+              "day"
+            ], 
+            "room": [
+              "develop", 
+              "develop", 
+              "sleep room", 
+              "bedroom", 
+              "dev", 
+              "dev", 
+              "bedroom", 
+              "sleep room"
             ]
           }, 
           "language_code": "en", 
@@ -168,11 +206,13 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelsM7TXV.crfsuite", 
-  "intent": "SirBuildsALot7:bye", 
+  "crf_model_file": "modelILd00Y.crfsuite", 
+  "intent": "zorcec:light_temperature", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "bye": "bye"
+    "item": "item", 
+    "light_temperature": "light_temperature", 
+    "room": "room"
   }, 
   "unit_name": "crf_slot_filler"
 }

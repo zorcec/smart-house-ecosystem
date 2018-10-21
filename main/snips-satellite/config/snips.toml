@@ -1,15 +1,15 @@
 [snips-common]
 bus = "mqtt"
 mqtt = "mqtt:1883"
-audio = ["snips-datellite-dev@mqtt"]
+audio = ["satellite-development@mqtt"]
 assistant = "/common-config/assistant"
 user_dir = "/common-config/snips"
 
 [snips-audio-server]
-bind = "snips-satellite-dev@mqtt"
+bind = "satellite-development@mqtt"
 
 [snips-hotword]
 model = "/usr/share/snips/hotword"
 # hotword_id = "default"
 # sensitivity = "0.5"
-audio = ["snips-satellite-dev@mqtt"]
+audio = ["satellite-development@mqtt"]

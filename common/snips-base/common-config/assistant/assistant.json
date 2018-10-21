@@ -2,9 +2,84 @@
   "id" : "proj_E6gMV1A3wWo0",
   "name" : "House",
   "intents" : [ {
-    "id" : "zorcec:turnOn",
+    "id" : "zorcec:light_temperature",
     "type" : "registry",
-    "version" : "0.24.0",
+    "version" : "0.11.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "room",
+      "id" : "I-mqD_vYk",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "item",
+      "id" : "9XTj3UMkk",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "On what do you want to change?",
+      "required" : true
+    }, {
+      "name" : "light_temperature",
+      "id" : "UnjU9e_OJ",
+      "entityId" : "entity_VXO09PrA4obN",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "light_temperature"
+  }, {
+    "id" : "zorcec:toggle",
+    "type" : "registry",
+    "version" : "0.15.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "item",
+      "id" : "nVzOfiy8j",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "What do you want to toggle?",
+      "required" : true
+    }, {
+      "name" : "room",
+      "id" : "HL5x3grP_",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "toggle"
+  }, {
+    "id" : "zorcec:set_lights",
+    "type" : "registry",
+    "version" : "0.11.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "brightness",
+      "id" : "ljl4rddx_",
+      "entityId" : "snips/percentage",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "color",
+      "id" : "WTVhUNSQr",
+      "entityId" : "entity_PNOQ2b1415",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "item",
+      "id" : "_uC95EuuP",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "What do you want to set?",
+      "required" : true
+    }, {
+      "name" : "room",
+      "id" : "wsrU2sdDa",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "set_lights"
+  }, {
+    "id" : "zorcec:turn_on",
+    "type" : "registry",
+    "version" : "0.41.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -21,35 +96,26 @@
       "required" : false,
       "description" : "Room where we want to turn something on"
     } ],
-    "name" : "turnOn"
+    "name" : "turn_on"
   }, {
-    "id" : "SirBuildsALot7:bye",
+    "id" : "zorcec:turn_off",
     "type" : "registry",
-    "version" : "2.0.0",
+    "version" : "0.17.0",
     "language" : "en",
     "slots" : [ {
-      "name" : "bye",
-      "id" : "BJhInnWOf",
-      "entityId" : "entity_Eknp6qM6bk0",
+      "name" : "item",
+      "id" : "nNImAICV2",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "What do you want to turn off?",
+      "required" : true
+    }, {
+      "name" : "room",
+      "id" : "5kq4QTdpG",
+      "entityId" : "entity_W5qoY5ak8mow",
       "missingQuestion" : "",
-      "required" : false,
-      "description" : "bye"
+      "required" : false
     } ],
-    "name" : "bye"
-  }, {
-    "id" : "SirBuildsALot7:hello",
-    "type" : "registry",
-    "version" : "2.0.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "hello",
-      "id" : "BkFd_3WdM",
-      "entityId" : "entity_bDbwyAx11om",
-      "missingQuestion" : "",
-      "required" : false,
-      "description" : "Says hello"
-    } ],
-    "name" : "hello"
+    "name" : "turn_off"
   } ],
   "createdAt" : "2018-09-23T06:52:34.209Z",
   "language" : "en",
