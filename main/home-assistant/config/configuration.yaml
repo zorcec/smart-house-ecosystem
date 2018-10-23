@@ -82,3 +82,13 @@ intent_script:
       - service: light.toggle
         data_template:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+
+  set_brightness:
+    speech:
+      type: plain
+      text: Setting brightness for {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
+    action:
+      - service: light.turn_on
+        data_template:
+          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+          brightness_pct: "{{ brightness }}"

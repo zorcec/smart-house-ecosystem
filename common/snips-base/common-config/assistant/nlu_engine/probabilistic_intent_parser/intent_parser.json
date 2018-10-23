@@ -156,24 +156,48 @@
   }, 
   "slot_fillers": [
     {
-      "intent": "zorcec:light_temperature", 
+      "intent": "zorcec:colder_lights", 
       "slot_filler_name": "slot_filler_0"
     }, 
     {
-      "intent": "zorcec:set_lights", 
+      "intent": "zorcec:less_light", 
       "slot_filler_name": "slot_filler_1"
     }, 
     {
-      "intent": "zorcec:toggle", 
+      "intent": "zorcec:more_light", 
       "slot_filler_name": "slot_filler_2"
     }, 
     {
-      "intent": "zorcec:turn_off", 
+      "intent": "zorcec:set_brightness", 
       "slot_filler_name": "slot_filler_3"
     }, 
     {
-      "intent": "zorcec:turn_on", 
+      "intent": "zorcec:set_color", 
       "slot_filler_name": "slot_filler_4"
+    }, 
+    {
+      "intent": "zorcec:set_light_temperature", 
+      "slot_filler_name": "slot_filler_5"
+    }, 
+    {
+      "intent": "zorcec:set_scene", 
+      "slot_filler_name": "slot_filler_6"
+    }, 
+    {
+      "intent": "zorcec:toggle", 
+      "slot_filler_name": "slot_filler_7"
+    }, 
+    {
+      "intent": "zorcec:turn_off", 
+      "slot_filler_name": "slot_filler_8"
+    }, 
+    {
+      "intent": "zorcec:turn_on", 
+      "slot_filler_name": "slot_filler_9"
+    }, 
+    {
+      "intent": "zorcec:warmer_lights", 
+      "slot_filler_name": "slot_filler_10"
     }
   ], 
   "unit_name": "probabilistic_intent_parser"

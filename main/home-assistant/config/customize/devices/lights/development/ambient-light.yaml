@@ -4,9 +4,14 @@ name: "Development: Ambient Light"
 state_topic: "stat/DVES_B46630/POWER"
 command_topic: "cmnd/DVES_B46630/POWER"
 availability_topic: "tele/DVES_B46630/LWT"
+brightness_command_topic: "cmnd/DVES_B46630/Dimmer"
+brightness_scale: 100
+brightness_state_topic: "stat/DVES_B46630/RESULT"
+brightness_value_template: "{{value_json.Dimmer}}"
 qos: 1
 payload_on: "ON"
 payload_off: "OFF"
 payload_available: "Online"
 payload_not_available: "Offline"
 retain: false
+transition: 1

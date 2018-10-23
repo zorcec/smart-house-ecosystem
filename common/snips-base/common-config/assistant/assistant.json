@@ -2,9 +2,34 @@
   "id" : "proj_E6gMV1A3wWo0",
   "name" : "House",
   "intents" : [ {
-    "id" : "zorcec:light_temperature",
+    "id" : "zorcec:set_color",
     "type" : "registry",
-    "version" : "0.11.0",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "color",
+      "id" : "slot_imported_Nnt76JVMo",
+      "entityId" : "entity_PNOQ2b1415",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "slot_imported_uO8d_n9Qto",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "item",
+      "id" : "dtrSg6oUc",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "set_color"
+  }, {
+    "id" : "zorcec:set_light_temperature",
+    "type" : "registry",
+    "version" : "0.29.0",
     "language" : "en",
     "slots" : [ {
       "name" : "room",
@@ -25,11 +50,68 @@
       "missingQuestion" : "",
       "required" : false
     } ],
-    "name" : "light_temperature"
+    "name" : "set_light_temperature"
+  }, {
+    "id" : "zorcec:warmer_lights",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "item",
+      "id" : "sr6BPLitY",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "AZ0Heltm6",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "warmer_lights"
+  }, {
+    "id" : "zorcec:set_scene",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "scene",
+      "id" : "slot_imported_W3dC6125h",
+      "entityId" : "entity_vOGbmdP2doDe",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "slot_imported_r3Kn2Y2nXF",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "set_scene"
+  }, {
+    "id" : "zorcec:colder_lights",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "item",
+      "id" : "slot_imported_JokgxkrS_",
+      "entityId" : "entity_9xlKNYxkzr",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "gOGzqHUzB",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "colder_lights"
   }, {
     "id" : "zorcec:toggle",
     "type" : "registry",
-    "version" : "0.15.0",
+    "version" : "0.31.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -46,20 +128,14 @@
     } ],
     "name" : "toggle"
   }, {
-    "id" : "zorcec:set_lights",
+    "id" : "zorcec:set_brightness",
     "type" : "registry",
-    "version" : "0.11.0",
+    "version" : "0.51.0",
     "language" : "en",
     "slots" : [ {
       "name" : "brightness",
       "id" : "ljl4rddx_",
       "entityId" : "snips/percentage",
-      "missingQuestion" : "",
-      "required" : false
-    }, {
-      "name" : "color",
-      "id" : "WTVhUNSQr",
-      "entityId" : "entity_PNOQ2b1415",
       "missingQuestion" : "",
       "required" : false
     }, {
@@ -75,11 +151,11 @@
       "missingQuestion" : "",
       "required" : false
     } ],
-    "name" : "set_lights"
+    "name" : "set_brightness"
   }, {
     "id" : "zorcec:turn_on",
     "type" : "registry",
-    "version" : "0.41.0",
+    "version" : "0.57.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -98,9 +174,28 @@
     } ],
     "name" : "turn_on"
   }, {
+    "id" : "zorcec:more_light",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "percent",
+      "id" : "slot_imported_yY23n1jM1",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "slot_imported__SUmxc7HFA",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "more_light"
+  }, {
     "id" : "zorcec:turn_off",
     "type" : "registry",
-    "version" : "0.17.0",
+    "version" : "0.32.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -116,6 +211,25 @@
       "required" : false
     } ],
     "name" : "turn_off"
+  }, {
+    "id" : "zorcec:less_light",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "percent",
+      "id" : "slot_imported_CUyBqSbYw",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "slot_imported_8ZxKRtvLlM",
+      "entityId" : "entity_W5qoY5ak8mow",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "less_light"
   } ],
   "createdAt" : "2018-09-23T06:52:34.209Z",
   "language" : "en",

@@ -1,0 +1,236 @@
+{
+  "config": {
+    "crf_args": {
+      "algorithm": "lbfgs", 
+      "c1": 0.1, 
+      "c2": 0.1
+    }, 
+    "data_augmentation_config": {
+      "add_builtin_entities_examples": false, 
+      "capitalization_ratio": 0, 
+      "min_utterances": 200
+    }, 
+    "feature_factory_configs": [
+      {
+        "args": {
+          "common_words_gazetteer_name": "top_10000_words_stemmed", 
+          "language_code": "en", 
+          "n": 1, 
+          "use_stemming": true
+        }, 
+        "factory_name": "ngram", 
+        "offsets": [
+          -2, 
+          -1, 
+          0, 
+          1, 
+          2
+        ]
+      }, 
+      {
+        "args": {
+          "common_words_gazetteer_name": "top_10000_words_stemmed", 
+          "language_code": "en", 
+          "n": 2, 
+          "use_stemming": true
+        }, 
+        "factory_name": "ngram", 
+        "offsets": [
+          -2, 
+          1
+        ]
+      }, 
+      {
+        "args": {}, 
+        "factory_name": "is_digit", 
+        "offsets": [
+          -1, 
+          0, 
+          1
+        ]
+      }, 
+      {
+        "args": {}, 
+        "factory_name": "is_first", 
+        "offsets": [
+          -2, 
+          -1, 
+          0
+        ]
+      }, 
+      {
+        "args": {}, 
+        "factory_name": "is_last", 
+        "offsets": [
+          0, 
+          1, 
+          2
+        ]
+      }, 
+      {
+        "args": {
+          "language_code": "en", 
+          "n": 1
+        }, 
+        "factory_name": "shape_ngram", 
+        "offsets": [
+          0
+        ]
+      }, 
+      {
+        "args": {
+          "language_code": "en", 
+          "n": 2
+        }, 
+        "factory_name": "shape_ngram", 
+        "offsets": [
+          -1, 
+          0
+        ]
+      }, 
+      {
+        "args": {
+          "language_code": "en", 
+          "n": 3
+        }, 
+        "factory_name": "shape_ngram", 
+        "offsets": [
+          -1
+        ]
+      }, 
+      {
+        "args": {
+          "collections": {
+            "item": [
+              "background light", 
+              "background light", 
+              "mainlight", 
+              "ambient light", 
+              "all_lights", 
+              "main light", 
+              "ambient_light", 
+              "light", 
+              "main light", 
+              "all light", 
+              "light", 
+              "ambient_light", 
+              "ambient light", 
+              "alllights", 
+              "main_light", 
+              "mainlight", 
+              "ambient light", 
+              "alllights", 
+              "main light", 
+              "background light", 
+              "light", 
+              "ambientlight", 
+              "all_lights", 
+              "light", 
+              "all light", 
+              "background light", 
+              "ambientlight", 
+              "ambient light", 
+              "main_light", 
+              "main light"
+            ], 
+            "light_temperature": [
+              "colder", 
+              "night", 
+              "daytime", 
+              "warm", 
+              "warm", 
+              "warmer", 
+              "daytime", 
+              "night", 
+              "warmer", 
+              "cold", 
+              "colder", 
+              "cold"
+            ], 
+            "room": [
+              "entir flat", 
+              "entir apart", 
+              "whole apart", 
+              "bedroom", 
+              "entir hous", 
+              "whole flat", 
+              "sleep room", 
+              "everywher", 
+              "whole hous", 
+              "entir hous", 
+              "develop", 
+              "develop", 
+              "entir flat", 
+              "entir apart", 
+              "dev", 
+              "whole apart", 
+              "everywher", 
+              "sleep room", 
+              "whole flat", 
+              "dev", 
+              "whole hous", 
+              "bedroom"
+            ]
+          }, 
+          "language_code": "en", 
+          "tagging_scheme_code": 2, 
+          "use_stemming": true
+        }, 
+        "drop_out": 0.1, 
+        "factory_name": "entity_match", 
+        "offsets": [
+          -2, 
+          -1, 
+          0
+        ]
+      }, 
+      {
+        "args": {
+          "entity_labels": [
+            "snips/amountOfMoney", 
+            "snips/ordinal", 
+            "snips/number", 
+            "snips/duration", 
+            "snips/percentage", 
+            "snips/temperature", 
+            "snips/datetime"
+          ], 
+          "language_code": "en", 
+          "tagging_scheme_code": 1
+        }, 
+        "factory_name": "builtin_entity_match", 
+        "offsets": [
+          -2, 
+          -1, 
+          0
+        ]
+      }, 
+      {
+        "args": {
+          "cluster_name": "brown_clusters", 
+          "language_code": "en", 
+          "use_stemming": false
+        }, 
+        "factory_name": "word_cluster", 
+        "offsets": [
+          -2, 
+          -1, 
+          0, 
+          1
+        ]
+      }
+    ], 
+    "random_seed": null, 
+    "tagging_scheme": 1, 
+    "unit_name": "crf_slot_filler"
+  }, 
+  "crf_model_file": "model2PIaim.crfsuite", 
+  "intent": "zorcec:set_light_temperature", 
+  "language_code": "en", 
+  "slot_name_mapping": {
+    "item": "item", 
+    "light_temperature": "light_temperature", 
+    "room": "room"
+  }, 
+  "unit_name": "crf_slot_filler"
+}
