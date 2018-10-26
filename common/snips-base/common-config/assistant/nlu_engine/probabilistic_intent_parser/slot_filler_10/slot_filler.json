@@ -132,6 +132,28 @@
               "ambient light", 
               "main_light", 
               "main light"
+            ], 
+            "room ": [
+              "develop", 
+              "whole flat", 
+              "entir flat", 
+              "whole hous", 
+              "entir apart", 
+              "entir hous", 
+              "kitchen", 
+              "whole flat", 
+              "testroom", 
+              "testroom", 
+              "whole apart", 
+              "entir flat", 
+              "everywher", 
+              "whole hous", 
+              "entir apart", 
+              "everywher", 
+              "whole apart", 
+              "kitchen", 
+              "develop", 
+              "entir hous"
             ]
           }, 
           "language_code": "en", 
@@ -186,11 +208,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modeltV9GHK.crfsuite", 
+  "crf_model_file": "modelKjfcag.crfsuite", 
   "intent": "zorcec:warmer_lights", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "item": "item"
+    "item": "item", 
+    "room": "room "
   }, 
   "unit_name": "crf_slot_filler"
 }

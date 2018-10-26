@@ -153,23 +153,22 @@
               "main light", 
               "lamp"
             ], 
-            "room": [
+            "room ": [
               "live", 
               "offic", 
               "toilets", 
+              "testroom", 
               "kitchen", 
               "entir flat", 
               "bedroom", 
               "wait room", 
               "toilets", 
               "cellar", 
-              "sleep room", 
               "entir appartment", 
               "small meet room s", 
               "studio", 
               "boardroom", 
               "whole flat", 
-              "garden", 
               "garden", 
               "bedroom s", 
               "bedroom", 
@@ -204,6 +203,7 @@
               "bed room", 
               "small meet room s", 
               "small meet room s", 
+              "testroom", 
               "kitchen", 
               "everywher", 
               "whole hous", 
@@ -245,13 +245,11 @@
               "entir appartment", 
               "laundri room", 
               "flat s", 
-              "dev", 
               "small meet room s", 
               "everywher", 
               "small meet room s", 
               "bed room", 
               "hous", 
-              "dev", 
               "vestibule", 
               "small meet room", 
               "park", 
@@ -264,7 +262,7 @@
               "whole hous s", 
               "entir hous", 
               "develop", 
-              "sleep room", 
+              "garden", 
               "whole hous s", 
               "loung", 
               "entir appartment", 
@@ -335,12 +333,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "model6SQKH0.crfsuite", 
+  "crf_model_file": "modelPzYdqI.crfsuite", 
   "intent": "zorcec:turn_off", 
   "language_code": "en", 
   "slot_name_mapping": {
     "item": "item", 
-    "room": "room"
+    "room": "room "
   }, 
   "unit_name": "crf_slot_filler"
 }

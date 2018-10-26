@@ -181,6 +181,7 @@
           "Dark Magenta": "dark magenta", 
           "Dark Red": "dark red", 
           "Fuchsia": "fuchsia", 
+          "Gold": "gold", 
           "Green": "green", 
           "Grey": "grey", 
           "Light Blue": "light blue", 
@@ -210,6 +211,7 @@
           "dark magenta": "dark magenta", 
           "dark red": "dark red", 
           "fuchsia": "fuchsia", 
+          "gold": "gold", 
           "green": "green", 
           "grey": "grey", 
           "light blue": "light blue", 
@@ -296,24 +298,38 @@
           "you": "you"
         }
       }, 
-      "light_temperature": {
+      "power_levels": {
         "automatically_extensible": false, 
         "utterances": {
-          "Cold": "cold", 
-          "Colder": "colder", 
-          "Daytime": "daytime", 
-          "Night": "night", 
-          "Warm": "warm", 
-          "Warmer": "warmer", 
-          "cold": "cold", 
-          "colder": "colder", 
-          "daytime": "daytime", 
-          "night": "night", 
-          "warm": "warm", 
-          "warmer": "warmer"
+          "Full": "maximal", 
+          "Half": "medium", 
+          "High": "high", 
+          "Little": "low", 
+          "Low": "low", 
+          "Max": "maximal", 
+          "Maximal": "maximal", 
+          "Medium": "medium", 
+          "Middle": "medium", 
+          "Minimal": "low", 
+          "Minimum": "minimum", 
+          "Minumum": "minumum", 
+          "Temperature": "temperature", 
+          "full": "maximal", 
+          "half": "medium", 
+          "high": "high", 
+          "little": "low", 
+          "low": "low", 
+          "max": "maximal", 
+          "maximal": "maximal", 
+          "medium": "medium", 
+          "middle": "medium", 
+          "minimal": "low", 
+          "minimum": "minimum", 
+          "minumum": "minumum", 
+          "temperature": "temperature"
         }
       }, 
-      "room": {
+      "room ": {
         "automatically_extensible": false, 
         "utterances": {
           "?": "?", 
@@ -347,7 +363,6 @@
           "DaniS Room": "dani's room", 
           "Danis Bedroom": "danis bedroom", 
           "Danis Room": "danis room", 
-          "Dev": "development", 
           "Development": "development", 
           "Dining": "dining", 
           "Dining Room": "dining room", 
@@ -391,7 +406,6 @@
           "Patio": "patio", 
           "Room": "room", 
           "Shed": "shed", 
-          "Sleeping Room": "bedroom", 
           "Small Meeting Room": "small meeting room", 
           "Small Meeting Room 'S": "Small meeting room's", 
           "Small Meeting Room S": "Small meeting room's", 
@@ -402,6 +416,7 @@
           "Small meeting rooms": "Small meeting room's", 
           "Studio": "studio", 
           "Study": "study", 
+          "Testroom": "development", 
           "Toilet": "toilet", 
           "Toilet Room": "toilet room", 
           "Toilets": "toilets", 
@@ -446,7 +461,6 @@
           "dani's room": "dani's room", 
           "danis bedroom": "danis bedroom", 
           "danis room": "danis room", 
-          "dev": "development", 
           "development": "development", 
           "dining": "dining", 
           "dining room": "dining room", 
@@ -495,7 +509,6 @@
           "patio": "patio", 
           "room": "room", 
           "shed": "shed", 
-          "sleeping room": "bedroom", 
           "small meeting room": "small meeting room", 
           "small meeting room 's": "Small meeting room's", 
           "small meeting room s": "Small meeting room's", 
@@ -503,6 +516,7 @@
           "small meeting rooms": "Small meeting room's", 
           "studio": "studio", 
           "study": "study", 
+          "testroom": "development", 
           "toilet": "toilet", 
           "toilet room": "toilet room", 
           "toilets": "toilets", 
@@ -608,49 +622,51 @@
     "slot_name_mappings": {
       "zorcec:colder_lights": {
         "item": "item", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:less_light": {
         "percent": "snips/default--percent", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:more_light": {
         "percent": "snips/default--percent", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:set_brightness": {
         "brightness": "snips/percentage", 
         "item": "item", 
-        "room": "room"
+        "level": "power_levels", 
+        "room": "room "
       }, 
       "zorcec:set_color": {
         "color": "color", 
         "item": "item", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:set_light_temperature": {
         "item": "item", 
-        "light_temperature": "light_temperature", 
-        "room": "room"
+        "level": "power_levels", 
+        "room": "room "
       }, 
       "zorcec:set_scene": {
-        "room": "room", 
+        "room": "room ", 
         "scene": "scene"
       }, 
       "zorcec:toggle": {
         "item": "item", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:turn_off": {
         "item": "item", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:turn_on": {
         "item": "item", 
-        "room": "room"
+        "room": "room "
       }, 
       "zorcec:warmer_lights": {
-        "item": "item"
+        "item": "item", 
+        "room": "room "
       }
     }
   }, 

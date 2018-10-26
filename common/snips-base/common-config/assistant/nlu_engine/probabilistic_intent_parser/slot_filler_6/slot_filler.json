@@ -101,7 +101,7 @@
       {
         "args": {
           "collections": {
-            "room": [
+            "room ": [
               "entir flat", 
               "livingroom", 
               "entir apart", 
@@ -109,6 +109,7 @@
               "apart", 
               "hous", 
               "whole flat", 
+              "testroom", 
               "whole apart", 
               "dine", 
               "dine room", 
@@ -121,6 +122,7 @@
               "apart", 
               "livingroom", 
               "appartment", 
+              "testroom", 
               "dine", 
               "everywher", 
               "whole hous", 
@@ -133,9 +135,7 @@
               "live room", 
               "yard", 
               "entir apart", 
-              "sleep room", 
               "entranc", 
-              "dev", 
               "whole apart", 
               "everywher", 
               "basement", 
@@ -146,8 +146,6 @@
               "offic", 
               "appartment", 
               "hous", 
-              "sleep room", 
-              "dev", 
               "dine room", 
               "whole hous", 
               "bedroom", 
@@ -252,11 +250,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelS2HmUs.crfsuite", 
+  "crf_model_file": "model8ZnPke.crfsuite", 
   "intent": "zorcec:set_scene", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "room": "room", 
+    "room": "room ", 
     "scene": "scene"
   }, 
   "unit_name": "crf_slot_filler"

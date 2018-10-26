@@ -57,38 +57,49 @@ snips:
 
 intent_script:
   turn_on:
-    speech:
-      type: plain
-      text: Turning on {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.turn_on
         data_template:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
 
   turn_off:
-    speech:
-      type: plain
-      text: Turning off {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.turn_off
         data_template:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
 
   toggle:
-    speech:
-      type: plain
-      text: Toggling {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.toggle
         data_template:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
 
   set_brightness:
-    speech:
-      type: plain
-      text: Setting brightness for {{ item | replace("_", " ") }} in {{ site_id | replace("satellite-", "") }}
     action:
       - service: light.turn_on
         data_template:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
           brightness_pct: "{{ brightness }}"
+
+  set_color:
+    action:
+      - service: light.turn_on
+        data_template:
+          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+          color_name: "{{ color }}"
+
+  set_light_temperature:
+    action:
+      - service: light.turn_on
+        data_template:
+          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+          color_temp: >
+            {%- if level == "maximal" -%}
+              "500"
+            {%- elif ilevel == "high" -%}
+              "400"
+            {%- elif level == "medium" -%}
+              "300"
+            {%- elif level == "low" -%}
+              "153"
+            {%- endif -%}

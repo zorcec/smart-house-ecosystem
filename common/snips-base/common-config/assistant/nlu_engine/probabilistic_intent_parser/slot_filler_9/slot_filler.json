@@ -141,16 +141,16 @@
               "lamp", 
               "spotlight"
             ], 
-            "room": [
+            "room ": [
               "toilet", 
               "bathroom", 
               "entir flat", 
               "entir apart", 
               "offic", 
+              "testroom", 
               "pantry", 
               "whole apart", 
               "dine room", 
-              "pantry", 
               "bedroom", 
               "wait room", 
               "bedrom", 
@@ -159,7 +159,7 @@
               "bathroom", 
               "toilet room", 
               "cupboard", 
-              "sleep room", 
+              "testroom", 
               "kitchen", 
               "chang room", 
               "everywher", 
@@ -173,7 +173,6 @@
               "cupboard", 
               "entir apart", 
               "entranc", 
-              "dev", 
               "whole apart", 
               "toilet room", 
               "everywher", 
@@ -184,8 +183,7 @@
               "toilet", 
               "bedrom", 
               "offic", 
-              "sleep room", 
-              "dev", 
+              "pantry", 
               "chang room", 
               "dine room", 
               "whole hous", 
@@ -245,12 +243,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelGHwV_O.crfsuite", 
+  "crf_model_file": "modelsGF5tW.crfsuite", 
   "intent": "zorcec:turn_on", 
   "language_code": "en", 
   "slot_name_mapping": {
     "item": "item", 
-    "room": "room"
+    "room": "room "
   }, 
   "unit_name": "crf_slot_filler"
 }

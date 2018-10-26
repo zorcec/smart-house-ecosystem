@@ -101,10 +101,11 @@
       {
         "args": {
           "collections": {
-            "room": [
+            "room ": [
               "toilets", 
               "livingroom", 
-              "appartment", 
+              "offic", 
+              "testroom", 
               "facil", 
               "entir flat", 
               "bedroom", 
@@ -112,7 +113,7 @@
               "offic s", 
               "toilets", 
               "toilet room", 
-              "offic", 
+              "appartment", 
               "studio", 
               "boardroom", 
               "whole flat", 
@@ -145,6 +146,7 @@
               "flat", 
               "entranc", 
               "bed room", 
+              "testroom", 
               "everywher", 
               "whole hous", 
               "basement", 
@@ -171,16 +173,13 @@
               "loo", 
               "chang room", 
               "backyard", 
-              "entir hous", 
               "kid room", 
               "entranc", 
-              "dev", 
               "everywher", 
               "vestibule", 
               "room", 
               "bed room", 
               "hous", 
-              "dev", 
               "dine room", 
               "park", 
               "cella", 
@@ -202,8 +201,7 @@
               "small meet room", 
               "backyard", 
               "patio", 
-              "sleep room", 
-              "sleep room", 
+              "entir hous", 
               "pantry", 
               "small meet room", 
               "vestibule", 
@@ -289,12 +287,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelJQfvAa.crfsuite", 
+  "crf_model_file": "modelKS0mLy.crfsuite", 
   "intent": "zorcec:less_light", 
   "language_code": "en", 
   "slot_name_mapping": {
     "percent": "snips/default--percent", 
-    "room": "room"
+    "room": "room "
   }, 
   "unit_name": "crf_slot_filler"
 }

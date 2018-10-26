@@ -4,14 +4,14 @@
   "intents" : [ {
     "id" : "zorcec:set_color",
     "type" : "registry",
-    "version" : "0.1.0",
+    "version" : "0.18.0",
     "language" : "en",
     "slots" : [ {
       "name" : "color",
       "id" : "slot_imported_Nnt76JVMo",
       "entityId" : "entity_PNOQ2b1415",
-      "missingQuestion" : "",
-      "required" : false
+      "missingQuestion" : "To which color?",
+      "required" : true
     }, {
       "name" : "room",
       "id" : "slot_imported_uO8d_n9Qto",
@@ -29,7 +29,7 @@
   }, {
     "id" : "zorcec:set_light_temperature",
     "type" : "registry",
-    "version" : "0.29.0",
+    "version" : "0.44.0",
     "language" : "en",
     "slots" : [ {
       "name" : "room",
@@ -41,27 +41,27 @@
       "name" : "item",
       "id" : "9XTj3UMkk",
       "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "On what do you want to change?",
+      "missingQuestion" : "On which light would you like to change the temperature?",
       "required" : true
     }, {
-      "name" : "light_temperature",
+      "name" : "level",
       "id" : "UnjU9e_OJ",
-      "entityId" : "entity_VXO09PrA4obN",
-      "missingQuestion" : "",
-      "required" : false
+      "entityId" : "entity_x7GDa4wWgdpK",
+      "missingQuestion" : "To which level should I adjust?",
+      "required" : true
     } ],
     "name" : "set_light_temperature"
   }, {
     "id" : "zorcec:warmer_lights",
     "type" : "registry",
-    "version" : "0.1.0",
+    "version" : "0.8.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
       "id" : "sr6BPLitY",
       "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "",
-      "required" : false
+      "missingQuestion" : "Which light would you like to make warmer?",
+      "required" : true
     }, {
       "name" : "room",
       "id" : "AZ0Heltm6",
@@ -73,14 +73,14 @@
   }, {
     "id" : "zorcec:set_scene",
     "type" : "registry",
-    "version" : "0.1.0",
+    "version" : "0.7.0",
     "language" : "en",
     "slots" : [ {
       "name" : "scene",
       "id" : "slot_imported_W3dC6125h",
       "entityId" : "entity_vOGbmdP2doDe",
-      "missingQuestion" : "",
-      "required" : false
+      "missingQuestion" : "Which scene should I activate?",
+      "required" : true
     }, {
       "name" : "room",
       "id" : "slot_imported_r3Kn2Y2nXF",
@@ -92,7 +92,7 @@
   }, {
     "id" : "zorcec:colder_lights",
     "type" : "registry",
-    "version" : "0.1.0",
+    "version" : "0.7.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -111,7 +111,7 @@
   }, {
     "id" : "zorcec:toggle",
     "type" : "registry",
-    "version" : "0.31.0",
+    "version" : "0.36.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -130,7 +130,7 @@
   }, {
     "id" : "zorcec:set_brightness",
     "type" : "registry",
-    "version" : "0.51.0",
+    "version" : "0.58.0",
     "language" : "en",
     "slots" : [ {
       "name" : "brightness",
@@ -142,7 +142,7 @@
       "name" : "item",
       "id" : "_uC95EuuP",
       "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "What do you want to set?",
+      "missingQuestion" : "Where you want to change brightness level?",
       "required" : true
     }, {
       "name" : "room",
@@ -150,18 +150,24 @@
       "entityId" : "entity_W5qoY5ak8mow",
       "missingQuestion" : "",
       "required" : false
+    }, {
+      "name" : "level",
+      "id" : "GjYrWkyKM",
+      "entityId" : "entity_x7GDa4wWgdpK",
+      "missingQuestion" : "To which brightness level?",
+      "required" : false
     } ],
     "name" : "set_brightness"
   }, {
     "id" : "zorcec:turn_on",
     "type" : "registry",
-    "version" : "0.57.0",
+    "version" : "0.63.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
       "id" : "EoHnjVdrb",
       "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "Which item would you like to turn on?",
+      "missingQuestion" : "What do you want to turn on?",
       "required" : true,
       "description" : "The item that can be turned on"
     }, {
@@ -176,7 +182,7 @@
   }, {
     "id" : "zorcec:more_light",
     "type" : "registry",
-    "version" : "0.2.0",
+    "version" : "0.7.0",
     "language" : "en",
     "slots" : [ {
       "name" : "percent",
@@ -195,7 +201,7 @@
   }, {
     "id" : "zorcec:turn_off",
     "type" : "registry",
-    "version" : "0.32.0",
+    "version" : "0.37.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -214,7 +220,7 @@
   }, {
     "id" : "zorcec:less_light",
     "type" : "registry",
-    "version" : "0.2.0",
+    "version" : "0.7.0",
     "language" : "en",
     "slots" : [ {
       "name" : "percent",

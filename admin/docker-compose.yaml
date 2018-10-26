@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  snips-sam:
+    container_name: snips-sam
+    build: ./snips-sam
+    networks:
+      - smart-home-network
+    volumes:
+      - ../common/snips-base/common-config/:/common-config
+
+networks:
+  smart-home-network:
+    external: true

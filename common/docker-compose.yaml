@@ -1,9 +1,0 @@
-version: "3"
-services:
-
-  snips-base:
-    container_name: snips-base
-    build: ./snips-base
-    privileged: true
-    volumes:
-      - ./snips-master/config/:/config

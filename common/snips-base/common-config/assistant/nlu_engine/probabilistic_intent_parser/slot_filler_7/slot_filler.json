@@ -133,16 +133,17 @@
               "main_light", 
               "main light"
             ], 
-            "room": [
+            "room ": [
               "entir flat", 
               "livingroom", 
               "entir apart", 
+              "testroom", 
               "whole apart", 
               "bedroom", 
               "entir hous", 
               "whole flat", 
               "livingroom", 
-              "sleep room", 
+              "testroom", 
               "everywher", 
               "whole hous", 
               "kitchen", 
@@ -151,13 +152,10 @@
               "develop", 
               "entir flat", 
               "entir apart", 
-              "dev", 
               "whole apart", 
               "everywher", 
               "entir hous", 
               "whole flat", 
-              "sleep room", 
-              "dev", 
               "whole hous", 
               "bedroom"
             ]
@@ -214,12 +212,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelJP2uBx.crfsuite", 
+  "crf_model_file": "modelPfHTtY.crfsuite", 
   "intent": "zorcec:toggle", 
   "language_code": "en", 
   "slot_name_mapping": {
     "item": "item", 
-    "room": "room"
+    "room": "room "
   }, 
   "unit_name": "crf_slot_filler"
 }

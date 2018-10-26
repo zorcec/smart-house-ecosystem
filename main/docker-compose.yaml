@@ -9,6 +9,8 @@ services:
       - "0.0.0.0:8123:8123"
     links:
       - mosquitto:mqtt
+    networks:
+          - smart-home-network
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./home-assistant/config:/config
@@ -19,6 +21,8 @@ services:
     restart: always
     ports:
       - "0.0.0.0:1883:1883"
+    networks:
+          - smart-home-network
     volumes:
       - ./mosquitto/config:/mosquitto/config/
 
@@ -30,6 +34,8 @@ services:
       - mosquitto:mqtt
     depends_on:
       - mosquitto
+    networks:
+          - smart-home-network
     volumes:
       - ../common/snips-base/common-config/:/common-config
 
@@ -44,6 +50,8 @@ services:
     depends_on:
       - mosquitto
       - snips-master
+    networks:
+          - smart-home-network
     volumes:
       - /run/user/1000/pulse:/run/user/1000/pulse
       - /etc/machine-id:/etc/machine-id
@@ -54,16 +62,24 @@ services:
     container_name: snips-watch
     build: ./snips-watch
     restart: always
-    links:
+    external_links:
       - mosquitto:mqtt
+    networks:
+          - smart-home-network
     volumes:
       - ../common/snips-base/common-config/:/common-config
 
   mqtt-deamon:
     container_name: mqtt-deamon
     build: ./mqtt-deamon
-    links:
+    external_links:
       - mosquitto:mqtt
+    networks:
+          - smart-home-network
     volumes:
       - ./mqtt-deamon/files:/files
       - ./mqtt-deamon/config:/config
+
+networks:
+  smart-home-network:
+    external: true
