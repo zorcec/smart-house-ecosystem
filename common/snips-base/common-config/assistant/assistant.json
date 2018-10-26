@@ -52,25 +52,6 @@
     } ],
     "name" : "set_light_temperature"
   }, {
-    "id" : "zorcec:warmer_lights",
-    "type" : "registry",
-    "version" : "0.8.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "item",
-      "id" : "sr6BPLitY",
-      "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "Which light would you like to make warmer?",
-      "required" : true
-    }, {
-      "name" : "room",
-      "id" : "AZ0Heltm6",
-      "entityId" : "entity_W5qoY5ak8mow",
-      "missingQuestion" : "",
-      "required" : false
-    } ],
-    "name" : "warmer_lights"
-  }, {
     "id" : "zorcec:set_scene",
     "type" : "registry",
     "version" : "0.7.0",
@@ -89,25 +70,6 @@
       "required" : false
     } ],
     "name" : "set_scene"
-  }, {
-    "id" : "zorcec:colder_lights",
-    "type" : "registry",
-    "version" : "0.7.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "item",
-      "id" : "slot_imported_JokgxkrS_",
-      "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "",
-      "required" : false
-    }, {
-      "name" : "room",
-      "id" : "gOGzqHUzB",
-      "entityId" : "entity_W5qoY5ak8mow",
-      "missingQuestion" : "",
-      "required" : false
-    } ],
-    "name" : "colder_lights"
   }, {
     "id" : "zorcec:toggle",
     "type" : "registry",

@@ -620,10 +620,6 @@
     }, 
     "language_code": "en", 
     "slot_name_mappings": {
-      "zorcec:colder_lights": {
-        "item": "item", 
-        "room": "room "
-      }, 
       "zorcec:less_light": {
         "percent": "snips/default--percent", 
         "room": "room "
@@ -661,10 +657,6 @@
         "room": "room "
       }, 
       "zorcec:turn_on": {
-        "item": "item", 
-        "room": "room "
-      }, 
-      "zorcec:warmer_lights": {
         "item": "item", 
         "room": "room "
       }

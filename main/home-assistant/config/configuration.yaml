@@ -79,7 +79,18 @@ intent_script:
       - service: light.turn_on
         data_template:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-          brightness_pct: "{{ brightness }}"
+          brightness_pct: >
+            {%- if level == "maximal" -%}
+              100
+            {%- elif level == "high" -%}
+              75
+            {%- elif level == "medium" -%}
+              45
+            {%- elif level == "low" -%}
+              5
+            {%- else -%}
+              {{ brightness }}
+            {%- endif -%}
 
   set_color:
     action:
@@ -96,7 +107,7 @@ intent_script:
           color_temp: >
             {%- if level == "maximal" -%}
               "500"
-            {%- elif ilevel == "high" -%}
+            {%- elif level == "high" -%}
               "400"
             {%- elif level == "medium" -%}
               "300"
