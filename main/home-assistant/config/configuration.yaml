@@ -134,11 +134,11 @@ intent_script:
           entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
           color_temp: >
             {%- if level == "maximal" -%}
-              "500"
+              500
             {%- elif level == "high" -%}
-              "400"
+              400
             {%- elif level == "medium" -%}
-              "300"
+              300
             {%- elif level == "low" -%}
-              "153"
+              153
             {%- endif -%}
