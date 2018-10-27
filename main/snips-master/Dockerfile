@@ -15,6 +15,6 @@ COPY /files/* /files
 COPY /config/snips.toml /etc/snips.toml
     
 # Cleanup    
-RUN apt-get clean
+RUN apt-get clean autoremove
 
 CMD ["bash", "/files/start.sh"]

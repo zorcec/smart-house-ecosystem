@@ -8,4 +8,6 @@ RUN apt-get update && \
 
 COPY /config/snips.toml /etc/snips.toml
 
+RUN apt-get clean autoremove
+
 CMD ["snips-watch", "-v"]

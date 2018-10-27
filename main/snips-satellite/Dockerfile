@@ -14,6 +14,6 @@ COPY /config/snips.toml /etc/snips.toml
 COPY /config/supervisor/* /etc/supervisor/conf.d/
 
 # Cleanup    
-RUN apt-get clean
+RUN apt-get clean autoremove
 
 CMD ["bash", "/files/start.sh"]

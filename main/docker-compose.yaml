@@ -7,7 +7,7 @@ services:
     restart: always
     ports:
       - "0.0.0.0:8123:8123"
-    links:
+    external_links:
       - mosquitto:mqtt
     networks:
           - smart-home-network
@@ -30,7 +30,7 @@ services:
     container_name: snips-master
     build: ./snips-master
     restart: always
-    links:
+    external_links:
       - mosquitto:mqtt
     depends_on:
       - mosquitto
@@ -45,11 +45,11 @@ services:
     privileged: true
     devices:
       - "/dev/snd"
-    links:
+    external_links:
       - mosquitto:mqtt
+      - mary-tts:marry-tts
     depends_on:
       - mosquitto
-      - snips-master
     networks:
           - smart-home-network
     volumes:
