@@ -243,7 +243,7 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelGyLGfc.crfsuite", 
+  "crf_model_file": "model24cH97.crfsuite", 
   "intent": "zorcec:turn_on", 
   "language_code": "en", 
   "slot_name_mapping": {

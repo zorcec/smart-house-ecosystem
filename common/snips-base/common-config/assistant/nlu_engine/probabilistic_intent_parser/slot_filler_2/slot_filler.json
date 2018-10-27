@@ -312,7 +312,7 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "model1NBbCe.crfsuite", 
+  "crf_model_file": "modelu61yCd.crfsuite", 
   "intent": "zorcec:set_brightness", 
   "language_code": "en", 
   "slot_name_mapping": {

@@ -40,105 +40,19 @@ map:
 sun:
 
 # Text to speech
-tts:
-  - platform: google
+#tts:
+#  - platform: google
 
 # Cloud
 cloud:
 
+# Snips
+snips:
+
 group: !include customize/groups.yaml
 script: !include customize/scripts.yaml
+automation: !include customize/automation.yaml
+intent_script: !include customize/intent_scripts.yaml
 
 light: !include_dir_list customize/devices/lights/
 sensor: !include_dir_list customize/devices/sensors/
-
-automation:
-  # tasmota is not responding ...
-  - alias: "Initial get all tasmota statuses"
-    hide_entity: false
-    trigger:
-      platform: homeassistant
-      event: start
-    action:
-      - service: mqtt.publish
-        data:
-          topic: "tasmota/lights/cmnd/STATE"
-      - service: mqtt.publish
-        data:
-          topic: "tasmota/switches/cmnd/STATE"
-  
-  - alias: "Touch controlled ambient lights"
-    hide_entity: true
-    trigger:
-      platform: mqtt
-      topic: "cmnd/+/+/POWER"
-      payload: "HOLD"
-    action:
-      - service: light.toggle
-        data_template:
-          entity_id: light.{{ trigger.topic | regex_findall_index("cmnd/(.*?)/.*") }}_ambient_light  
-      - service: system_log.write
-        data_template:
-          message: DEBUG light.{{ trigger.topic | regex_findall_index("cmnd/(.*?)/.*") }}_ambient_light  
-
-snips:
-
-intent_script:
-  turn_on:
-    action:
-      - service: light.turn_on
-        data_template:
-          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-
-  turn_off:
-    action:
-      - service: light.turn_off
-        data_template:
-          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-
-  toggle:
-    action:
-      - service: light.toggle
-        data_template:
-          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-
-  set_brightness:
-    action:
-      - service: light.turn_on
-        data_template:
-          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-          brightness_pct: >
-            {%- if level == "maximal" -%}
-              100
-            {%- elif level == "high" -%}
-              75
-            {%- elif level == "medium" -%}
-              45
-            {%- elif level == "low" -%}
-              5
-            {%- else -%}
-              {{ brightness }}
-            {%- endif -%}
-
-  set_color:
-    action:
-      - service: light.turn_on
-        data_template:
-          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-          color_name: "{{ color }}"
-
-  set_light_temperature:
-    action:
-      - service: light.turn_on
-        data_template:
-          entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
-          color_temp: >
-            {%- if level == "maximal" -%}
-              500
-            {%- elif level == "high" -%}
-              400
-            {%- elif level == "medium" -%}
-              300
-            {%- elif level == "low" -%}
-              153
-            {%- endif -%}

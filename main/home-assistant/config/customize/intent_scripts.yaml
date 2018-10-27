@@ -1,0 +1,58 @@
+turn_on:
+  action:
+    - service: light.turn_on
+      data_template:
+        entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+
+turn_off:
+  action:
+    - service: light.turn_off
+      data_template:
+        entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+
+toggle:
+  action:
+    - service: light.toggle
+      data_template:
+        entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+
+set_brightness:
+  action:
+    - service: light.turn_on
+      data_template:
+        entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+        brightness_pct: >
+          {%- if level == "maximal" -%}
+            100
+          {%- elif level == "high" -%}
+            75
+          {%- elif level == "medium" -%}
+            45
+          {%- elif level == "low" -%}
+            5
+          {%- else -%}
+            {{ brightness }}
+          {%- endif -%}
+
+set_color:
+  action:
+    - service: light.turn_on
+      data_template:
+        entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+        color_name: "{{ color }}"
+
+set_light_temperature:
+  action:
+    - service: light.turn_on
+      data_template:
+        entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
+        color_temp: >
+          {%- if level == "maximal" -%}
+            500
+          {%- elif level == "high" -%}
+            400
+          {%- elif level == "medium" -%}
+            300
+          {%- elif level == "low" -%}
+            153
+          {%- endif -%}
