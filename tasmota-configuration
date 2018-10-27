@@ -1,6 +1,6 @@
 Touch example:
-cmnd/DVES_B46629/Power1 => on/off/toggle
-cmnd/DVES_B46629/Status1
+cmnd/development/touch1/Power1 => on/off/toggle
+cmnd/development/touch1/Status1
 
 Enable hold & double:
 SetOption1 1
@@ -9,13 +9,14 @@ StateText3 DOUBLE
 ButtonTopic touch
 
 // mqtt
-FullTopic %prefix%/DVES_B46629/
-MqttClient DVES_B46629
+FullTopic %prefix%/development/touch1/
+MqttClient development/touch1
+GroupTopic tasmota/lights or GroupTopic tasmota/touches
 
 mqtt msgs:
-stat/DVES_B46629/POWER = ON
-cmnd/DVES_B46629_CMD/POWER = HOLD
-cmnd/DVES_B46629_CMD/POWER = DOUBLE
+stat/development/touch1/POWER = ON
+cmnd/development/touch1/POWER = HOLD
+cmnd/development/touch1/POWER = DOUBLE
 
 
 List of commands:
