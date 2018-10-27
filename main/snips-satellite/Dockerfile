@@ -9,7 +9,7 @@ RUN apt-get install -y supervisor
 RUN mkdir -p /config
 VOLUME /config
 
-COPY /files/* /files
+COPY /files/* /files/
 COPY /config/snips.toml /etc/snips.toml
 COPY /config/supervisor/* /etc/supervisor/conf.d/
 

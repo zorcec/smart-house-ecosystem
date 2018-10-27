@@ -2,6 +2,13 @@
   "id" : "proj_E6gMV1A3wWo0",
   "name" : "House",
   "intents" : [ {
+    "id" : "zorcec:weather_forecast",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "weather_forecast"
+  }, {
     "id" : "zorcec:set_color",
     "type" : "registry",
     "version" : "0.18.0",

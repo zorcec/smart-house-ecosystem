@@ -659,7 +659,8 @@
       "zorcec:turn_on": {
         "item": "item", 
         "room": "room "
-      }
+      }, 
+      "zorcec:weather_forecast": {}
     }
   }, 
   "intent_parsers": [

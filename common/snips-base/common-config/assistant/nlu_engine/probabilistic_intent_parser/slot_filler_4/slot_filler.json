@@ -232,7 +232,7 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelwd5pHo.crfsuite", 
+  "crf_model_file": "modelMr6oN7.crfsuite", 
   "intent": "zorcec:set_light_temperature", 
   "language_code": "en", 
   "slot_name_mapping": {

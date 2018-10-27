@@ -1,0 +1,8 @@
+version: "3"
+services:
+  
+  snips-base:
+    container_name: snips-base
+    build: ./snips-base
+    volumes:
+      - ../snips-base/common-config/:/common-config

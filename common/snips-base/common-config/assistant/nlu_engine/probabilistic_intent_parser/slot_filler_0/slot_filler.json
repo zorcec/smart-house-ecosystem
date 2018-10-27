@@ -287,7 +287,7 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "model71ntqL.crfsuite", 
+  "crf_model_file": "modelJvXacM.crfsuite", 
   "intent": "zorcec:less_light", 
   "language_code": "en", 
   "slot_name_mapping": {

@@ -190,6 +190,10 @@
     {
       "intent": "zorcec:turn_on", 
       "slot_filler_name": "slot_filler_8"
+    }, 
+    {
+      "intent": "zorcec:weather_forecast", 
+      "slot_filler_name": "slot_filler_9"
     }
   ], 
   "unit_name": "probabilistic_intent_parser"

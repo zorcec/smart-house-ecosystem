@@ -1633,6 +1633,15 @@
       "^\\s*i\\s*want\\s*(?P<group_64>background\\s*lights|background\\s*light|all\\s*the\\s*lights|ambient\\s*lights|cubicle\\s*lights|cellar\\s*lights|ambient\\s*light|changing\\s*room|kids\\s*bedroom|main\\s*lights|ambient_light|ambientlight|main\\s*light|all\\s*lights|all_lights|main_light|intensity|alllights|mainlight|spotlight|lighting|augment|lights|lamps|light|all|you|can|in|i)\\s*$", 
       "^\\s*i\\s*need\\s*(?P<group_66>background\\s*lights|background\\s*light|all\\s*the\\s*lights|ambient\\s*lights|cubicle\\s*lights|cellar\\s*lights|ambient\\s*light|changing\\s*room|kids\\s*bedroom|main\\s*lights|ambient_light|ambientlight|main\\s*light|all\\s*lights|all_lights|main_light|intensity|alllights|mainlight|spotlight|lighting|augment|lights|lamps|light|all|you|can|in|i)\\s*$", 
       "^\\s*please\\s*give\\s*me\\s*(?P<group_63>background\\s*lights|background\\s*light|all\\s*the\\s*lights|ambient\\s*lights|cubicle\\s*lights|cellar\\s*lights|ambient\\s*light|changing\\s*room|kids\\s*bedroom|main\\s*lights|ambient_light|ambientlight|main\\s*light|all\\s*lights|all_lights|main_light|intensity|alllights|mainlight|spotlight|lighting|augment|lights|lamps|light|all|you|can|in|i)\\s*$"
+    ], 
+    "zorcec:weather_forecast": [
+      "^\\s*weather\\s*forecast\\s*$", 
+      "^\\s*what\\s*is\\s*the\\s*weather\\s*$", 
+      "^\\s*what\\s*will\\s*be\\s*the\\s*weather\\s*today\\s*$", 
+      "^\\s*what\\s*is\\s*the\\s*temperature\\s*outside\\s*$", 
+      "^\\s*weather\\s*forecast\\s*please\\s*$", 
+      "^\\s*what\\s*is\\s*the\\s*weather\\s*outside\\s*$", 
+      "^\\s*will\\s*it\\s*rain\\s*today\\s*$"
     ]
   }, 
   "slot_names_to_entities": {
@@ -1675,7 +1684,8 @@
     "zorcec:turn_on": {
       "item": "item", 
       "room": "room "
-    }
+    }, 
+    "zorcec:weather_forecast": {}
   }, 
   "unit_name": "deterministic_intent_parser"
 }

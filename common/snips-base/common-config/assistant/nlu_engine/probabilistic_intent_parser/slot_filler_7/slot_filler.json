@@ -333,7 +333,7 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelS9rln8.crfsuite", 
+  "crf_model_file": "model8dC5jg.crfsuite", 
   "intent": "zorcec:turn_off", 
   "language_code": "en", 
   "slot_name_mapping": {
