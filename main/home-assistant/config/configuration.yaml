@@ -48,7 +48,7 @@ snips:
 group: !include customize/groups.yaml
 script: !include customize/scripts.yaml
 automation: !include customize/automation.yaml
-intent_script: !include customize/intent_scripts.yaml
+intent_script: !include customize/intent-scripts.yaml
 
 light: !include_dir_list customize/devices/lights/
 sensor: !include_dir_list customize/devices/sensors/
