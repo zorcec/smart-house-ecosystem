@@ -1,7 +1,8 @@
 FROM openjdk:8u181-jdk-slim-stretch
 
 ENV MARYTTS_INSTALLATION_PATH /usr/marrytts
-ENV MARYTTS_VERSION v5.2
+ENV MARYTTS_VERSION 5.2
+ENV VOICE_NAME voice-cmu-rms
 
 RUN apt-get update
 
@@ -9,11 +10,17 @@ RUN apt-get update
 RUN apt-get install -y git maven
 RUN git clone https://github.com/marytts/marytts.git $MARYTTS_INSTALLATION_PATH
 WORKDIR $MARYTTS_INSTALLATION_PATH
-RUN git checkout $MARYTTS_VERSION
+RUN git checkout v$MARYTTS_VERSION
 RUN mvn package
 
-# Cleanup    
+RUN mkdir $MARYTTS_INSTALLATION_PATH/installer
+WORKDIR $MARYTTS_INSTALLATION_PATH/installer
+RUN git clone https://github.com/marytts/marytts-installer.git $MARYTTS_INSTALLATION_PATH/installer
+RUN git checkout v$MARYTTS_VERSION
+RUN ./marytts install $VOICE_NAME
+
+# Cleanup
 RUN apt-get clean autoremove
 
 EXPOSE 59125
-CMD ["/usr/marrytts/target/marytts-5.2/bin/marytts-server", "-Xmx256m"]
+CMD ["marytts", "server", "--info"]

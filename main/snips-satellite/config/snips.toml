@@ -16,7 +16,7 @@ audio = ["satellite-development@mqtt"]
 
 [snips-tts]
 ## Choose one tts provider (defaults to picotts)
-provider = "customtts"
+provider = "picotts"
 # provider = "picotts"
 # provider = "makerstts"
 # provider = "customtts"

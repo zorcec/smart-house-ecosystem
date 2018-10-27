@@ -43,6 +43,6 @@ COPY /common-config/pulse/* /etc/pulse/
 
 # Cleanup    
 RUN rm -rf /temp
-RUN apt-get clean autoremove
+RUN apt-get clean
 
 CMD ["echo", "Snips base is ready!"]
