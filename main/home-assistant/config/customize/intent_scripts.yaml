@@ -56,3 +56,14 @@ set_light_temperature:
           {%- elif level == "low" -%}
             153
           {%- endif -%}
+
+weather_forecast:
+  speech:
+    type: plain
+    text: >
+      The weather is currently
+      {{ states('sensor.dark_sky_weather_temperature') | round(0) }}
+      degrees outside and {{ states('sensor.dark_sky_weather_summary') }}.
+      The high today will be
+      {{ states('sensor.dark_sky_weather_daily_high_temperature') | round(0)}}
+      and {{ states('sensor.dark_sky_weather_hourly_summary') }}
