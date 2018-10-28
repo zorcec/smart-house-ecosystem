@@ -58,14 +58,6 @@ services:
       - ~/.config/pulse/cookie:/root/.config/pulse/cookie
       - ../common/snips-base/common-config/:/common-config
 
-  #mary-tts:
-  #  container_name: mary-tts
-  #  build: ./mary-tts
-  #  ports:
-  #    - "0.0.0.0:59125:59125"
-  #  networks:
-  #    - smart-home-network
-
   central-tts:
     container_name: central-tts
     build: ./central-tts
