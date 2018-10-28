@@ -6,3 +6,10 @@ services:
     build: ./snips-base
     volumes:
       - ../snips-base/common-config/:/common-config
+  
+  java-base:
+    container_name: java-base
+    build: ./java-base
+    volumes:
+      - ./java-base/gradle:/gradle
+    

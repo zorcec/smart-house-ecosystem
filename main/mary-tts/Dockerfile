@@ -17,7 +17,7 @@ RUN mkdir $MARYTTS_INSTALLATION_PATH/installer
 WORKDIR $MARYTTS_INSTALLATION_PATH/installer
 RUN git clone https://github.com/marytts/marytts-installer.git $MARYTTS_INSTALLATION_PATH/installer
 RUN git checkout v$MARYTTS_VERSION
-RUN ./marytts install $VOICE_NAME
+RUN ./marytts install
 
 # Cleanup
 RUN apt-get clean autoremove

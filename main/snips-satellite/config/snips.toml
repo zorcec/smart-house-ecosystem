@@ -17,9 +17,9 @@ audio = ["satellite-development@mqtt"]
 [snips-tts]
 ## Choose one tts provider (defaults to picotts)
 provider = "picotts"
-# provider = "picotts"
 # provider = "makerstts"
 # provider = "customtts"
 ## customtts specific configuration (here configured to use picotts)
-# customtts = { command = ["pico2wave", "-w", "%%OUTPUT_FILE%%", "-l", "%%LANG%%", "%%TEXT%%"] }
-customtts = { command = ["wget", "http://mary-tts:59125/process?INPUT_TYPE=TEXT&AUDIO=WAVE_FILE&OUTPUT_TYPE=AUDIO&LOCALE=en-US&INPUT_TEXT=%%TEXT%%", "-O", "%%OUTPUT_FILE%%"] }
+#customtts = { command = ["pico2wave", "-w", "%%OUTPUT_FILE%%", "-l", "%%LANG%%", "%%TEXT%%"] }
+#customtts = { command = ["wget", "http://mary-tts:59125/process?INPUT_TYPE=TEXT&AUDIO=WAVE_FILE&OUTPUT_TYPE=AUDIO&LOCALE=en-US&INPUT_TEXT=%%TEXT%%", "-O", "%%OUTPUT_FILE%%"] }
+#customtts = { command = ["wget", "http://cache-tts:8081/process?text=%%TEXT%%", "-O", "%%OUTPUT_FILE%%"] }

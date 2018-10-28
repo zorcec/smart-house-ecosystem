@@ -10,7 +10,7 @@ services:
     external_links:
       - mosquitto:mqtt
     networks:
-          - smart-home-network
+      - smart-home-network
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./home-assistant/config:/config
@@ -22,7 +22,7 @@ services:
     ports:
       - "0.0.0.0:1883:1883"
     networks:
-          - smart-home-network
+      - smart-home-network
     volumes:
       - ./mosquitto/config:/mosquitto/config/
 
@@ -35,7 +35,7 @@ services:
     depends_on:
       - mosquitto
     networks:
-          - smart-home-network
+      - smart-home-network
     volumes:
       - ../common/snips-base/common-config/:/common-config
 
@@ -58,13 +58,30 @@ services:
       - ~/.config/pulse/cookie:/root/.config/pulse/cookie
       - ../common/snips-base/common-config/:/common-config
 
-  mary-tts:
-    container_name: mary-tts
-    build: ./mary-tts
+  #mary-tts:
+  #  container_name: mary-tts
+  #  build: ./mary-tts
+  #  ports:
+  #    - "0.0.0.0:59125:59125"
+  #  networks:
+  #    - smart-home-network
+
+  central-tts:
+    container_name: central-tts
+    build: ./central-tts
+    environment:
+      - ES_JAVA_OPTS="-Xmx8m"
+      - GRADLE_OPTS="-Dorg.gradle.daemon=true"
+      - JAVA_OPTS="-agentlib:jdwp=transport=dt_socket,address=5005,suspend=n,server=y"
     ports:
-      - "0.0.0.0:59125:59125"
+      - "0.0.0.0:8081:8081"
+      - "0.0.0.0:5005:5005"
     networks:
       - smart-home-network
+    volumes:
+      - ./central-tts/cache/:/cache
+      - ./central-tts/gradle:/gradle
+      - ../common/java-base/gradle:/common-gradle
 
   snips-watch:
     container_name: snips-watch
