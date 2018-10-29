@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         try {
             Logger.init();
-            PropertiesReader.init();
+            //PropertiesReader.init();
             Logger.info("Service is started!");
 
             // activate services

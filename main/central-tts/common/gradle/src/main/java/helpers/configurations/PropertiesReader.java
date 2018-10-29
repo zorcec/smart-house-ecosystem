@@ -73,7 +73,7 @@ public class PropertiesReader {
     }
 
     private static void loadConfigurationFiles() {
-        String resourcesPath = "./resources/config";
+        String resourcesPath = "../resources/config";
 
         // make sure we have service.properties
         File serviceFile = new File(resourcesPath + "/service.properties");

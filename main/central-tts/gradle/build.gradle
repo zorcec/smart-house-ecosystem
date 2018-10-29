@@ -16,7 +16,7 @@ task compile(type: Jar) {
 }
 
 processResources {
-    from 'resources'
+    from "resources"
 }
 
 repositories {

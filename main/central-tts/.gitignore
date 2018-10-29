@@ -1,5 +1,3 @@
-/gradle/build
-/gradle/.gradle
-/gradle/bin
-/**/*.log
-/**/*.pid
+/**/build
+/**/.gradle
+/**/bin

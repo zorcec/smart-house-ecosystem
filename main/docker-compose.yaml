@@ -73,7 +73,7 @@ services:
     volumes:
       - ./central-tts/cache/:/cache
       - ./central-tts/gradle:/gradle
-      - ../common/java-base/gradle:/common-gradle
+      - ./central-tts/common:/common
 
   snips-watch:
     container_name: snips-watch
