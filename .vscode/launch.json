@@ -8,11 +8,10 @@
             "type": "java",
             "name": "Debug (Launch)-Main",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/main/central-tts/gradle",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "services.centraltts.Main",
-            "args": ""
+            "mainClass": "services.centraltts.Main"
         },
         {
             "type": "java",

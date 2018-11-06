@@ -1,7 +1,9 @@
 version = "0.1"
 apply plugin: "java"
 apply plugin: "application"
-mainClassName = "services.centraltts.Main"
+mainClassName = "services.centralTTS.Main"
+
+applicationDefaultJvmArgs = ["-Duser.dir=/gradle"]
 
 //create a single Jar with all dependencies
 task compile(type: Jar) {
@@ -15,6 +17,12 @@ task compile(type: Jar) {
     with jar
 }
 
+tasks.withType(JavaExec) {
+    if (System.getProperty('DEBUG', 'false') == 'true') {
+        jvmArgs '-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005'
+    }
+}
+
 processResources {
     from "resources"
 }
@@ -26,6 +34,7 @@ repositories {
 
 dependencies {
     compile group: "com.mashape.unirest", name: "unirest-java", version: "1.4.9"
+    compile group: "com.amazonaws", name: "aws-java-sdk-s3", version: "1.11.443"
 
     compile project(":common")
 }
