@@ -10,7 +10,9 @@ import main.java.services.centralTTS.models.*;
 public class Service {
 
     public Service() {
-        PersistentFileSystem.define("voices", VoicesData.class);
+        PersistentFileSystem.define(VoicesData.class);
+        VoicesData test = new VoicesData();
+        PersistentFileSystem.save(test);
     }
 
     public void init() {
