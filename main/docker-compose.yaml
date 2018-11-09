@@ -64,7 +64,7 @@ services:
     environment:
       - ES_JAVA_OPTS="-Xmx8m"
       - GRADLE_OPTS="-Dorg.gradle.daemon=true"
-      - JAVA_OPTS="-agentlib:jdwp=transport=dt_socket,address=5005,suspend=n,server=y"
+      - JAVA_OPTS="-agentlib:jdwp=transport=dt_socket,address=5005,suspend=y,server=y"
     ports:
       - "0.0.0.0:8081:8081"
       - "0.0.0.0:5005:5005"

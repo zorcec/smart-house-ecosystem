@@ -16,8 +16,7 @@ public class Main {
 
             // activate services
             Logger.info("Service is starting!");
-            Service service = new Service();
-            service.init();
+            new Service();
 
         } catch (Exception exception) {
             Logger.exception(exception);

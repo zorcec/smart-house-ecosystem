@@ -10,7 +10,6 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.*;
 
-import com.sun.imageio.plugins.common.InputStreamAdapter;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.StaxDriver;
 
@@ -25,7 +24,7 @@ public class PersistentFileSystem {
         Logger.info(String.format("File system data initialized, directory: %s!", dataPath));
     }
 
-    public static void define(Class definition) {
+    public static <T> T define(Class definition) {
         try {
             String content = "";
             String name = definition.getSimpleName();
@@ -39,12 +38,15 @@ public class PersistentFileSystem {
                     data = inputStreamReader.read();
                 }
                 inputStreamReader.close();
+                return (T)xstream.fromXML(content);
             } else {
                 Logger.info(String.format("File doesn't exist: %s!", file.getName()));
+                return (T)definition.newInstance();
             }
         } catch (Exception exception) {
             Logger.exception(exception);
         }
+        return null;
     }
 
     public static void save(Object data) {
@@ -70,9 +72,5 @@ public class PersistentFileSystem {
     private static String getFileNamePath(String name) {
         return dataPath + "/" + name + ".xml";
     }
-/*
-    private Object castToType(Class type) {
-        return type.cast(xstream.fromXML(content));
-    }
-*/
+
 }

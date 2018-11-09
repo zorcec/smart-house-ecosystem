@@ -11,7 +11,7 @@
             "cwd": "${workspaceFolder}/main/central-tts/gradle",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "services.centraltts.Main"
+            "mainClass": "services.centralTTS.Main"
         },
         {
             "type": "java",
