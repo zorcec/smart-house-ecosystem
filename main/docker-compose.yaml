@@ -61,15 +61,11 @@ services:
   central-tts:
     container_name: central-tts
     build: ./central-tts
-    environment:
-      - ES_JAVA_OPTS="-Xmx8m"
     ports:
       - "0.0.0.0:8081:8081"
-      - "0.0.0.0:5005:5005"
     networks:
       - smart-home-network
     volumes:
-      - ./central-tts/cache/:/cache
       - ./central-tts/gradle:/gradle
       - ./central-tts/common:/common
 

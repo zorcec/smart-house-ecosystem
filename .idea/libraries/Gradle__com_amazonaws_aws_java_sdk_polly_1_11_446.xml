@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-polly:1.11.446">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-polly/1.11.446/eb33d102c6019494cd34361d0b6e8f33bd6fa7aa/aws-java-sdk-polly-1.11.446.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-polly/1.11.446/d856512cc59c6ebeec1689b01b10379be8b6a396/aws-java-sdk-polly-1.11.446-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

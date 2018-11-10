@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/central-tts.iml" filepath="$PROJECT_DIR$/.idea/modules/central-tts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/central-tts_main.iml" filepath="$PROJECT_DIR$/.idea/modules/central-tts_main.iml" group="central-tts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/central-tts_test.iml" filepath="$PROJECT_DIR$/.idea/modules/central-tts_test.iml" group="central-tts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-helpers.iml" filepath="$PROJECT_DIR$/.idea/modules/java-helpers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" group="java-helpers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-helpers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-helpers_test.iml" group="java-helpers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/smart-house-ecosystem.iml" filepath="$PROJECT_DIR$/.idea/smart-house-ecosystem.iml" />
     </modules>
   </component>
