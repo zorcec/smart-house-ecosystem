@@ -14,9 +14,11 @@ import com.amazonaws.services.polly.model.OutputFormat;
 import com.amazonaws.services.polly.model.SynthesizeSpeechRequest;
 import com.amazonaws.services.polly.model.SynthesizeSpeechResult;
 import com.amazonaws.services.polly.model.Voice;
+import com.amazonaws.services.polly.model.TextType;
 
 import helpers.configurations.*;
 import helpers.logging.*;
+import main.java.services.centralTTS.models.VoiceData;
 
 public class AmazonPolly {
     
@@ -49,12 +51,18 @@ public class AmazonPolly {
     }
 
     public InputStream synthesize(String text) throws IOException {
+        Logger.info(String.format("Synthesizing: %s", text));
         SynthesizeSpeechRequest synthReq = new SynthesizeSpeechRequest()
+                .withTextType(TextType.Ssml)
                 .withText(text)
                 .withVoiceId(this.voice.getId())
                 .withOutputFormat(OutputFormat.Mp3);
         SynthesizeSpeechResult synthRes = polly.synthesizeSpeech(synthReq);
         return synthRes.getAudioStream();
+    }
+
+    public Voice getVoice() {
+        return this.voice;
     }
 
 }

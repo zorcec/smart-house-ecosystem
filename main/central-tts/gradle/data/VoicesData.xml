@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<main.java.services.centralTTS.models.VoicesData>
+    <items>
+        <main.java.services.centralTTS.models.VoiceData>
+            <voiceService>amazonPolly</voiceService>
+            <text>turning on the lights</text>
+            <enhancedText>&lt;speak&gt;&lt;amazon:auto-breaths frequency="medium" volume="medium" duration="x-short"&gt;&lt;amazon:effect
+                name="whispered"&gt;turning on the lights&lt;/amazon:effect&gt;&lt;/amazon:auto-breaths&gt;&lt;/speak&gt;
+            </enhancedText>
+            <voiceId>Salli</voiceId>
+            <name>amazonPolly_Salli_1541849229896</name>
+            <effects>
+                <string>auto-breaths</string>
+                <string>whispered</string>
+            </effects>
+        </main.java.services.centralTTS.models.VoiceData>
+        <main.java.services.centralTTS.models.VoiceData>
+            <voiceService>amazonPolly</voiceService>
+            <text>turning on the lights</text>
+            <enhancedText>&lt;speak&gt;&lt;amazon:auto-breaths frequency="medium" volume="medium" duration="x-short"&gt;turning
+                on the lights&lt;/amazon:auto-breaths&gt;&lt;/speak&gt;
+            </enhancedText>
+            <voiceId>Salli</voiceId>
+            <name>amazonPolly_Salli_1541849461527</name>
+            <effects>
+                <string>auto-breaths</string>
+            </effects>
+        </main.java.services.centralTTS.models.VoiceData>
+        <main.java.services.centralTTS.models.VoiceData>
+            <voiceService>amazonPolly</voiceService>
+            <text>turning on the lights in the livingroom</text>
+            <enhancedText>&lt;speak&gt;&lt;amazon:auto-breaths frequency="medium" volume="medium" duration="x-short"&gt;turning
+                on the lights in the livingroom&lt;/amazon:auto-breaths&gt;&lt;/speak&gt;
+            </enhancedText>
+            <voiceId>Salli</voiceId>
+            <name>amazonPolly_Salli_1541849779060</name>
+            <effects>
+                <string>auto-breaths</string>
+            </effects>
+        </main.java.services.centralTTS.models.VoiceData>
+    </items>
+</main.java.services.centralTTS.models.VoicesData>
