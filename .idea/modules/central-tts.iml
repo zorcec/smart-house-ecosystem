@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../central-tts">
-      <sourceFolder url="file://$MODULE_DIR$/../../../central-tts/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../central-tts/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../central-tts/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../central-tts/out" />
