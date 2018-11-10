@@ -66,8 +66,7 @@ services:
     networks:
       - smart-home-network
     volumes:
-      - ./central-tts/gradle:/gradle
-      - ./central-tts/common:/common
+      - ./central-tts/config:/usr/src/app/build/libs/resources
 
   snips-watch:
     container_name: snips-watch

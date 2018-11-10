@@ -2,90 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_core_1_11_446.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_aws_java_sdk_polly_1_11_446.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amazonaws_jmespath_java_1_11_446.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_6_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_zorcec_java_helpers_master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mashape_unirest_unirest_java_1_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sparkjava_spark_core_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_xstream_xstream_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpasyncclient_4_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_nio_4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_client_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlet_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_webapp_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_api_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_client_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_common_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_server_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_servlet_9_4_6_v20170531.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20160212.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/central-tts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/central-tts_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/central-tts_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/gradle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/gradle_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/gradle_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-helpers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-helpers_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/config/supervisor/secrets.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central-tts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../central-tts/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/spark/WebServer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/files/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/VoicesData.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/audio/amazonPolly_Salli_1541859285742.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/gradle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/gradle.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/gradle.iws" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/resources/config/service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/clients/AmazonPolly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoicesData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/docker-compose.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
@@ -141,56 +65,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="8" />
+          <entry key="Dockerfile" value="9" />
           <entry key="bat" value="1" />
           <entry key="class" value="1" />
-          <entry key="conf" value="4" />
-          <entry key="gitignore" value="6" />
+          <entry key="conf" value="5" />
+          <entry key="gitignore" value="9" />
           <entry key="gradle" value="8" />
-          <entry key="java" value="33" />
-          <entry key="properties" value="12" />
-          <entry key="sh" value="4" />
+          <entry key="java" value="34" />
+          <entry key="properties" value="19" />
+          <entry key="sh" value="5" />
           <entry key="xml" value="8" />
-          <entry key="yaml" value="4" />
+          <entry key="yaml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="3" />
+          <entry key="Bash" value="4" />
           <entry key="CLASS" value="1" />
-          <entry key="Dockerfile" value="7" />
+          <entry key="Dockerfile" value="8" />
           <entry key="Groovy" value="8" />
-          <entry key="HOCON" value="3" />
-          <entry key="JAVA" value="33" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Properties" value="12" />
+          <entry key="HOCON" value="4" />
+          <entry key="JAVA" value="34" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Properties" value="19" />
           <entry key="XML" value="8" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="165" />
+          <entry key="Dockerfile" value="168" />
           <entry key="conf" value="48" />
-          <entry key="gitignore" value="44" />
+          <entry key="gitignore" value="107" />
           <entry key="gradle" value="234" />
-          <entry key="java" value="3899" />
+          <entry key="java" value="3931" />
           <entry key="properties" value="34" />
-          <entry key="sh" value="45" />
+          <entry key="sh" value="47" />
           <entry key="txt" value="41" />
-          <entry key="yaml" value="7" />
+          <entry key="yaml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="38" />
-          <entry key="Dockerfile" value="165" />
+          <entry key="Bash" value="40" />
+          <entry key="Dockerfile" value="168" />
           <entry key="Groovy" value="234" />
           <entry key="HOCON" value="47" />
-          <entry key="JAVA" value="3899" />
-          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="JAVA" value="3931" />
+          <entry key="PLAIN_TEXT" value="156" />
           <entry key="Properties" value="34" />
-          <entry key="YAML" value="7" />
+          <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -199,19 +123,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="100" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../central-tts/resources/config/secrets.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="64" selection-end-line="1" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/secrets.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="17">
+              <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/docker-compose.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -1010,7 +970,6 @@
       <list>
         <option value="$PROJECT_DIR$/main/central-tts/gradle/resources/config/service.properties" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoicesData.java" />
-        <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
         <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java" />
         <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java" />
@@ -1023,14 +982,20 @@
         <option value="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" />
-        <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
-        <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" />
-        <option value="$PROJECT_DIR$/main/central-tts/files/start.sh" />
         <option value="$PROJECT_DIR$/../java-helpers/.gitignore" />
         <option value="$PROJECT_DIR$/../central-tts/build.gradle" />
         <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Main.java" />
-        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" />
+        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
+        <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
+        <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/main/central-tts/files/start.sh" />
+        <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java" />
+        <option value="$PROJECT_DIR$/../central-tts/.gitignore" />
+        <option value="$PROJECT_DIR$/../central-tts/resources/config/secrets.properties" />
+        <option value="$PROJECT_DIR$/main/central-tts/config/secrets.properties" />
+        <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/secrets.properties" />
       </list>
     </option>
   </component>
@@ -1060,6 +1025,21 @@
           <expand>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1077,7 +1057,15 @@
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1087,7 +1075,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541864378125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541865728228" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../central-tts/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1097,6 +1085,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/central-tts/config" />
       <recent name="$PROJECT_DIR$/../central-tts" />
       <recent name="$PROJECT_DIR$/main/central-tts" />
     </key>
@@ -1182,12 +1171,12 @@
       <window_info anchor="bottom" id="Build" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -1292,13 +1281,6 @@ return t;</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1425,13 +1407,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/files/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../java-helpers/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1455,13 +1430,6 @@ return t;</expression-string>
     <entry file="file://$PROJECT_DIR$/../java-helpers/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../java-helpers/src/main/java/helpers/configurations/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1476,9 +1444,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1489,13 +1454,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-101">
@@ -1503,17 +1461,80 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/files/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../central-tts/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="100" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/config/secrets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="62" lean-forward="true" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../central-tts/resources/config/secrets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/secrets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
         </state>
       </provider>
     </entry>

@@ -16,8 +16,8 @@ RUN gradle compile
 RUN gradle --stop
 
 # Copy configuration
-RUN mkdir -p /config /gradle-common
-VOLUME /config /gradle-common
+RUN mkdir -p /config $INSTALLATION_PATH/build/libs/resources
+VOLUME /config
 
 COPY /files/* /files/
 COPY /config/supervisor/* /etc/supervisor/conf.d/
