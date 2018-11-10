@@ -1,24 +1,39 @@
 version = "0.1"
 apply plugin: "java"
 apply plugin: "application"
-mainClassName = "services.centralTTS.Main"
-
-applicationDefaultJvmArgs = ["-Duser.dir=/gradle"]
+apply plugin: 'idea'
+mainClassName = "main.java.services.centralTTS.Main"
 
 //create a single Jar with all dependencies
 task compile(type: Jar) {
     manifest {
         attributes "Implementation-Title": "Central TTS",
                 "Implementation-Version": version,
-                "Main-Class": "services.centraltts.Main"
+                "Main-Class": "main.java.services.centralTTS.Main"
     }
-    baseName = project.name + ".all"
+    baseName = "compile.all"
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
 }
 
 processResources {
-    from "resources"
+
+   // into "resources", {
+   //     from "resources"
+   // }
+   // into "data", {
+   //     from "data"
+   // }
+
+    copy{
+        from "resources"
+        into "build/libs/resources"
+    }
+
+    copy{
+        from "data"
+        into "build/libs/data"
+    }
 }
 
 repositories {

@@ -4,10 +4,22 @@
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/smart-house-ecosystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smart-house-ecosystem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/audio/test.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/spark/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/spark/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/files/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/VoicesData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/audio/amazonPolly_Salli_1541849229896.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/audio/amazonPolly_Salli_1541849461527.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/data/audio/amazonPolly_Salli_1541849779060.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/clients/AmazonPolly.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/clients/AmazonPolly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,49 +41,65 @@
     <session id="-689573076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="class" value="1" />
+          <entry key="conf" value="2" />
           <entry key="gitignore" value="3" />
-          <entry key="gradle" value="1" />
-          <entry key="java" value="12" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="5" />
+          <entry key="gradle" value="6" />
+          <entry key="java" value="30" />
+          <entry key="properties" value="12" />
+          <entry key="sh" value="2" />
+          <entry key="xml" value="7" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="5" />
+          <entry key="Bash" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="Groovy" value="6" />
+          <entry key="HOCON" value="1" />
+          <entry key="JAVA" value="30" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="12" />
+          <entry key="XML" value="7" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="conf" value="2" />
           <entry key="gitignore" value="14" />
-          <entry key="gradle" value="50" />
-          <entry key="java" value="3703" />
-          <entry key="properties" value="25" />
+          <entry key="gradle" value="213" />
+          <entry key="java" value="3897" />
+          <entry key="properties" value="34" />
+          <entry key="sh" value="14" />
           <entry key="txt" value="41" />
+          <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="50" />
-          <entry key="JAVA" value="3703" />
-          <entry key="PLAIN_TEXT" value="55" />
-          <entry key="Properties" value="25" />
+          <entry key="Bash" value="7" />
+          <entry key="Groovy" value="213" />
+          <entry key="HOCON" value="1" />
+          <entry key="JAVA" value="3897" />
+          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="Properties" value="34" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -80,33 +108,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/build.gradle">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="410">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#412#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+            <state relative-caret-position="357">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5625#5626#0" expanded="true" />
-                <element signature="e#5678#5679#0" expanded="true" />
+                <element signature="e#1809#1810#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/data/VoicesData.xml">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            <state relative-caret-position="427">
+              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,38 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoicesData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/clients/AmazonPolly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -157,6 +181,8 @@
       <find>text</find>
       <find>Found a match!</find>
       <find>in.</find>
+      <find>VoiceData</find>
+      <find>spark</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,19 +191,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/resources/config/service.properties" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoicesData.java" />
-        <option value="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" />
         <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
-        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" />
+        <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" />
+        <option value="$PROJECT_DIR$/main/central-tts/files/start.sh" />
+        <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java" />
+        <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java" />
+        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/clients/AmazonPolly.java" />
-        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" />
+        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/resources/config/service.properties" />
+        <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/spark/WebServer.java" />
+        <option value="$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java" />
+        <option value="$PROJECT_DIR$/main/central-tts/gradle/resources/config/secrets.properties" />
         <option value="$PROJECT_DIR$/main/central-tts/gradle/data/VoicesData.xml" />
+        <option value="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" />
+        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" />
+        <option value="$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="293" />
@@ -190,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,29 +281,6 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -273,8 +291,17 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="configurations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
               <item name="fs" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -283,13 +310,22 @@
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="central-tts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
@@ -321,6 +357,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="central-tts" type="462c0819:PsiDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,19 +385,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="centralTTS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="centralTTS" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="centralTTS" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541846976152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541861089512" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main/central-tts/gradle/build.gradle" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/central-tts/gradle/resources" />
+      <recent name="$PROJECT_DIR$/main/central-tts/gradle" />
+      <recent name="$PROJECT_DIR$/main/central-tts/gradle/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -411,21 +490,22 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24847814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2567792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -436,7 +516,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32982844" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -513,13 +593,6 @@ return t;</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -541,31 +614,61 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoicesData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Properties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/files/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/spark/WebServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state>
+          <caret column="25" selection-start-column="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -574,47 +677,87 @@ return t;</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/data/fs/PersistentFileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/clients/AmazonPolly.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="119">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java">
+    <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+        <state relative-caret-position="372">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5625#5626#0" expanded="true" />
-            <element signature="e#5678#5679#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/resources/config/service.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/resources/config/secrets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#412#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/data/VoicesData.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

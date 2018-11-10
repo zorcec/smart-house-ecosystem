@@ -1,9 +1,9 @@
-package services.centralTTS;
+package main.java.services.centralTTS;
 
-import helpers.configurations.*;
-import helpers.logging.*;
-import helpers.spark.*;
-import helpers.data.fs.*;
+import main.java.helpers.configurations.*;
+import main.java.helpers.logging.*;
+import main.java.helpers.spark.*;
+import main.java.helpers.data.fs.*;
 
 public class Main {
 

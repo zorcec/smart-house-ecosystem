@@ -1,10 +1,10 @@
-package helpers.logging;
+package main.java.helpers.logging;
 
 import java.util.Date;
 import java.io.StringWriter;
 import java.io.PrintWriter;
 
-import helpers.configurations.*;
+import main.java.helpers.configurations.*;
 
 public class Logger {
 

@@ -3,10 +3,8 @@ package main.java.services.centralTTS.clients;
 import java.io.InputStream;
 import java.io.IOException;
 
-import com.amazonaws.ClientConfiguration;
-import com.amazonaws.auth.*;
-import com.amazonaws.regions.Region;
-import com.amazonaws.regions.Regions;
+import com.amazonaws.auth.AWSCredentials;
+import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.polly.AmazonPollyClient;
 import com.amazonaws.services.polly.model.DescribeVoicesRequest;
 import com.amazonaws.services.polly.model.DescribeVoicesResult;
@@ -16,9 +14,8 @@ import com.amazonaws.services.polly.model.SynthesizeSpeechResult;
 import com.amazonaws.services.polly.model.Voice;
 import com.amazonaws.services.polly.model.TextType;
 
-import helpers.configurations.*;
-import helpers.logging.*;
-import main.java.services.centralTTS.models.VoiceData;
+import main.java.helpers.configurations.*;
+import main.java.helpers.logging.*;
 
 public class AmazonPolly {
     
@@ -34,7 +31,7 @@ public class AmazonPolly {
         AWSCredentials credentials = new BasicAWSCredentials(
             PropertiesReader.getProperty("secrets", "AWS_ACCESS_KEY_ID", ""),
             PropertiesReader.getProperty("secrets", "AWS_SECRET_ACCESS_KEY", ""));
-            
+
         polly = new AmazonPollyClient(credentials);
 
         // Create describe voices request.

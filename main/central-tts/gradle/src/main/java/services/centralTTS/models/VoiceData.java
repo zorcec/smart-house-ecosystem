@@ -8,6 +8,7 @@ public class VoiceData {
     public String voiceId;
     public String name;
     public String [] effects = null;
+    public long usageCount = 0;
 
     public enum VoiceServiceEnum {
         amazonPolly

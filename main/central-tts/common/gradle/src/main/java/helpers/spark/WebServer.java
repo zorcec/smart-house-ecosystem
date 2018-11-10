@@ -1,11 +1,10 @@
-package helpers.spark;
+package main.java.helpers.spark;
 
 import spark.Spark;
 import spark.Route;
-import java.util.concurrent.Callable;
 
-import helpers.configurations.*;
-import helpers.logging.*;
+import main.java.helpers.configurations.*;
+import main.java.helpers.logging.*;
 
 public class WebServer {
 

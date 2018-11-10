@@ -1,21 +1,16 @@
-package services.centralTTS;
+package main.java.services.centralTTS;
 
 import java.util.Arrays;
 import java.io.File;
 import java.io.InputStream;
 import javax.servlet.ServletOutputStream;
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
-import java.util.ArrayList;
-
 import org.apache.commons.io.FileUtils;
-
 import com.amazonaws.services.polly.model.Voice;
 
-import helpers.configurations.*;
-import helpers.logging.*;
-import helpers.spark.*;
-import helpers.data.fs.*;
+import main.java.helpers.configurations.*;
+import main.java.helpers.logging.*;
+import main.java.helpers.spark.*;
+import main.java.helpers.data.fs.*;
 
 import main.java.services.centralTTS.clients.AmazonPolly;
 import main.java.services.centralTTS.models.*;
@@ -53,6 +48,7 @@ public class Service {
                     data = audio.read();
                 }
                 out.close();
+                PersistentFileSystem.save(this.voicesData);
                 Logger.info("Request done: " + text);
 
                 return 200;
@@ -74,6 +70,7 @@ public class Service {
                 if(audioIsMatching(voiceData, text, effects)) {
                     Logger.info("Found a match!");
                     File audioFile = new File(getFileNamePath(voiceData.name));
+                    voiceData.usageCount++;
                     return FileUtils.openInputStream(audioFile);
                 }
             }
