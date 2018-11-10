@@ -25,4 +25,6 @@ COPY /config/supervisor/* /etc/supervisor/conf.d/
 # Cleanup    
 RUN apt-get clean autoremove
 
+WORKDIR $INSTALLATION_PATH/build/libs/
+
 CMD ["bash", "/files/start.sh"]
