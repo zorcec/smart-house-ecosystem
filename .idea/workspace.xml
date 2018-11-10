@@ -1075,7 +1075,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541865728228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541865738443" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../central-tts/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
