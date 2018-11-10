@@ -51,9 +51,4 @@ user_dir = "/common-config/snips"
 [snips-nlu]
 
 [snips-tts]
-## Choose one tts provider (defaults to picotts)
 provider = "picotts"
-# provider = "makerstts"
-# provider = "customtts"
-## customtts specific configuration (here configured to use picotts)
-# customtts = { command = ["pico2wave", "-w", "%%OUTPUT_FILE%%", "-l", "%%LANG%%", "%%TEXT%%"] }

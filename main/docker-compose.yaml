@@ -47,11 +47,11 @@ services:
       - "/dev/snd"
     external_links:
       - mosquitto:mqtt
-      - mary-tts:marry-tts
+      - central-tts:central-tts
     depends_on:
       - mosquitto
     networks:
-          - smart-home-network
+        - smart-home-network
     volumes:
       - /run/user/1000/pulse:/run/user/1000/pulse
       - /etc/machine-id:/etc/machine-id
