@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../java-helpers">
-      <sourceFolder url="file://$MODULE_DIR$/../../../java-helpers/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../java-helpers/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../java-helpers/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../java-helpers/out" />
