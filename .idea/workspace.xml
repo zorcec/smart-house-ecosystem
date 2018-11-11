@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/java-helpers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-helpers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/snips-satellite/files/voice.sh" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-satellite/files/voice.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/config/secrets.properties" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/config/secrets.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/build/" />
@@ -64,14 +62,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="11" />
+          <entry key="Dockerfile" value="16" />
           <entry key="bat" value="1" />
           <entry key="class" value="1" />
           <entry key="conf" value="8" />
           <entry key="gitignore" value="10" />
           <entry key="gradle" value="9" />
-          <entry key="java" value="46" />
-          <entry key="properties" value="24" />
+          <entry key="java" value="47" />
+          <entry key="properties" value="27" />
           <entry key="sh" value="9" />
           <entry key="toml" value="3" />
           <entry key="xml" value="11" />
@@ -82,39 +80,39 @@
         <counts>
           <entry key="Bash" value="8" />
           <entry key="CLASS" value="1" />
-          <entry key="Dockerfile" value="10" />
+          <entry key="Dockerfile" value="15" />
           <entry key="Groovy" value="9" />
           <entry key="HOCON" value="7" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="47" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Properties" value="24" />
+          <entry key="Properties" value="27" />
           <entry key="XML" value="11" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="199" />
+          <entry key="Dockerfile" value="243" />
           <entry key="conf" value="54" />
           <entry key="gitignore" value="107" />
           <entry key="gradle" value="244" />
-          <entry key="java" value="4697" />
-          <entry key="properties" value="34" />
-          <entry key="sh" value="182" />
+          <entry key="java" value="5178" />
+          <entry key="properties" value="36" />
+          <entry key="sh" value="187" />
           <entry key="toml" value="27" />
-          <entry key="txt" value="225" />
+          <entry key="txt" value="283" />
           <entry key="yaml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="175" />
-          <entry key="Dockerfile" value="199" />
+          <entry key="Bash" value="180" />
+          <entry key="Dockerfile" value="243" />
           <entry key="Groovy" value="244" />
           <entry key="HOCON" value="53" />
-          <entry key="JAVA" value="4697" />
-          <entry key="PLAIN_TEXT" value="367" />
-          <entry key="Properties" value="34" />
+          <entry key="JAVA" value="5178" />
+          <entry key="PLAIN_TEXT" value="425" />
+          <entry key="Properties" value="36" />
           <entry key="YAML" value="52" />
         </counts>
       </usages-collector>
@@ -126,10 +124,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+            <state relative-caret-position="142">
+              <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5915#5916#0" expanded="true" />
+                <element signature="e#5968#5969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../central-tts/resources/config/secrets.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/config/secrets.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2664#2665#0" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,11 +194,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/snips-satellite/files/voice.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -178,6 +228,7 @@
       <find>audioName</find>
       <find>FileReader</find>
       <find>onDeviceSynthesis</find>
+      <find>getVoice</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -981,21 +1032,22 @@
         <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
         <option value="$PROJECT_DIR$/main/central-tts/files/start.sh" />
         <option value="$PROJECT_DIR$/../central-tts/.gitignore" />
-        <option value="$PROJECT_DIR$/../central-tts/resources/config/secrets.properties" />
-        <option value="$PROJECT_DIR$/main/central-tts/config/secrets.properties" />
         <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/secrets.properties" />
         <option value="$PROJECT_DIR$/../java-helpers/src/main/java/helpers/configurations/PropertiesReader.java" />
         <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Main.java" />
-        <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java" />
-        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
         <option value="$PROJECT_DIR$/main/snips-master/config/snips.toml" />
         <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/main/snips-satellite/config/snips.toml" />
         <option value="$PROJECT_DIR$/../central-tts/build.gradle" />
         <option value="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" />
         <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" />
-        <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java" />
         <option value="$PROJECT_DIR$/main/snips-satellite/files/voice.sh" />
+        <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java" />
+        <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java" />
+        <option value="$PROJECT_DIR$/../central-tts/resources/config/secrets.properties" />
+        <option value="$PROJECT_DIR$/common/java-base/Dockerfile" />
+        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
+        <option value="$PROJECT_DIR$/main/central-tts/config/secrets.properties" />
       </list>
     </option>
   </component>
@@ -1025,6 +1077,50 @@
           <expand>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="centralTTS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="centralTTS" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1035,7 +1131,32 @@
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="snips-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
@@ -1058,7 +1179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541874432805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541936866585" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../central-tts/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1173,7 +1294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541873940563</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Snips satellite picotts fallback">
+      <created>1541932757800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541932757800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="picotts fallback for central-tts">
+      <created>1541934888936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541934888936</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1220,7 +1355,9 @@
     <MESSAGE value="Trying to make snips use central-tts" />
     <MESSAGE value="Making sure voices are vaw" />
     <MESSAGE value="Fixing wav converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing wav converter" />
+    <MESSAGE value="Snips satellite picotts fallback" />
+    <MESSAGE value="picotts fallback for central-tts" />
+    <option name="LAST_COMMIT_MESSAGE" value="picotts fallback for central-tts" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1362,20 +1499,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/resources/config/secrets.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="64" selection-end-line="1" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/config/secrets.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="64" lean-forward="true" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../java-helpers/src/main/java/helpers/configurations/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1393,24 +1516,10 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/snips-master/config/snips.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
           <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1487,13 +1596,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/snips-satellite/config/snips.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1511,20 +1613,76 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java">
+    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/clients/AmazonPolly.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+        <state relative-caret-position="415">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2664#2665#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../central-tts/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/snips-satellite/files/voice.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5915#5916#0" expanded="true" />
+            <element signature="e#5968#5969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../central-tts/resources/config/secrets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" selection-start-line="17" selection-end-line="25" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/config/secrets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>

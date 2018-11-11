@@ -4,8 +4,15 @@ ENV INSTALLATION_PATH /usr/src/app
 
 RUN apt-get update
 
-# Install what is needed
-RUN apt-get install -y supervisor git
+# Install PICOTTS
+RUN	mkdir /temp && \
+	apt-get install -y libpopt0 wget && \
+	wget http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-data_${LIBTTSPICO_VERSION}_all.deb -O /temp/libttspico-data_${LIBTTSPICO_VERSION}_all.deb && \
+	wget http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico0_${LIBTTSPICO_VERSION}_${ARHITECTURE}.deb -O /temp/libttspico0_${LIBTTSPICO_VERSION}_${ARHITECTURE}.deb && \
+	wget http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-utils_${LIBTTSPICO_VERSION}_${ARHITECTURE}.deb -O /temp/libttspico-utils_${LIBTTSPICO_VERSION}_${ARHITECTURE}.deb && \
+	dpkg -i /temp/libttspico-data_${LIBTTSPICO_VERSION}_all.deb && \
+	dpkg -i /temp/libttspico0_${LIBTTSPICO_VERSION}_${ARHITECTURE}.deb && \
+	dpkg -i /temp/libttspico-utils_${LIBTTSPICO_VERSION}_${ARHITECTURE}.deb
 
 # Clone src
 RUN git clone https://github.com/zorcec/central-tts.git $INSTALLATION_PATH

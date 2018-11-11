@@ -1,5 +1,8 @@
 FROM openjdk:8u181-jdk-slim-stretch
 
+ENV ARHITECTURE amd64
+ENV LIBTTSPICO_VERSION 1.0+git20130326-3
+
 ARG HOSTID=1001
 
 ENV GRADLE_VERSION 4.3.1
@@ -7,6 +10,7 @@ ENV GRADLE_HOME /usr/lib/gradle/gradle-${GRADLE_VERSION}
 ENV PATH ${PATH}:${GRADLE_HOME}/bin
 
 RUN apt-get update
+RUN apt-get install -y --fix-missing supervisor git
 
 # GRADLE
 RUN mkdir /usr/lib/gradle /app
