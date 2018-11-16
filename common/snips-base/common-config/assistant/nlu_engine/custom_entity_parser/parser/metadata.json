@@ -1,0 +1,28 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "snips/default--percent",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "room ",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "color",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "scene",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "power_levels",
+      "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "item",
+      "entity_parser": "parser_6"
+    }
+  ]
+}
