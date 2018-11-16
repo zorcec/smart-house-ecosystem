@@ -209,11 +209,6 @@
         "item": "item", 
         "room": "room "
       }, 
-      "zorcec:set_light_temperature": {
-        "item": "item", 
-        "level": "power_levels", 
-        "room": "room "
-      }, 
       "zorcec:set_scene": {
         "room": "room ", 
         "scene": "scene"

@@ -34,31 +34,6 @@
     } ],
     "name" : "set_color"
   }, {
-    "id" : "zorcec:set_light_temperature",
-    "type" : "registry",
-    "version" : "0.44.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "room",
-      "id" : "I-mqD_vYk",
-      "entityId" : "entity_W5qoY5ak8mow",
-      "missingQuestion" : "",
-      "required" : false
-    }, {
-      "name" : "item",
-      "id" : "9XTj3UMkk",
-      "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "On which light would you like to change the temperature?",
-      "required" : true
-    }, {
-      "name" : "level",
-      "id" : "UnjU9e_OJ",
-      "entityId" : "entity_x7GDa4wWgdpK",
-      "missingQuestion" : "To which level should I adjust?",
-      "required" : true
-    } ],
-    "name" : "set_light_temperature"
-  }, {
     "id" : "zorcec:set_scene",
     "type" : "registry",
     "version" : "0.8.0",

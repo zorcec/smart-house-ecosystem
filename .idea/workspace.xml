@@ -3,49 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/a.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/a.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_0.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_0.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_1.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_1.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_2.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_2.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_3.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_3.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_4.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_4.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_5.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_5.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_6.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_6.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/l.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/l.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/r.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/r.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/w.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/w.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/deterministic_intent_parser/intent_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/deterministic_intent_parser/intent_parser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/nlu_engine.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/nlu_engine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_classifier/intent_classifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_classifier/intent_classifier.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_parser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/modelJvXacM.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/modelSIip4U.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/model6j4i29.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/modelL3AWOL.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/modelMr6oN7.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/modelrfZecr.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/modelRhiLyJ.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/model8dC5jg.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_8/modelSO_Hx2.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_8/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_8/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_9/modelWuAMZw.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_9/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_9/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/snips-master/config/snips.toml" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-master/config/snips.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/snips-master/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-master/config/supervisor/services.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/snips-satellite/config/snips.toml" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-satellite/config/snips.toml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/build/" />
@@ -56,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/../central-tts/.gradle/" />
     <ignored path="$PROJECT_DIR$/../central-tts/build/" />
     <ignored path="$PROJECT_DIR$/../central-tts/out/" />
+    <ignored path="../central-tts/data/audio/native_synthesis.wav" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,11 +127,12 @@
         <counts>
           <entry key="Dockerfile" value="7" />
           <entry key="conf" value="7" />
-          <entry key="json" value="3" />
+          <entry key="json" value="13" />
           <entry key="sh" value="2" />
           <entry key="toml" value="3" />
+          <entry key="vanilla" value="6" />
           <entry key="xml" value="2" />
-          <entry key="yaml" value="9" />
+          <entry key="yaml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -180,10 +140,10 @@
           <entry key="Bash" value="2" />
           <entry key="Dockerfile" value="7" />
           <entry key="HOCON" value="7" />
-          <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JSON" value="13" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="2" />
-          <entry key="YAML" value="9" />
+          <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -192,8 +152,8 @@
           <entry key="conf" value="18" />
           <entry key="sh" value="37" />
           <entry key="toml" value="163" />
-          <entry key="txt" value="81" />
-          <entry key="yaml" value="447" />
+          <entry key="txt" value="130" />
+          <entry key="yaml" value="506" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -201,28 +161,28 @@
           <entry key="Bash" value="37" />
           <entry key="Dockerfile" value="126" />
           <entry key="HOCON" value="18" />
-          <entry key="PLAIN_TEXT" value="244" />
-          <entry key="YAML" value="447" />
+          <entry key="PLAIN_TEXT" value="293" />
+          <entry key="YAML" value="506" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="55" column="77" lean-forward="true" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="55" column="104" selection-start-line="55" selection-start-column="104" selection-end-line="55" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -1167,7 +1127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542398455033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542400423579" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1320,7 +1280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542394231506</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="New assistant + cleaning up a bit">
+      <created>1542399879141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542399879141</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Assistant update">
+      <created>1542399940887</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542399940887</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1372,7 +1346,9 @@
     <MESSAGE value="Improvements for the picotts (central-tts will fallback)" />
     <MESSAGE value="Lets call her Sarah + voice texts added" />
     <MESSAGE value="Experiment with hotword" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experiment with hotword" />
+    <MESSAGE value="New assistant + cleaning up a bit" />
+    <MESSAGE value="Assistant update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assistant update" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1437,84 +1413,6 @@ return t;</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/configurations/PropertiesReader.java" />
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/models/VoiceData.java" />
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/data/VoicesData.xml" />
-    <entry file="file://$PROJECT_DIR$/main/central-tts/gradle/src/main/java/services/centralTTS/Service.java" />
-    <entry file="file://$PROJECT_DIR$/main/central-tts/common/gradle/src/main/java/helpers/logging/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/../java-helpers/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../java-helpers/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../java-helpers/src/main/java/helpers/spark/WebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../java-helpers/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../java-helpers/src/main/java/helpers/configurations/PropertiesReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/snips-satellite/files/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.7.1/35394e4e1973221dabec1a00c36ef07ee849d48c/spark-core-2.7.1-sources.jar!/spark/embeddedserver/jetty/JettyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1751,6 +1649,59 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/33360427-5c8f-46c1-b441-584f08a06dc7.vanilla">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/51700e7e-54a7-4380-92dc-6c326c6ef51a.vanilla">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/920ba170-bec4-4b1e-9620-dc2ba46cf62c.vanilla">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/c39cfb07-c044-45c4-a127-4f86fe833f15.vanilla">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/config_inj_v2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/dd464035-6ae7-4bd5-87c6-b5acc31ce233.vanilla">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/e2664d6f-d755-4148-b14a-9ca30f1b2b88.vanilla">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/builtin_entity_parser/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_1/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_3/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_4/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_5/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_6/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_2/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/configuration.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1760,8 +1711,8 @@ return t;</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="55" column="77" lean-forward="true" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="77" />
+        <state relative-caret-position="247">
+          <caret line="55" column="104" selection-start-line="55" selection-start-column="104" selection-end-line="55" selection-end-column="104" />
         </state>
       </provider>
     </entry>
