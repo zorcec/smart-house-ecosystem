@@ -100,66 +100,10 @@
       }, 
       {
         "args": {
-          "collections": {
-            "item": [
-              "background light", 
-              "background light", 
-              "mainlight", 
-              "ambient light", 
-              "all_lights", 
-              "main light", 
-              "ambient_light", 
-              "light", 
-              "main light", 
-              "all light", 
-              "light", 
-              "ambient_light", 
-              "ambient light", 
-              "alllights", 
-              "main_light", 
-              "mainlight", 
-              "ambient light", 
-              "alllights", 
-              "main light", 
-              "background light", 
-              "light", 
-              "ambientlight", 
-              "all_lights", 
-              "light", 
-              "all light", 
-              "background light", 
-              "ambientlight", 
-              "ambient light", 
-              "main_light", 
-              "main light"
-            ], 
-            "room ": [
-              "entir flat", 
-              "livingroom", 
-              "entir apart", 
-              "testroom", 
-              "whole apart", 
-              "bedroom", 
-              "entir hous", 
-              "whole flat", 
-              "livingroom", 
-              "testroom", 
-              "everywher", 
-              "whole hous", 
-              "kitchen", 
-              "kitchen", 
-              "develop", 
-              "develop", 
-              "entir flat", 
-              "entir apart", 
-              "whole apart", 
-              "everywher", 
-              "entir hous", 
-              "whole flat", 
-              "whole hous", 
-              "bedroom"
-            ]
-          }, 
+          "entities": [
+            "item", 
+            "room "
+          ], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
           "use_stemming": true
@@ -212,12 +156,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelRhiLyJ.crfsuite", 
+  "crf_model_file": "modelirj1cg.crfsuite", 
   "intent": "zorcec:toggle", 
   "language_code": "en", 
   "slot_name_mapping": {
     "item": "item", 
     "room": "room "
-  }, 
-  "unit_name": "crf_slot_filler"
+  }
 }

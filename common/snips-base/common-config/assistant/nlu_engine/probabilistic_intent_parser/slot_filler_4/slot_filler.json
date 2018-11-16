@@ -100,86 +100,11 @@
       }, 
       {
         "args": {
-          "collections": {
-            "item": [
-              "background light", 
-              "background light", 
-              "mainlight", 
-              "ambient light", 
-              "all_lights", 
-              "main light", 
-              "ambient_light", 
-              "light", 
-              "main light", 
-              "all light", 
-              "light", 
-              "ambient_light", 
-              "ambient light", 
-              "alllights", 
-              "main_light", 
-              "mainlight", 
-              "ambient light", 
-              "alllights", 
-              "main light", 
-              "background light", 
-              "light", 
-              "ambientlight", 
-              "all_lights", 
-              "light", 
-              "all light", 
-              "background light", 
-              "ambientlight", 
-              "ambient light", 
-              "main_light", 
-              "main light"
-            ], 
-            "power_levels": [
-              "littl", 
-              "temperatur", 
-              "high", 
-              "middl", 
-              "full", 
-              "low", 
-              "minim", 
-              "maximal", 
-              "littl", 
-              "medium", 
-              "temperatur", 
-              "max", 
-              "low", 
-              "half", 
-              "minim", 
-              "maximal", 
-              "medium", 
-              "max", 
-              "full", 
-              "half", 
-              "high", 
-              "middl"
-            ], 
-            "room ": [
-              "develop", 
-              "whole flat", 
-              "entir flat", 
-              "whole hous", 
-              "entir apart", 
-              "entir hous", 
-              "kitchen", 
-              "whole flat", 
-              "testroom", 
-              "testroom", 
-              "whole apart", 
-              "entir flat", 
-              "everywher", 
-              "whole hous", 
-              "entir apart", 
-              "everywher", 
-              "whole apart", 
-              "kitchen", 
-              "develop", 
-              "entir hous"
-            ]
-          }, 
+          "entities": [
+            "item", 
+            "room ", 
+            "power_levels"
+          ], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
           "use_stemming": true
@@ -232,13 +157,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelMr6oN7.crfsuite", 
+  "crf_model_file": "modelxI_bM6.crfsuite", 
   "intent": "zorcec:set_light_temperature", 
   "language_code": "en", 
   "slot_name_mapping": {
     "item": "item", 
     "level": "power_levels", 
     "room": "room "
-  }, 
-  "unit_name": "crf_slot_filler"
+  }
 }

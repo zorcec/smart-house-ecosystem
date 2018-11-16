@@ -17,6 +17,9 @@ turn_off:
         entity_id: light.{{ site_id | replace("satellite-", "") }}_{{ item }}
 
 toggle:
+  speech:
+    type: plain
+    text: <p>Switching {{ item | replace("_", " ") }}</p>
   action:
     - service: light.toggle
       data_template:
@@ -46,7 +49,7 @@ set_brightness:
 set_color:
   speech:
     type: plain
-    text: <p>{{ item | replace("_", " ") }} color was changed to {{ color }}.</p>
+    text: <p>Color was changed to {{ color }}.</p>
   action:
     - service: light.turn_on
       data_template:

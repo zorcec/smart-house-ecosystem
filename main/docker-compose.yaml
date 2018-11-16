@@ -67,6 +67,7 @@ services:
       - smart-home-network
     volumes:
       - ./central-tts/config:/usr/src/app/build/libs/resources/config
+      - ./central-tts/data:/usr/src/app/build/libs/data
 
   snips-watch:
     container_name: snips-watch
