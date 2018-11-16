@@ -9,9 +9,10 @@ user_dir = "/common-config/snips"
 bind = "satellite-development@mqtt"
 
 [snips-hotword]
-model = "/usr/share/snips/hotword"
+# model = "/usr/share/snips/hotword"
 # hotword_id = "default"
-# sensitivity = "0.5"
+model = "/common-config/hotword/sarah"
+sensitivity = "0.3"
 audio = ["satellite-development@mqtt"]
 
 [snips-tts]
