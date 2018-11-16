@@ -12,7 +12,7 @@ bind = "satellite-development@mqtt"
 # model = "/usr/share/snips/hotword"
 # hotword_id = "default"
 model = "/common-config/hotword/sarah"
-sensitivity = "0.3"
+sensitivity = "0.4"
 audio = ["satellite-development@mqtt"]
 
 [snips-tts]
