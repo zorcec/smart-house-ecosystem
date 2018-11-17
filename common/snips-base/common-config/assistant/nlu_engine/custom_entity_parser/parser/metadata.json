@@ -23,6 +23,10 @@
     {
       "entity_identifier": "item",
       "entity_parser": "parser_6"
+    },
+    {
+      "entity_identifier": "snips/default--room",
+      "entity_parser": "parser_7"
     }
   ]
 }

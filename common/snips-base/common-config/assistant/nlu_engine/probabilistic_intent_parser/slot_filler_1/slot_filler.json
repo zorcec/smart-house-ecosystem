@@ -101,8 +101,7 @@
       {
         "args": {
           "entities": [
-            "snips/default--percent", 
-            "room "
+            "snips/default--room"
           ], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
@@ -156,11 +155,10 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelto1iq0.crfsuite", 
-  "intent": "zorcec:more_light", 
+  "crf_model_file": "modelI9cZow.crfsuite", 
+  "intent": "zorcec:increase_light", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "percent": "snips/default--percent", 
-    "room": "room "
+    "room": "snips/default--room"
   }
 }

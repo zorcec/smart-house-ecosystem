@@ -1,51 +1,51 @@
 {
-    "snips/default--percent": {
-        "vanilla": "eaaa05e0-6255-4775-b789-542001ca3ce8.vanilla", 
-        "added": "eaaa05e0-6255-4775-b789-542001ca3ce8.added", 
-        "pruningThresholds": [], 
-        "ngram": true, 
-        "order": 3
-    }, 
     "room ": {
-        "vanilla": "63dd189e-6a42-4fc9-9c13-f6dd0163533b.vanilla", 
-        "added": "63dd189e-6a42-4fc9-9c13-f6dd0163533b.added", 
+        "vanilla": "8cee8e7e-7af2-4aef-a99a-90aa1773cf14.vanilla", 
+        "added": "8cee8e7e-7af2-4aef-a99a-90aa1773cf14.added", 
         "pruningThresholds": [], 
         "ngram": true, 
         "order": 3
     }, 
     "color": {
-        "vanilla": "54da2ba7-5115-4f19-80a8-3fc7a83db2cf.vanilla", 
-        "added": "54da2ba7-5115-4f19-80a8-3fc7a83db2cf.added", 
+        "vanilla": "c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7.vanilla", 
+        "added": "c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7.added", 
         "pruningThresholds": [], 
         "ngram": true, 
         "order": 3
     }, 
     "scene": {
-        "vanilla": "7dc00c88-5541-48ae-8e12-29f28e48d8a8.vanilla", 
-        "added": "7dc00c88-5541-48ae-8e12-29f28e48d8a8.added", 
+        "vanilla": "f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd.vanilla", 
+        "added": "f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd.added", 
         "pruningThresholds": [], 
         "ngram": true, 
         "order": 3
     }, 
     "power_levels": {
-        "vanilla": "facd2a95-94dc-4a73-9de8-8d65f278f363.vanilla", 
-        "added": "facd2a95-94dc-4a73-9de8-8d65f278f363.added", 
+        "vanilla": "70d54a44-2c62-4fb9-b998-7541151c9cd4.vanilla", 
+        "added": "70d54a44-2c62-4fb9-b998-7541151c9cd4.added", 
         "pruningThresholds": [], 
         "ngram": true, 
         "order": 3
     }, 
     "item": {
-        "vanilla": "87228cf5-da4e-4740-87e6-b106258ab73e.vanilla", 
-        "added": "87228cf5-da4e-4740-87e6-b106258ab73e.added", 
+        "vanilla": "1c9bdd4d-c504-47ba-ba76-31bcb5a61298.vanilla", 
+        "added": "1c9bdd4d-c504-47ba-ba76-31bcb5a61298.added", 
         "pruningThresholds": [], 
         "ngram": true, 
         "order": 3
     }, 
     "snips/percentage": {
-        "vanilla": "f493a396-7350-42f8-a01c-53e9b28a8a8f.vanilla", 
-        "added": "f493a396-7350-42f8-a01c-53e9b28a8a8f.added", 
+        "vanilla": "b288906c-35ff-48ff-92f1-a6066ce6587c.vanilla", 
+        "added": "b288906c-35ff-48ff-92f1-a6066ce6587c.added", 
         "pruningThresholds": [], 
         "ngram": false, 
         "order": 0
+    }, 
+    "snips/default--room": {
+        "vanilla": "6ce43e79-a30a-4879-b162-db98af673952.vanilla", 
+        "added": "6ce43e79-a30a-4879-b162-db98af673952.added", 
+        "pruningThresholds": [], 
+        "ngram": true, 
+        "order": 3
     }
 }

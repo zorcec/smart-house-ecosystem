@@ -1,12 +1,12 @@
 {
   "entityNameToFilename": {
-    "snips/default--percent": "e_0.snips", 
     "room": "e_1.snips", 
     "color": "e_2.snips", 
     "scene": "e_3.snips", 
     "power_levels": "e_4.snips", 
     "item": "e_5.snips", 
-    "snips/percentage": "e_6.snips"
+    "snips/percentage": "e_6.snips", 
+    "snips/default--room": "e_7.snips"
   }, 
   "injectionsEngine": {
     "version": 2
@@ -67,245 +67,280 @@
   "postprocessors": [
     {
       "Regex": {
-        "pattern": "`eaaa05e0-6255-4775-b789-542001ca3ce8`START .[^`]*? `eaaa05e0-6255-4775-b789-542001ca3ce8`DECOY`EMPTY `eaaa05e0-6255-4775-b789-542001ca3ce8`END", 
+        "pattern": "`8e7b2f3c-adb0-414d-981e-43643ecbec75`START .[^`]*? `8e7b2f3c-adb0-414d-981e-43643ecbec75`DECOY`EMPTY `8e7b2f3c-adb0-414d-981e-43643ecbec75`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`eaaa05e0-6255-4775-b789-542001ca3ce8`START .[^`]*? `eaaa05e0-6255-4775-b789-542001ca3ce8`DECOY`INSIDE .*? `eaaa05e0-6255-4775-b789-542001ca3ce8`END`DECOY `eaaa05e0-6255-4775-b789-542001ca3ce8`END", 
+        "pattern": "`8e7b2f3c-adb0-414d-981e-43643ecbec75`START .[^`]*? `8e7b2f3c-adb0-414d-981e-43643ecbec75`DECOY`INSIDE .*? `8e7b2f3c-adb0-414d-981e-43643ecbec75`END`DECOY `8e7b2f3c-adb0-414d-981e-43643ecbec75`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`eaaa05e0-6255-4775-b789-542001ca3ce8`START`DECOY (.*?) `eaaa05e0-6255-4775-b789-542001ca3ce8`END`DECOY", 
+        "pattern": "`8e7b2f3c-adb0-414d-981e-43643ecbec75`START`DECOY (.*?) `8e7b2f3c-adb0-414d-981e-43643ecbec75`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`eaaa05e0-6255-4775-b789-542001ca3ce8`START (.*?) `eaaa05e0-6255-4775-b789-542001ca3ce8`END", 
+        "pattern": "`8e7b2f3c-adb0-414d-981e-43643ecbec75`START (.*?) `8e7b2f3c-adb0-414d-981e-43643ecbec75`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`eaaa05e0-6255-4775-b789-542001ca3ce8`START ", 
+        "pattern": "`8e7b2f3c-adb0-414d-981e-43643ecbec75`START ", 
         "flags": "i", 
         "replacement": ""
       }
     }, 
     {
       "Regex": {
-        "pattern": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`START .[^`]*? `63dd189e-6a42-4fc9-9c13-f6dd0163533b`DECOY`EMPTY `63dd189e-6a42-4fc9-9c13-f6dd0163533b`END", 
+        "pattern": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`START .[^`]*? `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`DECOY`EMPTY `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`START .[^`]*? `63dd189e-6a42-4fc9-9c13-f6dd0163533b`DECOY`INSIDE .*? `63dd189e-6a42-4fc9-9c13-f6dd0163533b`END`DECOY `63dd189e-6a42-4fc9-9c13-f6dd0163533b`END", 
+        "pattern": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`START .[^`]*? `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`DECOY`INSIDE .*? `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`END`DECOY `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`START`DECOY (.*?) `63dd189e-6a42-4fc9-9c13-f6dd0163533b`END`DECOY", 
+        "pattern": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`START`DECOY (.*?) `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`START (.*?) `63dd189e-6a42-4fc9-9c13-f6dd0163533b`END", 
+        "pattern": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`START (.*?) `8cee8e7e-7af2-4aef-a99a-90aa1773cf14`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`START ", 
+        "pattern": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`START ", 
         "flags": "i", 
         "replacement": ""
       }
     }, 
     {
       "Regex": {
-        "pattern": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`START .[^`]*? `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`DECOY`EMPTY `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`END", 
+        "pattern": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`START .[^`]*? `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`DECOY`EMPTY `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`START .[^`]*? `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`DECOY`INSIDE .*? `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`END`DECOY `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`END", 
+        "pattern": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`START .[^`]*? `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`DECOY`INSIDE .*? `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`END`DECOY `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`START`DECOY (.*?) `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`END`DECOY", 
+        "pattern": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`START`DECOY (.*?) `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`START (.*?) `54da2ba7-5115-4f19-80a8-3fc7a83db2cf`END", 
+        "pattern": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`START (.*?) `c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`START ", 
+        "pattern": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`START ", 
         "flags": "i", 
         "replacement": ""
       }
     }, 
     {
       "Regex": {
-        "pattern": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`START .[^`]*? `7dc00c88-5541-48ae-8e12-29f28e48d8a8`DECOY`EMPTY `7dc00c88-5541-48ae-8e12-29f28e48d8a8`END", 
+        "pattern": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`START .[^`]*? `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`DECOY`EMPTY `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`START .[^`]*? `7dc00c88-5541-48ae-8e12-29f28e48d8a8`DECOY`INSIDE .*? `7dc00c88-5541-48ae-8e12-29f28e48d8a8`END`DECOY `7dc00c88-5541-48ae-8e12-29f28e48d8a8`END", 
+        "pattern": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`START .[^`]*? `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`DECOY`INSIDE .*? `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`END`DECOY `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`START`DECOY (.*?) `7dc00c88-5541-48ae-8e12-29f28e48d8a8`END`DECOY", 
+        "pattern": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`START`DECOY (.*?) `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`START (.*?) `7dc00c88-5541-48ae-8e12-29f28e48d8a8`END", 
+        "pattern": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`START (.*?) `f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`START ", 
+        "pattern": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`START ", 
         "flags": "i", 
         "replacement": ""
       }
     }, 
     {
       "Regex": {
-        "pattern": "`facd2a95-94dc-4a73-9de8-8d65f278f363`START .[^`]*? `facd2a95-94dc-4a73-9de8-8d65f278f363`DECOY`EMPTY `facd2a95-94dc-4a73-9de8-8d65f278f363`END", 
+        "pattern": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`START .[^`]*? `70d54a44-2c62-4fb9-b998-7541151c9cd4`DECOY`EMPTY `70d54a44-2c62-4fb9-b998-7541151c9cd4`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`facd2a95-94dc-4a73-9de8-8d65f278f363`START .[^`]*? `facd2a95-94dc-4a73-9de8-8d65f278f363`DECOY`INSIDE .*? `facd2a95-94dc-4a73-9de8-8d65f278f363`END`DECOY `facd2a95-94dc-4a73-9de8-8d65f278f363`END", 
+        "pattern": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`START .[^`]*? `70d54a44-2c62-4fb9-b998-7541151c9cd4`DECOY`INSIDE .*? `70d54a44-2c62-4fb9-b998-7541151c9cd4`END`DECOY `70d54a44-2c62-4fb9-b998-7541151c9cd4`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`facd2a95-94dc-4a73-9de8-8d65f278f363`START`DECOY (.*?) `facd2a95-94dc-4a73-9de8-8d65f278f363`END`DECOY", 
+        "pattern": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`START`DECOY (.*?) `70d54a44-2c62-4fb9-b998-7541151c9cd4`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`facd2a95-94dc-4a73-9de8-8d65f278f363`START (.*?) `facd2a95-94dc-4a73-9de8-8d65f278f363`END", 
+        "pattern": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`START (.*?) `70d54a44-2c62-4fb9-b998-7541151c9cd4`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`facd2a95-94dc-4a73-9de8-8d65f278f363`START ", 
+        "pattern": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`START ", 
         "flags": "i", 
         "replacement": ""
       }
     }, 
     {
       "Regex": {
-        "pattern": "`87228cf5-da4e-4740-87e6-b106258ab73e`START .[^`]*? `87228cf5-da4e-4740-87e6-b106258ab73e`DECOY`EMPTY `87228cf5-da4e-4740-87e6-b106258ab73e`END", 
+        "pattern": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`START .[^`]*? `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`DECOY`EMPTY `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`87228cf5-da4e-4740-87e6-b106258ab73e`START .[^`]*? `87228cf5-da4e-4740-87e6-b106258ab73e`DECOY`INSIDE .*? `87228cf5-da4e-4740-87e6-b106258ab73e`END`DECOY `87228cf5-da4e-4740-87e6-b106258ab73e`END", 
+        "pattern": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`START .[^`]*? `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`DECOY`INSIDE .*? `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`END`DECOY `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`87228cf5-da4e-4740-87e6-b106258ab73e`START`DECOY (.*?) `87228cf5-da4e-4740-87e6-b106258ab73e`END`DECOY", 
+        "pattern": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`START`DECOY (.*?) `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`87228cf5-da4e-4740-87e6-b106258ab73e`START (.*?) `87228cf5-da4e-4740-87e6-b106258ab73e`END", 
+        "pattern": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`START (.*?) `1c9bdd4d-c504-47ba-ba76-31bcb5a61298`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`87228cf5-da4e-4740-87e6-b106258ab73e`START ", 
+        "pattern": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`START ", 
         "flags": "i", 
         "replacement": ""
       }
     }, 
     {
       "Regex": {
-        "pattern": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`START .[^`]*? `f493a396-7350-42f8-a01c-53e9b28a8a8f`DECOY`EMPTY `f493a396-7350-42f8-a01c-53e9b28a8a8f`END", 
+        "pattern": "`b288906c-35ff-48ff-92f1-a6066ce6587c`START .[^`]*? `b288906c-35ff-48ff-92f1-a6066ce6587c`DECOY`EMPTY `b288906c-35ff-48ff-92f1-a6066ce6587c`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`START .[^`]*? `f493a396-7350-42f8-a01c-53e9b28a8a8f`DECOY`INSIDE .*? `f493a396-7350-42f8-a01c-53e9b28a8a8f`END`DECOY `f493a396-7350-42f8-a01c-53e9b28a8a8f`END", 
+        "pattern": "`b288906c-35ff-48ff-92f1-a6066ce6587c`START .[^`]*? `b288906c-35ff-48ff-92f1-a6066ce6587c`DECOY`INSIDE .*? `b288906c-35ff-48ff-92f1-a6066ce6587c`END`DECOY `b288906c-35ff-48ff-92f1-a6066ce6587c`END", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`START`DECOY (.*?) `f493a396-7350-42f8-a01c-53e9b28a8a8f`END`DECOY", 
+        "pattern": "`b288906c-35ff-48ff-92f1-a6066ce6587c`START`DECOY (.*?) `b288906c-35ff-48ff-92f1-a6066ce6587c`END`DECOY", 
         "flags": "i", 
         "replacement": "unknownword"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`START (.*?) `f493a396-7350-42f8-a01c-53e9b28a8a8f`END", 
+        "pattern": "`b288906c-35ff-48ff-92f1-a6066ce6587c`START (.*?) `b288906c-35ff-48ff-92f1-a6066ce6587c`END", 
         "flags": "i", 
         "replacement": "$1"
       }
     }, 
     {
       "Regex": {
-        "pattern": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`START ", 
+        "pattern": "`b288906c-35ff-48ff-92f1-a6066ce6587c`START ", 
+        "flags": "i", 
+        "replacement": ""
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`6ce43e79-a30a-4879-b162-db98af673952`START .[^`]*? `6ce43e79-a30a-4879-b162-db98af673952`DECOY`EMPTY `6ce43e79-a30a-4879-b162-db98af673952`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`6ce43e79-a30a-4879-b162-db98af673952`START .[^`]*? `6ce43e79-a30a-4879-b162-db98af673952`DECOY`INSIDE .*? `6ce43e79-a30a-4879-b162-db98af673952`END`DECOY `6ce43e79-a30a-4879-b162-db98af673952`END", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`6ce43e79-a30a-4879-b162-db98af673952`START`DECOY (.*?) `6ce43e79-a30a-4879-b162-db98af673952`END`DECOY", 
+        "flags": "i", 
+        "replacement": "unknownword"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`6ce43e79-a30a-4879-b162-db98af673952`START (.*?) `6ce43e79-a30a-4879-b162-db98af673952`END", 
+        "flags": "i", 
+        "replacement": "$1"
+      }
+    }, 
+    {
+      "Regex": {
+        "pattern": "`6ce43e79-a30a-4879-b162-db98af673952`START ", 
         "flags": "i", 
         "replacement": ""
       }
@@ -323,92 +358,92 @@
   }, 
   "entitiesFstMap": [
     [
-      502, 
+      487, 
       "__root__"
     ], 
     [
-      503, 
-      "e_0.snips"
-    ], 
-    [
-      504, 
+      489, 
       "e_1.snips"
     ], 
     [
-      505, 
+      490, 
       "e_2.snips"
     ], 
     [
-      506, 
+      491, 
       "e_3.snips"
     ], 
     [
-      507, 
+      492, 
       "e_4.snips"
     ], 
     [
-      508, 
+      493, 
       "e_5.snips"
     ], 
     [
-      509, 
+      494, 
       "e_6.snips"
+    ], 
+    [
+      495, 
+      "e_7.snips"
     ]
   ], 
   "entityNameToDisambigs": {
-    "snips/default--percent": {
-      "start": "`eaaa05e0-6255-4775-b789-542001ca3ce8`START", 
-      "end": "`eaaa05e0-6255-4775-b789-542001ca3ce8`END", 
-      "empty": [
-        "`eaaa05e0-6255-4775-b789-542001ca3ce8`DECOY`EMPTY", 
-        4
-      ]
-    }, 
     "room": {
-      "start": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`START", 
-      "end": "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`END", 
+      "start": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`START", 
+      "end": "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`END", 
       "empty": [
-        "`63dd189e-6a42-4fc9-9c13-f6dd0163533b`DECOY`EMPTY", 
+        "`8cee8e7e-7af2-4aef-a99a-90aa1773cf14`DECOY`EMPTY", 
         4
       ]
     }, 
     "color": {
-      "start": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`START", 
-      "end": "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`END", 
+      "start": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`START", 
+      "end": "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`END", 
       "empty": [
-        "`54da2ba7-5115-4f19-80a8-3fc7a83db2cf`DECOY`EMPTY", 
+        "`c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7`DECOY`EMPTY", 
         4
       ]
     }, 
     "scene": {
-      "start": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`START", 
-      "end": "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`END", 
+      "start": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`START", 
+      "end": "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`END", 
       "empty": [
-        "`7dc00c88-5541-48ae-8e12-29f28e48d8a8`DECOY`EMPTY", 
+        "`f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd`DECOY`EMPTY", 
         4
       ]
     }, 
     "power_levels": {
-      "start": "`facd2a95-94dc-4a73-9de8-8d65f278f363`START", 
-      "end": "`facd2a95-94dc-4a73-9de8-8d65f278f363`END", 
+      "start": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`START", 
+      "end": "`70d54a44-2c62-4fb9-b998-7541151c9cd4`END", 
       "empty": [
-        "`facd2a95-94dc-4a73-9de8-8d65f278f363`DECOY`EMPTY", 
+        "`70d54a44-2c62-4fb9-b998-7541151c9cd4`DECOY`EMPTY", 
         4
       ]
     }, 
     "item": {
-      "start": "`87228cf5-da4e-4740-87e6-b106258ab73e`START", 
-      "end": "`87228cf5-da4e-4740-87e6-b106258ab73e`END", 
+      "start": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`START", 
+      "end": "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`END", 
       "empty": [
-        "`87228cf5-da4e-4740-87e6-b106258ab73e`DECOY`EMPTY", 
+        "`1c9bdd4d-c504-47ba-ba76-31bcb5a61298`DECOY`EMPTY", 
         4
       ]
     }, 
     "snips/percentage": {
-      "start": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`START", 
-      "end": "`f493a396-7350-42f8-a01c-53e9b28a8a8f`END", 
+      "start": "`b288906c-35ff-48ff-92f1-a6066ce6587c`START", 
+      "end": "`b288906c-35ff-48ff-92f1-a6066ce6587c`END", 
       "empty": [
-        "`f493a396-7350-42f8-a01c-53e9b28a8a8f`DECOY`EMPTY", 
+        "`b288906c-35ff-48ff-92f1-a6066ce6587c`DECOY`EMPTY", 
+        4
+      ]
+    }, 
+    "snips/default--room": {
+      "start": "`6ce43e79-a30a-4879-b162-db98af673952`START", 
+      "end": "`6ce43e79-a30a-4879-b162-db98af673952`END", 
+      "empty": [
+        "`6ce43e79-a30a-4879-b162-db98af673952`DECOY`EMPTY", 
         4
       ]
     }

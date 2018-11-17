@@ -157,7 +157,7 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelGuu0cI.crfsuite", 
+  "crf_model_file": "modelXc8Ltv.crfsuite", 
   "intent": "zorcec:set_color", 
   "language_code": "en", 
   "slot_name_mapping": {
