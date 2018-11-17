@@ -157,11 +157,11 @@
   }, 
   "slot_fillers": [
     {
-      "intent": "zorcec:less_light", 
+      "intent": "zorcec:decrease_light", 
       "slot_filler_name": "slot_filler_0"
     }, 
     {
-      "intent": "zorcec:more_light", 
+      "intent": "zorcec:increase_light", 
       "slot_filler_name": "slot_filler_1"
     }, 
     {
@@ -181,11 +181,11 @@
       "slot_filler_name": "slot_filler_5"
     }, 
     {
-      "intent": "zorcec:turn_off", 
+      "intent": "zorcec:turn_off_lights", 
       "slot_filler_name": "slot_filler_6"
     }, 
     {
-      "intent": "zorcec:turn_on", 
+      "intent": "zorcec:turn_on_lights", 
       "slot_filler_name": "slot_filler_7"
     }, 
     {

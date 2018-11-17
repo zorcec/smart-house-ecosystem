@@ -11,7 +11,7 @@
   }, {
     "id" : "zorcec:set_color",
     "type" : "registry",
-    "version" : "0.20.0",
+    "version" : "0.31.0",
     "language" : "en",
     "slots" : [ {
       "name" : "color",
@@ -34,6 +34,44 @@
     } ],
     "name" : "set_color"
   }, {
+    "id" : "zorcec:increase_light",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "room",
+      "id" : "slot_imported_8_TkFWT22",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "percent",
+      "id" : "slot_imported_oQMD_aftLq",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "increase_light"
+  }, {
+    "id" : "zorcec:decrease_light",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "percent",
+      "id" : "slot_imported_FWJVEcxDJ",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "room",
+      "id" : "slot_imported_RrZWhg3rsf",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "decrease_light"
+  }, {
     "id" : "zorcec:set_scene",
     "type" : "registry",
     "version" : "0.8.0",
@@ -55,16 +93,16 @@
   }, {
     "id" : "zorcec:toggle",
     "type" : "registry",
-    "version" : "0.36.0",
+    "version" : "0.47.0",
     "language" : "en",
     "slots" : [ {
-      "name" : "item",
+      "name" : "lights",
       "id" : "nVzOfiy8j",
       "entityId" : "entity_9xlKNYxkzr",
       "missingQuestion" : "What do you want to toggle?",
       "required" : true
     }, {
-      "name" : "room",
+      "name" : "item",
       "id" : "HL5x3grP_",
       "entityId" : "entity_W5qoY5ak8mow",
       "missingQuestion" : "",
@@ -74,7 +112,7 @@
   }, {
     "id" : "zorcec:set_brightness",
     "type" : "registry",
-    "version" : "0.58.0",
+    "version" : "0.70.0",
     "language" : "en",
     "slots" : [ {
       "name" : "brightness",
@@ -87,7 +125,7 @@
       "id" : "_uC95EuuP",
       "entityId" : "entity_9xlKNYxkzr",
       "missingQuestion" : "Where you want to change brightness level?",
-      "required" : true
+      "required" : false
     }, {
       "name" : "room",
       "id" : "wsrU2sdDa",
@@ -103,15 +141,15 @@
     } ],
     "name" : "set_brightness"
   }, {
-    "id" : "zorcec:turn_on",
+    "id" : "zorcec:turn_on_lights",
     "type" : "registry",
-    "version" : "0.63.0",
+    "version" : "0.77.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
       "id" : "EoHnjVdrb",
       "entityId" : "entity_9xlKNYxkzr",
-      "missingQuestion" : "What do you want to turn on?",
+      "missingQuestion" : "Which light do you want to turn on?",
       "required" : true,
       "description" : "The item that can be turned on"
     }, {
@@ -122,30 +160,11 @@
       "required" : false,
       "description" : "Room where we want to turn something on"
     } ],
-    "name" : "turn_on"
+    "name" : "turn_on_lights"
   }, {
-    "id" : "zorcec:more_light",
+    "id" : "zorcec:turn_off_lights",
     "type" : "registry",
-    "version" : "0.7.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "percent",
-      "id" : "slot_imported_yY23n1jM1",
-      "entityId" : "snips/default",
-      "missingQuestion" : "",
-      "required" : false
-    }, {
-      "name" : "room",
-      "id" : "slot_imported__SUmxc7HFA",
-      "entityId" : "entity_W5qoY5ak8mow",
-      "missingQuestion" : "",
-      "required" : false
-    } ],
-    "name" : "more_light"
-  }, {
-    "id" : "zorcec:turn_off",
-    "type" : "registry",
-    "version" : "0.37.0",
+    "version" : "0.47.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -160,26 +179,7 @@
       "missingQuestion" : "",
       "required" : false
     } ],
-    "name" : "turn_off"
-  }, {
-    "id" : "zorcec:less_light",
-    "type" : "registry",
-    "version" : "0.7.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "percent",
-      "id" : "slot_imported_CUyBqSbYw",
-      "entityId" : "snips/default",
-      "missingQuestion" : "",
-      "required" : false
-    }, {
-      "name" : "room",
-      "id" : "slot_imported_8ZxKRtvLlM",
-      "entityId" : "entity_W5qoY5ak8mow",
-      "missingQuestion" : "",
-      "required" : false
-    } ],
-    "name" : "less_light"
+    "name" : "turn_off_lights"
   } ],
   "createdAt" : "2018-09-23T06:52:34.209Z",
   "language" : "en",

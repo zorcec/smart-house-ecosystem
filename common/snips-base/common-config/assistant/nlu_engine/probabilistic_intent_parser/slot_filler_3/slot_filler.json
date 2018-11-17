@@ -102,7 +102,7 @@
         "args": {
           "entities": [
             "color", 
-            "item", 
+            "lights", 
             "room "
           ], 
           "language_code": "en", 
@@ -157,12 +157,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelXc8Ltv.crfsuite", 
+  "crf_model_file": "modelEfAMd1.crfsuite", 
   "intent": "zorcec:set_color", 
   "language_code": "en", 
   "slot_name_mapping": {
     "color": "color", 
-    "item": "item", 
+    "item": "lights", 
     "room": "room "
   }
 }

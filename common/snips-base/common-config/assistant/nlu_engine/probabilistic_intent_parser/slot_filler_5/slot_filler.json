@@ -101,7 +101,7 @@
       {
         "args": {
           "entities": [
-            "item", 
+            "lights", 
             "room "
           ], 
           "language_code": "en", 
@@ -156,11 +156,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelyJf2ik.crfsuite", 
+  "crf_model_file": "modelMcV09Y.crfsuite", 
   "intent": "zorcec:toggle", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "item": "item", 
-    "room": "room "
+    "item": "room ", 
+    "lights": "lights"
   }
 }

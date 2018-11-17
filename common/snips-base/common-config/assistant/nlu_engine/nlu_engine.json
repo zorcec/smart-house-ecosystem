@@ -172,8 +172,8 @@
       "color": {
         "automatically_extensible": false
       }, 
-      "item": {
-        "automatically_extensible": true
+      "lights": {
+        "automatically_extensible": false
       }, 
       "power_levels": {
         "automatically_extensible": false
@@ -186,27 +186,28 @@
       }, 
       "snips/default--percent": {
         "automatically_extensible": false
+      }, 
+      "snips/default--room": {
+        "automatically_extensible": false
       }
     }, 
     "language_code": "en", 
     "slot_name_mappings": {
-      "zorcec:less_light": {
-        "percent": "snips/default--percent", 
-        "room": "room "
+      "zorcec:decrease_light": {
+        "room": "snips/default--room"
       }, 
-      "zorcec:more_light": {
-        "percent": "snips/default--percent", 
-        "room": "room "
+      "zorcec:increase_light": {
+        "room": "snips/default--room"
       }, 
       "zorcec:set_brightness": {
         "brightness": "snips/percentage", 
-        "item": "item", 
+        "item": "lights", 
         "level": "power_levels", 
         "room": "room "
       }, 
       "zorcec:set_color": {
         "color": "color", 
-        "item": "item", 
+        "item": "lights", 
         "room": "room "
       }, 
       "zorcec:set_scene": {
@@ -214,15 +215,15 @@
         "scene": "scene"
       }, 
       "zorcec:toggle": {
-        "item": "item", 
+        "item": "room ", 
+        "lights": "lights"
+      }, 
+      "zorcec:turn_off_lights": {
+        "item": "lights", 
         "room": "room "
       }, 
-      "zorcec:turn_off": {
-        "item": "item", 
-        "room": "room "
-      }, 
-      "zorcec:turn_on": {
-        "item": "item", 
+      "zorcec:turn_on_lights": {
+        "item": "lights", 
         "room": "room "
       }, 
       "zorcec:weather_forecast": {}
