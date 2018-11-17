@@ -13,6 +13,9 @@ RUN adduser --disabled-password --gecos $HOSTUID service_user
 
 COPY /files/* /files
 COPY /config/snips.toml /etc/snips.toml
+
+# needed to stub errors (hotword component is missing)
+RUN mkdir -p /usr/share/snips/assistant/custom_hotword
     
 # Cleanup    
 RUN apt-get clean autoremove

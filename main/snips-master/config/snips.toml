@@ -12,11 +12,10 @@ user_dir = "/common-config/snips"
 [snips-asr]
 no_fst_map = true
 beam_size = 8
-model = "/usr/share/snips/asr"
 audio = ["+@mqtt"]
 
 [snips-dialogue]
 session_timeout = 15
 lambda_timeout = 5
 retry_count = 1
-sound_feedback_enabled_default = false
+sound-feedback-disabled-default= false

@@ -5,22 +5,6 @@
       <change afterPath="$PROJECT_DIR$/../central-tts/data/audio/amazonPolly_Salli_1542466433340.original" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../central-tts/data/audio/amazonPolly_Salli_1542466433340.wav" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397290764.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397290764.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397354575.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397354575.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397443553.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397443553.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397852978.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397852978.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398004706.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398004706.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398197963.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398197963.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398211394.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398211394.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398224463.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398224463.wav" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398238685.original" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398238685.wav" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398249657.original" afterDir="false" />
@@ -61,50 +45,36 @@
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542478859105.wav" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479112401.original" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479112401.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479993535.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479993535.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480175286.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480175286.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480947492.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480947492.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481594848.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481594848.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481797043.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481797043.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542482772934.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542482772934.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484045504.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484045504.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484274288.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484274288.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485455925.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485455925.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485460550.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485460550.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485521992.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485521992.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485576538.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485576538.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542486700038.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542486700038.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542487192263.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542487192263.wav" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/all.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/a.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/a.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/1c9bdd4d-c504-47ba-ba76-31bcb5a61298.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/1c9bdd4d-c504-47ba-ba76-31bcb5a61298.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/6ce43e79-a30a-4879-b162-db98af673952.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/6ce43e79-a30a-4879-b162-db98af673952.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/70d54a44-2c62-4fb9-b998-7541151c9cd4.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/70d54a44-2c62-4fb9-b998-7541151c9cd4.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/8cee8e7e-7af2-4aef-a99a-90aa1773cf14.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/8cee8e7e-7af2-4aef-a99a-90aa1773cf14.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/b288906c-35ff-48ff-92f1-a6066ce6587c.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/b288906c-35ff-48ff-92f1-a6066ce6587c.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/c4ef3ad8-1790-468d-b0cf-abc9aeb5adb7.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/config_inj_v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/config_inj_v2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/f610a48b-54a2-4a3b-9ea6-b3a8e8d8e7fd.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/r.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/r.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/w.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/w.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/deterministic_intent_parser/intent_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/deterministic_intent_parser/intent_parser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/nlu_engine.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/nlu_engine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_classifier/intent_classifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_classifier/intent_classifier.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_parser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/modeln46Cv6.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/modelI9cZow.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/modelenKujq.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/modelXc8Ltv.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/modelyyifQp.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/modelyJf2ik.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/modeluDIfJl.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/model6ARfeP.crfsuite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/slot_filler.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml" afterDir="false" />
@@ -294,7 +264,7 @@
           <entry key="json" value="1" />
           <entry key="sh" value="1" />
           <entry key="toml" value="3" />
-          <entry key="yaml" value="10" />
+          <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -302,7 +272,7 @@
           <entry key="JAVA" value="2" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -311,14 +281,14 @@
           <entry key="conf" value="11" />
           <entry key="sh" value="1" />
           <entry key="toml" value="4" />
-          <entry key="txt" value="35" />
+          <entry key="txt" value="87" />
           <entry key="yaml" value="609" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="1" />
-          <entry key="PLAIN_TEXT" value="116" />
+          <entry key="PLAIN_TEXT" value="168" />
           <entry key="YAML" value="609" />
         </counts>
       </usages-collector>
@@ -326,19 +296,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/main-light.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="281">
               <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
@@ -1377,7 +1352,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542489902829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542490387488" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -1556,7 +1531,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27891532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1572,9 +1546,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32756758" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32864866" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32756758" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002767" side_tool="true" weight="0.32864866" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997233" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32972974" />
@@ -1588,6 +1562,32 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32982844" />
       <window_info anchor="right" id="Gradle" order="8" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1605,9 +1605,11 @@
     <MESSAGE value="Experiment with hotword" />
     <MESSAGE value="New assistant + cleaning up a bit" />
     <MESSAGE value="Assistant update (no more direct light temperature change)" />
-    <MESSAGE value="Some small changes" />
     <MESSAGE value="Assistant update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assistant update" />
+    <MESSAGE value="Many small improvements &amp; bugfixing" />
+    <MESSAGE value="Forgotten changes" />
+    <MESSAGE value="Some small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some small changes" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1884,9 +1886,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/main-light.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/config/configuration.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144" />
@@ -1916,17 +1915,20 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/main-light.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
