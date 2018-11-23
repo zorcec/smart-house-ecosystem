@@ -39,25 +39,6 @@ services:
     volumes:
       - ../common/snips-base/common-config/:/common-config
 
-  snips-satellite:
-    container_name: snips-satellite
-    build: ./snips-satellite
-    privileged: true
-    devices:
-      - "/dev/snd"
-    external_links:
-      - mosquitto:mqtt
-      - central-tts:central-tts
-    depends_on:
-      - mosquitto
-    networks:
-        - smart-home-network
-    volumes:
-      - /run/user/1000/pulse:/run/user/1000/pulse
-      - /etc/machine-id:/etc/machine-id
-      - ~/.config/pulse/cookie:/root/.config/pulse/cookie
-      - ../common/snips-base/common-config/:/common-config
-
   central-tts:
     container_name: central-tts
     build: ./central-tts
