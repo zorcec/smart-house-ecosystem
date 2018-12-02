@@ -1,6 +1,6 @@
 FROM openjdk:8u181-jdk-slim-stretch
 
-ENV ARHITECTURE amd64
+ENV ARCH $(dpkg --print-architecture)
 ENV LIBTTSPICO_VERSION 1.0+git20130326-3
 
 ARG HOSTID=1001
