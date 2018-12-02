@@ -1,15 +1,19 @@
-version: "3.4"
+version: "3.7"
 services:
   
   snips-base:
     container_name: snips-base
-    build: ./snips-base
+    build:
+      context: ./snips-base
+      target: development
     volumes:
       - ../snips-base/common-config/:/common-config
   
   java-base:
     container_name: java-base
-    build: ./java-base
+    build:
+      context: ./java-base
+      target: development
     volumes:
       - ./java-base/gradle:/gradle
     

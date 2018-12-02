@@ -1,5 +1,4 @@
 FROM debian:stretch-slim AS development
-FROM armbuild/debian:jessie AS production
 
 ENV ARCH $(dpkg --print-architecture)
 ENV LIBTTSPICO_VERSION 1.0+git20130326-3
@@ -45,5 +44,7 @@ COPY /common-config/pulse/* /etc/pulse/
 # Cleanup    
 RUN rm -rf /temp
 RUN apt-get clean
+
+FROM armbuild/debian:jessie AS production
 
 CMD ["echo", "Snips base is ready!"]
