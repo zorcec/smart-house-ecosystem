@@ -1,4 +1,4 @@
-FROM openjdk:8u171-jre-alpine3.8
+FROM openjdk:8u171-jre-alpine3.8 AS amd64
 
 RUN mkdir -p /logs /files
 VOLUME /logs /files

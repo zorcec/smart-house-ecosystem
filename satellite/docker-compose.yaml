@@ -1,9 +1,11 @@
-version: "2"
+version: "3.7"
 services:
 
   snips-satellite:
     container_name: snips-satellite
-    build: ./snips-satellite
+    build:
+      context: ./snips-satellite
+      target: amd64
     privileged: true
     devices:
       - "/dev/snd"

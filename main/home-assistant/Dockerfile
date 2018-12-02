@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6 AS amd64
 
 ENV INSTALLATION_PATH /usr/src/app
 

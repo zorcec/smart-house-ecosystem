@@ -1,9 +1,11 @@
-version: "2"
+version: "3.7"
 services:
   
   home-assistant:
     container_name: home-assistant
-    build: ./home-assistant
+    build:
+      context: ./home-assistant
+      target: amd64
     restart: always
     ports:
       - "0.0.0.0:8123:8123"
@@ -17,7 +19,9 @@ services:
 
   mosquitto:
     container_name: mosquitto
-    build: ./mosquitto
+    build:
+      context: ./mosquitto
+      target: amd64
     restart: always
     ports:
       - "0.0.0.0:1883:1883"
@@ -28,7 +32,9 @@ services:
 
   snips-master:
     container_name: snips-master
-    build: ./snips-master
+    build:
+      context: ./snips-master
+      target: amd64
     restart: always
     external_links:
       - mosquitto:mqtt
@@ -41,7 +47,9 @@ services:
 
   central-tts:
     container_name: central-tts
-    build: ./central-tts
+    build:
+      context: ./central-tts
+      target: amd64
     ports:
       - "0.0.0.0:8081:8081"
     networks:
@@ -52,22 +60,26 @@ services:
 
   snips-watch:
     container_name: snips-watch
-    build: ./snips-watch
+    build:
+      context: ./snips-watch
+      target: amd64
     restart: always
     external_links:
       - mosquitto:mqtt
     networks:
-          - smart-home-network
+      - smart-home-network
     volumes:
       - ../common/snips-base/common-config/:/common-config
 
   mqtt-deamon:
     container_name: mqtt-deamon
-    build: ./mqtt-deamon
+    build:
+      context: ./mqtt-deamon
+      target: amd64
     external_links:
       - mosquitto:mqtt
     networks:
-          - smart-home-network
+      - smart-home-network
     volumes:
       - ./mqtt-deamon/files:/files
       - ./mqtt-deamon/config:/config

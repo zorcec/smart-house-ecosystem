@@ -1,4 +1,4 @@
-FROM common_snips-base:latest
+FROM common_snips-base:latest as amd64
 
 RUN apt-get update
 
