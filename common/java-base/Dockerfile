@@ -16,10 +16,10 @@ RUN apt-get install -y --fix-missing supervisor git
 RUN mkdir /usr/lib/gradle /app
 
 WORKDIR /usr/lib/gradle
-RUN set -x \ &&
-    apt-get install -y wget \ &&
-    wget --quiet https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip \ &&
-    unzip gradle-${GRADLE_VERSION}-bin.zip \ &&
+RUN set -x && \
+    apt-get install -y wget && \
+    wget --quiet https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip && \
+    unzip gradle-${GRADLE_VERSION}-bin.zip && \
     rm gradle-${GRADLE_VERSION}-bin.zip
 
 # mount directories
