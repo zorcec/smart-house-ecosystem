@@ -1,4 +1,4 @@
-FROM alpine:3.6 AS amd64
+FROM alpine:3.6
 
 RUN apk update && apk --no-cache add mosquitto=1.4.15-r0 && \
     mkdir -p /mosquitto/config /mosquitto/data /mosquitto/log && \

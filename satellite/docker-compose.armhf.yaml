@@ -5,7 +5,7 @@ services:
     container_name: snips-satellite
     build:
       context: ./snips-satellite
-      target: armhf
+      dockerfile: Dockerfile.armhf
     privileged: true
     devices:
       - "/dev/snd"

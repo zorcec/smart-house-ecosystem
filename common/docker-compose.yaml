@@ -5,7 +5,6 @@ services:
     container_name: snips-base
     build:
       context: ./snips-base
-      target: amd64
     volumes:
       - ../snips-base/common-config/:/common-config
   
@@ -13,7 +12,6 @@ services:
     container_name: java-base
     build:
       context: ./java-base
-      target: amd64
     volumes:
       - ./java-base/gradle:/gradle
     

@@ -5,7 +5,6 @@ services:
     container_name: snips-satellite
     build:
       context: ./snips-satellite
-      target: amd64
     privileged: true
     devices:
       - "/dev/snd"

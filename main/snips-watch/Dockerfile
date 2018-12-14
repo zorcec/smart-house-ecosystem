@@ -1,4 +1,4 @@
-FROM common_snips-base as amd64
+FROM common_snips-base
 
 ARG HOSTUID=1000
 ARG HOSTGID=1000

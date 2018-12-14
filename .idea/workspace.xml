@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/build.armhf.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/build.armhf.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/prepare.armhf.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/config/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mosquitto/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/mosquitto/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-master/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-master/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-watch/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-watch/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/build/" />
@@ -56,28 +70,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
+        <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/satellite/docker-compose.yaml">
+        <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state>
+              <caret selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
+        <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/snips-master/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -121,14 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../java-helpers/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
-        <option value="$PROJECT_DIR$/main/central-tts/files/start.sh" />
-        <option value="$PROJECT_DIR$/../central-tts/.gitignore" />
-        <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/secrets.properties" />
-        <option value="$PROJECT_DIR$/../java-helpers/src/main/java/helpers/configurations/PropertiesReader.java" />
-        <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Main.java" />
         <option value="$PROJECT_DIR$/../central-tts/build.gradle" />
         <option value="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" />
         <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" />
@@ -152,26 +194,34 @@
         <option value="$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml" />
         <option value="$PROJECT_DIR$/common/docker-compose-arm.yaml" />
         <option value="$PROJECT_DIR$/common/docker-compose-armhf.yaml" />
-        <option value="$PROJECT_DIR$/main/home-assistant/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/mosquitto/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/snips-master/Dockerfile" />
-        <option value="$PROJECT_DIR$/common/docker-compose.yaml" />
-        <option value="$PROJECT_DIR$/main/snips-watch/Dockerfile" />
-        <option value="$PROJECT_DIR$/satellite/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/Dockerfile" />
         <option value="$PROJECT_DIR$/main/home-assistant/config/secrets.yaml" />
         <option value="$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Service.java" />
-        <option value="$PROJECT_DIR$/common/java-base/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/files/voice.sh" />
         <option value="$PROJECT_DIR$/main/home-assistant/.gitignore" />
-        <option value="$PROJECT_DIR$/common/docker-compose.armhf.yaml" />
         <option value="$PROJECT_DIR$/common/build.armhf.sh" />
-        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile" />
-        <option value="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" />
         <option value="$PROJECT_DIR$/satellite/prepare.armhf.sh" />
+        <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
+        <option value="$PROJECT_DIR$/satellite/pi-gpio/config/snips.toml" />
+        <option value="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" />
+        <option value="$PROJECT_DIR$/common/docker-compose.armhf.yaml" />
+        <option value="$PROJECT_DIR$/main/home-assistant/Dockerfile" />
+        <option value="$PROJECT_DIR$/main/mosquitto/Dockerfile" />
+        <option value="$PROJECT_DIR$/main/snips-watch/Dockerfile" />
+        <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/java-base/Dockerfile" />
+        <option value="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" />
+        <option value="$PROJECT_DIR$/satellite/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" />
+        <option value="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" />
+        <option value="$PROJECT_DIR$/satellite/pi-gpio/config/service.properties" />
+        <option value="$PROJECT_DIR$/main/snips-master/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" />
       </list>
     </option>
   </component>
@@ -195,25 +245,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="central-tts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
@@ -222,6 +256,12 @@
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
@@ -232,55 +272,53 @@
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="central-tts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pi" type="462c0819:PsiDirectoryNode" />
+              <item name="gpio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544815324005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544820394503" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="jdk.selected.JAVA_MODULE" value="10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pi-gpio" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/satellite/pi-gpio/config" />
+      <recent name="$PROJECT_DIR$/common/snips-base" />
+      <recent name="$PROJECT_DIR$/common/java-base" />
+      <recent name="$PROJECT_DIR$/satellite/pi-gpio" />
+      <recent name="$PROJECT_DIR$/satellite" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/common/snips-base/common-config/hotword/sarah" />
       <recent name="$PROJECT_DIR$/common/snips-base/common-config" />
       <recent name="$PROJECT_DIR$/main/snips-satellite/config" />
       <recent name="$PROJECT_DIR$/main/central-tts/config" />
       <recent name="$PROJECT_DIR$/main/central-tts/gradle/resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/satellite" />
-      <recent name="$PROJECT_DIR$/common" />
-      <recent name="$PROJECT_DIR$/main/central-tts/config" />
-      <recent name="$PROJECT_DIR$/common/snips-base/common-config/hotword/sarah" />
-      <recent name="$PROJECT_DIR$/admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Embedded Linux JVM.Run Raspberry PI">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -331,6 +369,42 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="Run Raspberry PI" type="Run as an Embedded Java application" factoryName="Embedded Linux JVM">
+      <option name="classesDirectory" />
+      <option name="hostname" value="" />
+      <option name="keyPath" value="" />
+      <option name="password" value="" />
+      <option name="port" value="1234" />
+      <option name="programArguments" value="" />
+      <option name="runAsRoot" value="true" />
+      <option name="sshPort" value="22" />
+      <option name="username" value="" />
+      <option name="usingKey" value="false" />
+      <option name="vmParameters" value="" />
+      <option name="moduleName" value="" />
+      <option name="mainclass" value="pi.gpio.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Run as an Embedded Java application" factoryName="Embedded Linux JVM">
+      <option name="classesDirectory" />
+      <option name="hostname" value="" />
+      <option name="keyPath" value="" />
+      <option name="password" value="" />
+      <option name="port" value="1234" />
+      <option name="programArguments" value="" />
+      <option name="runAsRoot" value="true" />
+      <option name="sshPort" value="22" />
+      <option name="username" value="" />
+      <option name="usingKey" value="false" />
+      <option name="vmParameters" value="" />
+      <option name="moduleName" value="" />
+      <option name="mainclass" value="pi.gpio.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -470,14 +544,35 @@
       <option name="project" value="LOCAL" />
       <updated>1544814615910</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Convenience stuff for armhf">
+      <created>1544815371410</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1544815371410</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Docker file fixes">
+      <created>1544815820994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544815820994</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Docker file fixes">
+      <created>1544816048329</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1544816048329</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2412839" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24405092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,9 +586,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3261339" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.325054" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002767" side_tool="true" weight="0.32864866" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997233" visible="true" weight="0.3261339" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997233" weight="0.3261339" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.31965443" />
@@ -580,7 +675,9 @@
     <MESSAGE value="Half way to support armhf" />
     <MESSAGE value="Adapting logic for new picotts" />
     <MESSAGE value="Making x64 fully working again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making x64 fully working again" />
+    <MESSAGE value="Convenience stuff for armhf" />
+    <MESSAGE value="Docker file fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker file fixes" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -645,41 +742,6 @@ return t;</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_5/metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_6/metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_2/metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/data/VoicesData.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3445">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/files/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/groups.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/snips-satellite/config/snips.toml" />
     <entry file="file://$PROJECT_DIR$/main/snips-satellite/config/supervisor/services.conf" />
     <entry file="file://$PROJECT_DIR$/main/snips-master/config/supervisor/services.conf">
@@ -743,27 +805,6 @@ return t;</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/docker-compose-arm.yaml" />
     <entry file="file://$PROJECT_DIR$/common/docker-compose-armhf.yaml" />
-    <entry file="file://$PROJECT_DIR$/main/mqtt-deamon/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/mosquitto/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/snips-watch/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/customize.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -778,13 +819,6 @@ return t;</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/snips-master/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -809,13 +843,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/files/voice.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -824,9 +851,6 @@ return t;</expression-string>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/config/service.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main/central-tts/config/secrets.properties">
@@ -839,31 +863,77 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/tools/scripts/cleanup-docker.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/satellite/build.armhf.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/central-tts/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/config/snips.toml" />
+    <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/files/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/home-assistant/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/mosquitto/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/snips-watch/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/mqtt-deamon/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="308">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -874,48 +944,97 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/scripts/cleanup-docker.sh">
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="50" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
+    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/build.armhf.sh">
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/config/service.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pi/gpio/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/satellite/docker-compose.armhf.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/satellite/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/snips-master/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -959,7 +1078,7 @@ return t;</expression-string>
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -971,7 +1090,7 @@ return t;</expression-string>
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>central-tts_main|central-tts</last-edited>
+          <last-edited>pi-gpio</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -11,11 +11,11 @@ RUN apt-get install -y supervisor git
 RUN	mkdir /temp && \
 	apt-get install -y libpopt0 wget && \
 	wget --quiet http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-data_${LIBTTSPICO_VERSION}_all.deb -O /temp/libttspico-data_${LIBTTSPICO_VERSION}_all.deb && \
-	wget --quiet http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico0_${LIBTTSPICO_VERSION}_$(dpkg --print-architecture).deb -O /temp/libttspico0_${LIBTTSPICO_VERSION}_$(dpkg --print-architecture).deb && \
-	wget --quiet http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-utils_${LIBTTSPICO_VERSION}_$(dpkg --print-architecture).deb -O /temp/libttspico-utils_${LIBTTSPICO_VERSION}_$(dpkg --print-architecture).deb && \
+	wget --quiet http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico0_${LIBTTSPICO_VERSION}_${ARCH}.deb -O /temp/libttspico0_${LIBTTSPICO_VERSION}_${ARCH}.deb && \
+	wget --quiet http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-utils_${LIBTTSPICO_VERSION}_${ARCH}.deb -O /temp/libttspico-utils_${LIBTTSPICO_VERSION}_${ARCH}.deb && \
 	dpkg -i /temp/libttspico-data_${LIBTTSPICO_VERSION}_all.deb && \
-	dpkg -i /temp/libttspico0_${LIBTTSPICO_VERSION}_$(dpkg --print-architecture).deb && \
-	dpkg -i /temp/libttspico-utils_${LIBTTSPICO_VERSION}_$(dpkg --print-architecture).deb
+	dpkg -i /temp/libttspico0_${LIBTTSPICO_VERSION}_${ARCH}.deb && \
+	dpkg -i /temp/libttspico-utils_${LIBTTSPICO_VERSION}_${ARCH}.deb
 
 # Clone src
 RUN git clone https://github.com/zorcec/central-tts.git $INSTALLATION_PATH
