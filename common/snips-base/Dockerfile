@@ -44,6 +44,6 @@ COPY /common-config/pulse/* /etc/pulse/
 RUN rm -rf /temp
 RUN apt-get clean
 
-FROM armbuild/debian:jessie AS armhf
-
 CMD ["echo", "Snips base is ready!"]
+
+FROM armbuild/debian:jessie AS armhf
