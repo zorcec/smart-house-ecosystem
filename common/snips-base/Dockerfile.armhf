@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM armhf/debian:stretch-slim
 
 ENV ARCH armhf
 ENV LIBTTSPICO_VERSION=1.0+git20130326-3

@@ -11,7 +11,7 @@ services:
   java-base:
     container_name: java-base
     build:
-      context: ./java-base
+      context: java-base
     volumes:
       - ./java-base/gradle:/gradle
     

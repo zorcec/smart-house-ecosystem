@@ -1,4 +1,5 @@
-FROM debian:stretch-slim
+# TODO switch to alpine; maybe forget about picotts?
+FROM armhfbuild/debian
 
 ENV ARCH armhf
 ENV LIBTTSPICO_VERSION 1.0+git20130326-3

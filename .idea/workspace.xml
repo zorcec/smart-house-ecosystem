@@ -5,30 +5,136 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/config/service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/main/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/home-assistant/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/home-assistant/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/config/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/config/service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/config/supervisor/services.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397290764.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397290764.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397354575.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397354575.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397443553.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397443553.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397852978.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542397852978.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398004706.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398004706.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398197963.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398197963.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398211394.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398211394.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398224463.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398224463.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398238685.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398238685.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398249657.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398249657.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398340634.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398340634.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398387854.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398387854.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398451750.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398451750.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398465514.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398465514.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398914632.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398914632.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398919598.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398919598.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398935244.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542398935244.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542399010068.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542399010068.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400597920.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400597920.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400644328.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400644328.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400669617.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400669617.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400819266.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542400819266.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542469312472.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542469312472.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542469911433.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542469911433.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542470006521.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542470006521.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542473439013.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542473439013.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542478859105.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542478859105.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479112401.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479112401.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479993535.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542479993535.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480175286.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480175286.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480947492.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542480947492.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481594848.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481594848.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481797043.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542481797043.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542482772934.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542482772934.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484045504.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484045504.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484274288.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542484274288.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485455925.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485455925.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485460550.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485460550.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485521992.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485521992.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485576538.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542485576538.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542486700038.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542486700038.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542487192263.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/data/audio/amazonPolly_Salli_1542487192263.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/central-tts/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/files/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.HA_VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/.HA_VERSION" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/mosquitto/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/mosquitto/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/snips-master/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-master/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/snips-watch/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/snips-watch/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/auth_provider.homeassistant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/core.config_entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.storage/onboarding" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/.uuid" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/.uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/configuration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/configuration.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/automation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/automation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/customize.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/customize.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/all.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/all.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/ambient-light.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/main-light.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/main-light.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/sensors/development/main-light.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/devices/sensors/weather-prediction.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/weather-prediction.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/groups.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/groups.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/homeassistant.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/homeassistant.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/intent-scripts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/mqtt.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/mqtt.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/home-assistant/config/customize/scripts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/scripts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mosquitto/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/mosquitto/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mosquitto/config/mosquitto.conf" beforeDir="false" afterPath="$PROJECT_DIR$/master/mosquitto/config/mosquitto.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/master/mqtt-deamon/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/mqtt-deamon/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/config/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/mqtt-deamon/config/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/files/mqtt-spy-daemon-0.2.0-beta-b1-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/master/mqtt-deamon/files/mqtt-spy-daemon-0.2.0-beta-b1-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mqtt-deamon/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/master/mqtt-deamon/files/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-master/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-master/config/snips.toml" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/config/snips.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-master/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/config/supervisor/services.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-master/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/files/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-watch/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-watch/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/snips-watch/config/snips.toml" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-watch/config/snips.toml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/build/" />
@@ -70,15 +176,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -88,19 +185,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
+        <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/central-tts/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/central-tts/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -115,7 +230,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/snips-master/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/master/snips-master/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
@@ -171,7 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../central-tts/build.gradle" />
         <option value="$PROJECT_DIR$/../central-tts/data/VoicesData.xml" />
         <option value="$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf" />
         <option value="$PROJECT_DIR$/main/snips-satellite/files/voice.sh" />
@@ -219,9 +333,10 @@
         <option value="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" />
         <option value="$PROJECT_DIR$/satellite/pi-gpio/config/service.properties" />
         <option value="$PROJECT_DIR$/main/snips-master/Dockerfile" />
-        <option value="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" />
         <option value="$PROJECT_DIR$/common/snips-base/Dockerfile" />
         <option value="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/master/central-tts/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" />
       </list>
     </option>
   </component>
@@ -252,41 +367,6 @@
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="snips-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pi" type="462c0819:PsiDirectoryNode" />
-              <item name="gpio" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -296,7 +376,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544820394503" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544822926787" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pi-gpio" />
@@ -565,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544816048329</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Trying to put all &quot;under same roof&quot;">
+      <created>1544820432810</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1544820432810</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -677,7 +764,8 @@
     <MESSAGE value="Making x64 fully working again" />
     <MESSAGE value="Convenience stuff for armhf" />
     <MESSAGE value="Docker file fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker file fixes" />
+    <MESSAGE value="Trying to put all &quot;under same roof&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to put all &quot;under same roof&quot;" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -742,26 +830,25 @@ return t;</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/snips-satellite/config/snips.toml" />
     <entry file="file://$PROJECT_DIR$/main/snips-satellite/config/supervisor/services.conf" />
-    <entry file="file://$PROJECT_DIR$/main/snips-master/config/supervisor/services.conf">
+    <entry file="file://$PROJECT_DIR$/master/snips-master/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/all.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/all.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/automation.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/automation.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/sensors/development/main-light.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
@@ -769,24 +856,24 @@ return t;</expression-string>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/sensors/development/ambient-light.yaml" />
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/lights/development/main-light.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/main-light.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/intent-scripts.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/intent-scripts.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/snips-master/config/snips.toml">
+    <entry file="file://$PROJECT_DIR$/master/snips-master/config/snips.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
@@ -805,17 +892,17 @@ return t;</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/docker-compose-arm.yaml" />
     <entry file="file://$PROJECT_DIR$/common/docker-compose-armhf.yaml" />
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/customize.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/customize.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/configuration.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/configuration.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/customize/devices/sensors/weather-prediction.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/weather-prediction.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="29" />
@@ -829,7 +916,7 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/config/secrets.yaml">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/secrets.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" selection-start-column="24" selection-end-column="24" />
@@ -850,13 +937,13 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/config/service.properties">
+    <entry file="file://$PROJECT_DIR$/master/central-tts/config/service.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/config/secrets.properties">
+    <entry file="file://$PROJECT_DIR$/master/central-tts/config/secrets.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/.gitignore">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
@@ -873,13 +960,6 @@ return t;</expression-string>
     <entry file="file://$PROJECT_DIR$/satellite/build.armhf.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -895,45 +975,38 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/home-assistant/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/mosquitto/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/master/mosquitto/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/snips-watch/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/master/snips-watch/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/mqtt-deamon/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/master/mqtt-deamon/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/master/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -958,7 +1031,7 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/central-tts/config/supervisor/services.conf">
+    <entry file="file://$PROJECT_DIR$/master/central-tts/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="14" />
@@ -971,9 +1044,6 @@ return t;</expression-string>
           <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pi/gpio/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/satellite/docker-compose.armhf.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -996,7 +1066,7 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/snips-master/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/master/snips-master/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
@@ -1010,20 +1080,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1031,10 +1087,54 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pi/gpio/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/central-tts/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/central-tts/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
