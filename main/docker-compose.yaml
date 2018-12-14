@@ -49,7 +49,6 @@ services:
     container_name: central-tts
     build:
       context: ./central-tts
-      target: amd64
     ports:
       - "0.0.0.0:8081:8081"
     networks:

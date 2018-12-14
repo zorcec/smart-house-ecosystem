@@ -1,4 +1,7 @@
-FROM openjdk:8u181-jdk-alpine3.8 as amd64
+FROM openjdk:8u181-jdk-slim-stretch AS amd64
+
+ENV ARHITECTURE amd64
+ENV LIBTTSPICO_VERSION 1.0+git20130326-3
 
 ARG HOSTID=1001
 
@@ -6,19 +9,18 @@ ENV GRADLE_VERSION 4.3.1
 ENV GRADLE_HOME /usr/lib/gradle/gradle-${GRADLE_VERSION}
 ENV PATH ${PATH}:${GRADLE_HOME}/bin
 
+RUN apt-get update
+RUN apt-get install -y --fix-missing supervisor git
+
 # GRADLE
 RUN mkdir /usr/lib/gradle /app
 
 WORKDIR /usr/lib/gradle
-RUN set -x \
-  && apk add --no-cache wget \
-  && wget --quiet https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip \
-  && unzip gradle-${GRADLE_VERSION}-bin.zip \
-  && rm gradle-${GRADLE_VERSION}-bin.zip \
-  && apk del wget
-
-# OTHER BASH TOOLS
-RUN set -x && apk add --no-cache bash git supervisor
+RUN set -x \ &&
+    apt-get install -y wget \ &&
+    wget --quiet https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip \ &&
+    unzip gradle-${GRADLE_VERSION}-bin.zip \ &&
+    rm gradle-${GRADLE_VERSION}-bin.zip
 
 # mount directories
 RUN mkdir /gradle
@@ -28,4 +30,4 @@ WORKDIR /gradle
 
 CMD ["echo", "java-base is ready!"]
 
-FROM arm32v6/openjdk:8u181-jdk-alpine3.8 AS armhf
+FROM armbuild/debian:jessie AS armhf

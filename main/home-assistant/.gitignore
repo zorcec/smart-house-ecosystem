@@ -1,4 +1,5 @@
 /src
 /config/**/*.log
-/config/**/*.db*
+/config/**/*.db
+/config/.storage
 /config/secrets.yaml
