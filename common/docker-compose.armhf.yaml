@@ -4,7 +4,7 @@ services:
   snips-base:
     container_name: snips-base
     build:
-      context: ./snips-base
+      context: snips-base
       dockerfile: Dockerfile.armhf
     volumes:
       - ../snips-base/common-config/:/common-config
