@@ -16,4 +16,12 @@ services:
       dockerfile: Dockerfile.armhf
     volumes:
       - ./java-base/gradle:/gradle
+
+  java-base:
+    container_name: java-base
+    build:
+      context: java-base
+      dockerfile: Dockerfile.armhf
+    volumes:
+      - ./java-base/gradle:/gradle
     

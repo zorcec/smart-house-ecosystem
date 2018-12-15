@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pi-gpio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/pi-gpio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/pi-gpio.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/pi-gpio.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/java-base-debian/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/java-base-debian/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master/prepare.amd64.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master/prepare.armhf.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite/prepare.amd64.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/java-base/gradle/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/home-assistant/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master/home-assistant/config/.HA_VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/.HA_VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/build.armhf.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/prepare.armhf.sh" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/prepare.armhf.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/snips-satellite/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/snips-satellite/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/build/" />
@@ -89,10 +67,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="34">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -101,16 +88,64 @@
         <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/files/start.sh">
+        <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="340">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -154,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/docker-compose.yaml" />
-        <option value="$PROJECT_DIR$/main/snips-satellite/Dockerfile" />
         <option value="$PROJECT_DIR$/main/snips-satellite/config/supervisor/services.conf" />
         <option value="$PROJECT_DIR$/main/snips-satellite/config/snips.toml" />
         <option value="$PROJECT_DIR$/main/central-tts/data/VoicesData.xml" />
@@ -189,8 +222,6 @@
         <option value="$PROJECT_DIR$/common/snips-base/Dockerfile" />
         <option value="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" />
         <option value="$PROJECT_DIR$/master/home-assistant/Dockerfile" />
-        <option value="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" />
-        <option value="$PROJECT_DIR$/common/java-base/Dockerfile" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/Dockerfile.armhf" />
         <option value="$PROJECT_DIR$/satellite/build.amd64.sh" />
         <option value="$PROJECT_DIR$/satellite/build.armhf.sh" />
@@ -201,10 +232,14 @@
         <option value="$PROJECT_DIR$/master/central-tts/Dockerfile" />
         <option value="$PROJECT_DIR$/master/prepare.amd64.sh" />
         <option value="$PROJECT_DIR$/master/prepare.armhf.sh" />
-        <option value="$PROJECT_DIR$/common/docker-compose.armhf.yaml" />
-        <option value="$PROJECT_DIR$/common/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/../pi-gpio/.gitignore" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" />
+        <option value="$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Service.java" />
+        <option value="$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Main.java" />
+        <option value="$PROJECT_DIR$/common/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/common/docker-compose.armhf.yaml" />
+        <option value="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/common/java-base/Dockerfile" />
       </list>
     </option>
   </component>
@@ -233,34 +268,23 @@
           <expand>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pi-gpio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pi-gpio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="satellite" type="462c0819:PsiDirectoryNode" />
-              <item name="snips-satellite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
-              <item name="snips-satellite" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +295,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544864997093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544865967435" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pi-gpio/build.gradle" />
@@ -554,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544822952940</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Making docker nicer with debian/alpine for armhf">
+      <created>1544865104092</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1544865104092</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,7 +608,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.325054" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002767" side_tool="true" weight="0.32864866" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997233" weight="0.3261339" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997233" visible="true" weight="0.3261339" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.31965443" />
@@ -668,7 +699,8 @@
     <MESSAGE value="Docker file fixes" />
     <MESSAGE value="Trying to put all &quot;under same roof&quot;" />
     <MESSAGE value="Moving things around" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving things around" />
+    <MESSAGE value="Making docker nicer with debian/alpine for armhf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making docker nicer with debian/alpine for armhf" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -733,25 +765,6 @@ return t;</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/master/snips-master/config/snips.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/src/main/java/services/centralTTS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/docker-compose-arm.yaml" />
-    <entry file="file://$PROJECT_DIR$/common/docker-compose-armhf.yaml" />
     <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/customize.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -903,13 +916,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/java-base/gradle/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -938,13 +944,6 @@ return t;</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -983,31 +982,10 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/master/prepare.armhf.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1028,24 +1006,86 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/files/start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/files/start.sh">
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/prepare.armhf.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>

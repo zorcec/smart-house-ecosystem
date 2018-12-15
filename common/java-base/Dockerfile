@@ -1,4 +1,4 @@
-FROM arm32v6/openjdk:8u181-jdk-alpine3.8
+FROM openjdk:8u181-jdk-alpine3.8
 
 ARG HOSTID=1001
 

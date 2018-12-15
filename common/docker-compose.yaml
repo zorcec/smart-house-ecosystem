@@ -14,4 +14,10 @@ services:
       context: java-base-debian
     volumes:
       - ./java-base/gradle:/gradle
-    
+
+  java-base:
+    container_name: java-base
+    build:
+      context: java-base
+    volumes:
+      - ./java-base/gradle:/gradle
