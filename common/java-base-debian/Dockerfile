@@ -1,6 +1,6 @@
-FROM armhfbuild/debian
+FROM openjdk:8u181-jdk-slim-stretch
 
-ENV ARCH armhf
+ENV ARCH amd64
 ENV LIBTTSPICO_VERSION 1.0+git20130326-3
 
 ARG HOSTID=1001
@@ -29,5 +29,3 @@ VOLUME /gradle
 WORKDIR /gradle
 
 CMD ["echo", "java-base is ready!"]
-
-

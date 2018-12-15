@@ -8,6 +8,8 @@
       <module name="gradle_test" target="1.8" />
       <module name="java-helpers_main" target="1.8" />
       <module name="java-helpers_test" target="1.8" />
+      <module name="pi-gpio.main" target="1.10" />
+      <module name="pi-gpio.test" target="1.10" />
     </bytecodeTargetLevel>
   </component>
 </project>

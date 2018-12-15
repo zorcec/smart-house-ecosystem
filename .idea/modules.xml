@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-helpers.iml" filepath="$PROJECT_DIR$/.idea/modules/java-helpers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-helpers_main.iml" group="java-helpers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-helpers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-helpers_test.iml" group="java-helpers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pi-gpio.iml" filepath="$PROJECT_DIR$/.idea/modules/pi-gpio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pi-gpio.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pi-gpio.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pi-gpio.test.iml" filepath="$PROJECT_DIR$/.idea/modules/pi-gpio.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/smart-house-ecosystem.iml" filepath="$PROJECT_DIR$/.idea/smart-house-ecosystem.iml" />
     </modules>
   </component>

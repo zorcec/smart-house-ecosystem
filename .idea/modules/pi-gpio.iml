@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="pi-gpio" external.linked.project.path="$MODULE_DIR$/../../../pi-gpio" external.root.project.path="$MODULE_DIR$/../../../pi-gpio" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../pi-gpio">
+      <excludeFolder url="file://$MODULE_DIR$/../../../pi-gpio/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../pi-gpio/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../pi-gpio/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

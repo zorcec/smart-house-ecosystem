@@ -1,4 +1,4 @@
-FROM common_java-base:latest
+FROM common_java-base-debian:latest
 
 ENV INSTALLATION_PATH /usr/src/app
 
