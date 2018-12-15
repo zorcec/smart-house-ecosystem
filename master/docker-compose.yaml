@@ -26,7 +26,7 @@ services:
     networks:
       - smart-home-network
     volumes:
-      - ./mosquitto/config:/mosquitto/config/
+      - ./mosquitto/config:/mosquitto/config
 
   snips-master:
     container_name: snips-master
@@ -40,7 +40,7 @@ services:
     networks:
       - smart-home-network
     volumes:
-      - ../common/snips-base/common-config/:/common-config
+      - ../common/snips-base/common-config:/common-config
 
   central-tts:
     container_name: central-tts

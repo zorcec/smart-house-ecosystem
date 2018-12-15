@@ -16,4 +16,4 @@ COPY /config/supervisor/* /etc/supervisor/conf.d/
 # Cleanup    
 RUN apt-get clean autoremove
 
-CMD ["bash", "/files/start.sh"]
+ENTRYPOINT ["bash", "/files/start.sh"]

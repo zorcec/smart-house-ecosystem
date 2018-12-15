@@ -8,7 +8,7 @@ RUN apt-get update
 # Install and configure supervisor
 RUN apt-get install -y supervisor
 COPY config/supervisor/* /etc/supervisor/conf.d/
-RUN chown -R $HOSTUID:$HOSTGID /etc/supervisor/conf.d/
+RUN chown -R $HOSTUID:$HOSTGID /etc/supervisor/conf.d /etc/snips.toml /usr/share/snips
 RUN adduser --disabled-password --gecos $HOSTUID service_user
 
 COPY /files/* /files
@@ -16,8 +16,8 @@ COPY /config/snips.toml /etc/snips.toml
 
 # needed to stub errors (hotword component is missing)
 RUN mkdir -p /usr/share/snips/assistant/custom_hotword
-    
-# Cleanup    
+
+# Cleanup
 RUN apt-get clean autoremove
 
-CMD ["bash", "/files/start.sh"]
+ENTRYPOINT ["bash", "/files/start.sh"]

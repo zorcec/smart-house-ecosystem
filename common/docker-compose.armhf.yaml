@@ -6,22 +6,16 @@ services:
     build:
       context: snips-base
       dockerfile: Dockerfile.armhf
-    volumes:
-      - ../snips-base/common-config/:/common-config
   
   java-base-debian:
     container_name: java-base-debian
     build:
       context: java-base-debian
       dockerfile: Dockerfile.armhf
-    volumes:
-      - ./java-base/gradle:/gradle
 
   java-base:
     container_name: java-base
     build:
       context: java-base
       dockerfile: Dockerfile.armhf
-    volumes:
-      - ./java-base/gradle:/gradle
     

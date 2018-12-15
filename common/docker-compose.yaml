@@ -5,19 +5,13 @@ services:
     container_name: snips-base
     build:
       context: snips-base
-    volumes:
-      - ../snips-base/common-config/:/common-config
   
   java-base-debian:
     container_name: java-base-debian
     build:
       context: java-base-debian
-    volumes:
-      - ./java-base/gradle:/gradle
 
   java-base:
     container_name: java-base
     build:
       context: java-base
-    volumes:
-      - ./java-base/gradle:/gradle

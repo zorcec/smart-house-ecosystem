@@ -7,19 +7,12 @@ user_dir = "/common-config/snips"
 
 [snips-audio-server]
 bind = "satellite-development@mqtt"
-frame = 128
 
 [snips-hotword]
-# model = "/usr/share/snips/hotword"
-# hotword_id = "default"
 model = "/common-config/hotword/sarah"
 sensitivity = "0.5"
 audio = ["satellite-development@mqtt"]
 
 [snips-tts]
-## Choose one tts provider (defaults to picotts)
-# provider = "picotts"
 provider = "customtts"
-## customtts specific configuration (here configured to use picotts)
-#customtts = { command = ["pico2wave", "-w", "%%OUTPUT_FILE%%", "-l", "%%LANG%%", "%%TEXT%%"] }
 customtts = { command = ["/files/voice.sh", "%%TEXT%%", "%%OUTPUT_FILE%%"] }
