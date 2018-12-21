@@ -1,4 +1,4 @@
-FROM common_java-base:latest
+FROM common_java-base-debian:latest
 
 RUN apt-get update
 

@@ -1,17 +1,30 @@
 {
   "id" : "proj_E6gMV1A3wWo0",
-  "name" : "House",
+  "name" : "SARAH",
   "intents" : [ {
     "id" : "zorcec:weather_forecast",
+    "type" : "registry",
+    "version" : "0.11.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "date",
+      "id" : "0yznjRuKS",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "For when do you want to hear the weather forecast?",
+      "required" : true
+    } ],
+    "name" : "weather_forecast"
+  }, {
+    "id" : "zorcec:temperature_outside",
     "type" : "registry",
     "version" : "0.2.0",
     "language" : "en",
     "slots" : [ ],
-    "name" : "weather_forecast"
+    "name" : "temperature_outside"
   }, {
     "id" : "zorcec:set_color",
     "type" : "registry",
-    "version" : "0.31.0",
+    "version" : "0.36.0",
     "language" : "en",
     "slots" : [ {
       "name" : "color",
@@ -36,7 +49,7 @@
   }, {
     "id" : "zorcec:increase_light",
     "type" : "registry",
-    "version" : "0.1.0",
+    "version" : "0.2.0",
     "language" : "en",
     "slots" : [ {
       "name" : "room",
@@ -93,7 +106,7 @@
   }, {
     "id" : "zorcec:toggle",
     "type" : "registry",
-    "version" : "0.47.0",
+    "version" : "0.51.0",
     "language" : "en",
     "slots" : [ {
       "name" : "lights",
@@ -112,7 +125,7 @@
   }, {
     "id" : "zorcec:set_brightness",
     "type" : "registry",
-    "version" : "0.70.0",
+    "version" : "0.74.0",
     "language" : "en",
     "slots" : [ {
       "name" : "brightness",
@@ -143,7 +156,7 @@
   }, {
     "id" : "zorcec:turn_on_lights",
     "type" : "registry",
-    "version" : "0.77.0",
+    "version" : "0.83.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -164,7 +177,7 @@
   }, {
     "id" : "zorcec:turn_off_lights",
     "type" : "registry",
-    "version" : "0.47.0",
+    "version" : "0.53.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -180,6 +193,20 @@
       "required" : false
     } ],
     "name" : "turn_off_lights"
+  }, {
+    "id" : "koan:WhatDidISay",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "WhatDidISay"
+  }, {
+    "id" : "koan:SayItAgain",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "SayItAgain"
   } ],
   "createdAt" : "2018-09-23T06:52:34.209Z",
   "language" : "en",
@@ -194,5 +221,5 @@
   },
   "analyticsEnabled" : true,
   "heartbeatEnabled" : true,
-  "hotword" : "hey_snips"
+  "hotword" : "sarah"
 }

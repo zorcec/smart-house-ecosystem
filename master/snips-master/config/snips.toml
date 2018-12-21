@@ -10,8 +10,6 @@ user_dir = "/common-config/snips"
 [snips-nlu]
 
 [snips-asr]
-no_fst_map = true
-beam_size = 8
 audio = ["+@mqtt"]
 
 [snips-dialogue]

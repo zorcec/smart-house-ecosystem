@@ -69,38 +69,8 @@
       }, 
       {
         "args": {
-          "language_code": "en", 
-          "n": 1
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          0
-        ]
-      }, 
-      {
-        "args": {
-          "language_code": "en", 
-          "n": 2
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          -1, 
-          0
-        ]
-      }, 
-      {
-        "args": {
-          "language_code": "en", 
-          "n": 3
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          -1
-        ]
-      }, 
-      {
-        "args": {
           "entities": [
+            "color", 
             "lights", 
             "room "
           ], 
@@ -156,11 +126,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelMcV09Y.crfsuite", 
-  "intent": "zorcec:toggle", 
+  "crf_model_file": "modelGrxEmz.crfsuite", 
+  "intent": "zorcec:set_color", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "item": "room ", 
-    "lights": "lights"
+    "color": "color", 
+    "item": "lights", 
+    "room": "room "
   }
 }

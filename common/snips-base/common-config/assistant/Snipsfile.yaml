@@ -1,2 +1,4 @@
 assistant_id: proj_E6gMV1A3wWo0
-skills: []
+skills:
+-   name: koan.Say_it_again
+    url: https://github.com/koenvervloesem/snips-app-say-it-again

@@ -85,34 +85,6 @@
         }, 
         {
           "args": {
-            "n": 1
-          }, 
-          "factory_name": "shape_ngram", 
-          "offsets": [
-            0
-          ]
-        }, 
-        {
-          "args": {
-            "n": 2
-          }, 
-          "factory_name": "shape_ngram", 
-          "offsets": [
-            -1, 
-            0
-          ]
-        }, 
-        {
-          "args": {
-            "n": 3
-          }, 
-          "factory_name": "shape_ngram", 
-          "offsets": [
-            -1
-          ]
-        }, 
-        {
-          "args": {
             "tagging_scheme_code": 2, 
             "use_stemming": true
           }, 
@@ -157,40 +129,52 @@
   }, 
   "slot_fillers": [
     {
-      "intent": "zorcec:decrease_light", 
+      "intent": "koan:SayItAgain", 
       "slot_filler_name": "slot_filler_0"
     }, 
     {
-      "intent": "zorcec:increase_light", 
+      "intent": "koan:WhatDidISay", 
       "slot_filler_name": "slot_filler_1"
     }, 
     {
-      "intent": "zorcec:set_brightness", 
+      "intent": "zorcec:decrease_light", 
       "slot_filler_name": "slot_filler_2"
     }, 
     {
-      "intent": "zorcec:set_color", 
+      "intent": "zorcec:increase_light", 
       "slot_filler_name": "slot_filler_3"
     }, 
     {
-      "intent": "zorcec:set_scene", 
+      "intent": "zorcec:set_brightness", 
       "slot_filler_name": "slot_filler_4"
     }, 
     {
-      "intent": "zorcec:toggle", 
+      "intent": "zorcec:set_color", 
       "slot_filler_name": "slot_filler_5"
     }, 
     {
-      "intent": "zorcec:turn_off_lights", 
+      "intent": "zorcec:set_scene", 
       "slot_filler_name": "slot_filler_6"
     }, 
     {
-      "intent": "zorcec:turn_on_lights", 
+      "intent": "zorcec:temperature_outside", 
       "slot_filler_name": "slot_filler_7"
     }, 
     {
-      "intent": "zorcec:weather_forecast", 
+      "intent": "zorcec:toggle", 
       "slot_filler_name": "slot_filler_8"
+    }, 
+    {
+      "intent": "zorcec:turn_off_lights", 
+      "slot_filler_name": "slot_filler_9"
+    }, 
+    {
+      "intent": "zorcec:turn_on_lights", 
+      "slot_filler_name": "slot_filler_10"
+    }, 
+    {
+      "intent": "zorcec:weather_forecast", 
+      "slot_filler_name": "slot_filler_11"
     }
   ]
 }

@@ -13,9 +13,9 @@ services:
       context: java-base-debian
       dockerfile: Dockerfile.armhf
 
-  java-base:
-    container_name: java-base
+  java-base-alpine:
+    container_name: java-base-alpine
     build:
-      context: java-base
+      context: java-base-alpine
       dockerfile: Dockerfile.armhf
     

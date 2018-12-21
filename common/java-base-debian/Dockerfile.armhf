@@ -1,8 +1,6 @@
-FROM armhfbuild/debian
+FROM resin/rpi-raspbian:stretch
 
 ENV ARCH armhf
-ENV LIBTTSPICO_VERSION 1.0+git20130326-3
-
 ARG HOSTID=1001
 
 ENV GRADLE_VERSION 4.3.1

@@ -1,17 +1,23 @@
 version: "3.7"
 services:
   
+  snips-base-custom:
+    container_name: snips-base-custom
+    build:
+      context: snips-base
+
   snips-base:
     container_name: snips-base
     build:
       context: snips-base
+      dockerfile: Dockerfile-official
   
   java-base-debian:
     container_name: java-base-debian
     build:
       context: java-base-debian
 
-  java-base:
-    container_name: java-base
+  java-base-alpine:
+    container_name: java-base-alpine
     build:
-      context: java-base
+      context: java-base-alpine

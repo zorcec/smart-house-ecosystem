@@ -93,34 +93,6 @@
             }, 
             {
               "args": {
-                "n": 1
-              }, 
-              "factory_name": "shape_ngram", 
-              "offsets": [
-                0
-              ]
-            }, 
-            {
-              "args": {
-                "n": 2
-              }, 
-              "factory_name": "shape_ngram", 
-              "offsets": [
-                -1, 
-                0
-              ]
-            }, 
-            {
-              "args": {
-                "n": 3
-              }, 
-              "factory_name": "shape_ngram", 
-              "offsets": [
-                -1
-              ]
-            }, 
-            {
-              "args": {
                 "tagging_scheme_code": 2, 
                 "use_stemming": true
               }, 
@@ -193,6 +165,8 @@
     }, 
     "language_code": "en", 
     "slot_name_mappings": {
+      "koan:SayItAgain": {}, 
+      "koan:WhatDidISay": {}, 
       "zorcec:decrease_light": {
         "room": "snips/default--room"
       }, 
@@ -214,6 +188,7 @@
         "room": "room ", 
         "scene": "scene"
       }, 
+      "zorcec:temperature_outside": {}, 
       "zorcec:toggle": {
         "item": "room ", 
         "lights": "lights"
@@ -226,7 +201,9 @@
         "item": "lights", 
         "room": "room "
       }, 
-      "zorcec:weather_forecast": {}
+      "zorcec:weather_forecast": {
+        "date": "snips/datetime"
+      }
     }
   }, 
   "intent_parsers": [
@@ -234,6 +211,6 @@
     "probabilistic_intent_parser"
   ], 
   "model_version": "0.17.0", 
-  "training_package_version": "0.17.3", 
+  "training_package_version": "0.17.4", 
   "unit_name": "nlu_engine"
 }

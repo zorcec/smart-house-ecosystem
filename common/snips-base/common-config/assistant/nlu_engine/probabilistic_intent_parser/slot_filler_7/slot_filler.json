@@ -14,7 +14,6 @@
       {
         "args": {
           "common_words_gazetteer_name": "top_10000_words_stemmed", 
-          "language_code": "en", 
           "n": 1, 
           "use_stemming": true
         }, 
@@ -30,7 +29,6 @@
       {
         "args": {
           "common_words_gazetteer_name": "top_10000_words_stemmed", 
-          "language_code": "en", 
           "n": 2, 
           "use_stemming": true
         }, 
@@ -69,42 +67,6 @@
       }, 
       {
         "args": {
-          "language_code": "en", 
-          "n": 1
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          0
-        ]
-      }, 
-      {
-        "args": {
-          "language_code": "en", 
-          "n": 2
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          -1, 
-          0
-        ]
-      }, 
-      {
-        "args": {
-          "language_code": "en", 
-          "n": 3
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          -1
-        ]
-      }, 
-      {
-        "args": {
-          "entities": [
-            "lights", 
-            "room "
-          ], 
-          "language_code": "en", 
           "tagging_scheme_code": 2, 
           "use_stemming": true
         }, 
@@ -118,16 +80,6 @@
       }, 
       {
         "args": {
-          "entity_labels": [
-            "snips/amountOfMoney", 
-            "snips/ordinal", 
-            "snips/number", 
-            "snips/duration", 
-            "snips/percentage", 
-            "snips/temperature", 
-            "snips/datetime"
-          ], 
-          "language_code": "en", 
           "tagging_scheme_code": 1
         }, 
         "factory_name": "builtin_entity_match", 
@@ -140,7 +92,6 @@
       {
         "args": {
           "cluster_name": "brown_clusters", 
-          "language_code": "en", 
           "use_stemming": false
         }, 
         "factory_name": "word_cluster", 
@@ -156,11 +107,8 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelblkMy2.crfsuite", 
-  "intent": "zorcec:turn_on_lights", 
+  "crf_model_file": null, 
+  "intent": "zorcec:temperature_outside", 
   "language_code": "en", 
-  "slot_name_mapping": {
-    "item": "lights", 
-    "room": "room "
-  }
+  "slot_name_mapping": {}
 }

@@ -69,41 +69,8 @@
       }, 
       {
         "args": {
-          "language_code": "en", 
-          "n": 1
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          0
-        ]
-      }, 
-      {
-        "args": {
-          "language_code": "en", 
-          "n": 2
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          -1, 
-          0
-        ]
-      }, 
-      {
-        "args": {
-          "language_code": "en", 
-          "n": 3
-        }, 
-        "factory_name": "shape_ngram", 
-        "offsets": [
-          -1
-        ]
-      }, 
-      {
-        "args": {
           "entities": [
-            "lights", 
-            "room ", 
-            "power_levels"
+            "snips/default--room"
           ], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
@@ -157,13 +124,10 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelZw1iIu.crfsuite", 
-  "intent": "zorcec:set_brightness", 
+  "crf_model_file": "modelrTiv8q.crfsuite", 
+  "intent": "zorcec:decrease_light", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "brightness": "snips/percentage", 
-    "item": "lights", 
-    "level": "power_levels", 
-    "room": "room "
+    "room": "snips/default--room"
   }
 }
