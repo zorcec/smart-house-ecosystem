@@ -17,7 +17,8 @@
 	<Subscription topic="cmnd/#" />
 	<Subscription topic="stat/#" />
 	<Subscription topic="tasmota/#" />
-	<Subscription topic="hermes/intent/#" />
+  	<Subscription topic="sensorio/#" />
+    <Subscription topic="hermes/intent/#" />
 			
 	<!-- Publishing sample messages; use the built-in sample -->
 	<BackgroundScript>

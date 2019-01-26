@@ -1,4 +1,4 @@
-FROM snipsdocker/platform:x86-0.60.1
+FROM snipsdocker/platform:x86-0.60.10
 
 ENV ARCH amd64
 
@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     libasound2-plugins \
     pulseaudio \
     pulseaudio-utils \
+    wget \
     --no-install-recommends
 
 COPY /common-config/pulse/* /etc/pulse/

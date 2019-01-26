@@ -3,9 +3,9 @@ services:
 
   snips-satellite:
     container_name: snips-satellite
+    privileged: true
     build:
       context: ./snips-satellite
-    privileged: true
     devices:
       - "/dev/snd"
     external_links:
@@ -18,6 +18,14 @@ services:
       - /etc/machine-id:/etc/machine-id
       - ~/.config/pulse/cookie:/root/.config/pulse/cookie
       - ../common/snips-base/common-config/:/common-config
+
+  #pi-gpio:
+  #  container_name: pi-gpio
+  #  privileged: true
+  #  build:
+  #    context: ./pi-gpio
+  #  networks:
+  #    - smart-home-network
 
 networks:
   smart-home-network:

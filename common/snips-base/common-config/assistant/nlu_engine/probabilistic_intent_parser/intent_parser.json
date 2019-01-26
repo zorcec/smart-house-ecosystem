@@ -129,52 +129,44 @@
   }, 
   "slot_fillers": [
     {
-      "intent": "koan:SayItAgain", 
+      "intent": "zorcec:decrease_light", 
       "slot_filler_name": "slot_filler_0"
     }, 
     {
-      "intent": "koan:WhatDidISay", 
+      "intent": "zorcec:increase_light", 
       "slot_filler_name": "slot_filler_1"
     }, 
     {
-      "intent": "zorcec:decrease_light", 
+      "intent": "zorcec:set_brightness", 
       "slot_filler_name": "slot_filler_2"
     }, 
     {
-      "intent": "zorcec:increase_light", 
+      "intent": "zorcec:set_color", 
       "slot_filler_name": "slot_filler_3"
     }, 
     {
-      "intent": "zorcec:set_brightness", 
+      "intent": "zorcec:set_scene", 
       "slot_filler_name": "slot_filler_4"
     }, 
     {
-      "intent": "zorcec:set_color", 
+      "intent": "zorcec:temperature_outside", 
       "slot_filler_name": "slot_filler_5"
     }, 
     {
-      "intent": "zorcec:set_scene", 
+      "intent": "zorcec:toggle", 
       "slot_filler_name": "slot_filler_6"
     }, 
     {
-      "intent": "zorcec:temperature_outside", 
+      "intent": "zorcec:turn_off_lights", 
       "slot_filler_name": "slot_filler_7"
     }, 
     {
-      "intent": "zorcec:toggle", 
+      "intent": "zorcec:turn_on_lights", 
       "slot_filler_name": "slot_filler_8"
     }, 
     {
-      "intent": "zorcec:turn_off_lights", 
-      "slot_filler_name": "slot_filler_9"
-    }, 
-    {
-      "intent": "zorcec:turn_on_lights", 
-      "slot_filler_name": "slot_filler_10"
-    }, 
-    {
       "intent": "zorcec:weather_forecast", 
-      "slot_filler_name": "slot_filler_11"
+      "slot_filler_name": "slot_filler_9"
     }
   ]
 }

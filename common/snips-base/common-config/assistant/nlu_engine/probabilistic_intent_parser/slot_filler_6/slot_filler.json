@@ -70,7 +70,7 @@
       {
         "args": {
           "entities": [
-            "scene", 
+            "lights", 
             "room "
           ], 
           "language_code": "en", 
@@ -125,11 +125,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "model16YK_e.crfsuite", 
-  "intent": "zorcec:set_scene", 
+  "crf_model_file": "modelsFGTqu.crfsuite", 
+  "intent": "zorcec:toggle", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "room": "room ", 
-    "scene": "scene"
+    "item": "room ", 
+    "lights": "lights"
   }
 }

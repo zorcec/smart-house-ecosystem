@@ -70,9 +70,8 @@
       {
         "args": {
           "entities": [
-            "lights", 
-            "room ", 
-            "power_levels"
+            "scene", 
+            "room "
           ], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
@@ -126,13 +125,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelLI6kHo.crfsuite", 
-  "intent": "zorcec:set_brightness", 
+  "crf_model_file": "modelCe6lQk.crfsuite", 
+  "intent": "zorcec:set_scene", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "brightness": "snips/percentage", 
-    "item": "lights", 
-    "level": "power_levels", 
-    "room": "room "
+    "room": "room ", 
+    "scene": "scene"
   }
 }

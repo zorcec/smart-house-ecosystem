@@ -21,3 +21,8 @@ services:
     container_name: java-base-alpine
     build:
       context: java-base-alpine
+
+  python-base-debian:
+    container_name: python-base-debian
+    build:
+      context: python-base-debian

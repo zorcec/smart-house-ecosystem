@@ -69,10 +69,7 @@
       }, 
       {
         "args": {
-          "entities": [
-            "lights", 
-            "room "
-          ], 
+          "entities": [], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
           "use_stemming": true
@@ -125,11 +122,10 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modeltoQV7O.crfsuite", 
-  "intent": "zorcec:turn_off_lights", 
+  "crf_model_file": "model6bWYH7.crfsuite", 
+  "intent": "zorcec:weather_forecast", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "item": "lights", 
-    "room": "room "
+    "date": "snips/datetime"
   }
 }

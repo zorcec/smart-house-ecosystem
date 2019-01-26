@@ -51,4 +51,4 @@ automation: !include customize/automation.yaml
 intent_script: !include customize/intent-scripts.yaml
 
 light: !include_dir_list customize/devices/lights/
-sensor: !include_dir_list customize/devices/sensors/
+sensor: !include_dir_merge_list customize/devices/sensors/

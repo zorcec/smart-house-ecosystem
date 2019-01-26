@@ -193,20 +193,6 @@
       "required" : false
     } ],
     "name" : "turn_off_lights"
-  }, {
-    "id" : "koan:WhatDidISay",
-    "type" : "registry",
-    "version" : "1.0.0",
-    "language" : "en",
-    "slots" : [ ],
-    "name" : "WhatDidISay"
-  }, {
-    "id" : "koan:SayItAgain",
-    "type" : "registry",
-    "version" : "1.0.0",
-    "language" : "en",
-    "slots" : [ ],
-    "name" : "SayItAgain"
   } ],
   "createdAt" : "2018-09-23T06:52:34.209Z",
   "language" : "en",
@@ -221,5 +207,5 @@
   },
   "analyticsEnabled" : true,
   "heartbeatEnabled" : true,
-  "hotword" : "sarah"
+  "hotword" : "personal_hotword"
 }

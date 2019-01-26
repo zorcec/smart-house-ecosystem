@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM common_python-base-debian
 
 ENV INSTALLATION_PATH /usr/src/app
 
@@ -10,13 +10,12 @@ ENV INSTALL_LIBCEC no
 ENV INSTALL_SSOCR no
 ENV INSTALL_IPERF3 no
 
-# master, dev or release version
-ENV HOME_ASSISTANT_VERSION 0.84.2
+# master, dev or version nr.
+ENV HOME_ASSISTANT_VERSION 0.86.2
 
 VOLUME /config
 
 RUN mkdir -p /temp
-RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/home-assistant/home-assistant.git $INSTALLATION_PATH
 
 WORKDIR $INSTALLATION_PATH
@@ -28,16 +27,18 @@ RUN if [ "$HOME_ASSISTANT_VERSION" = "master" ]; then \
     else \
         git checkout tags/$HOME_ASSISTANT_VERSION; \
     fi
-    
 
 # Build & setup
+RUN apt-get install -y autoconf
+# temp workaround for some dependency issues
+# RUN pip3 install aiocoap dtlssocket urllib3 requests idna
 RUN virtualization/Docker/setup_docker_prereqs
 
 # Install hass component dependencies
 RUN pip3 install --no-cache-dir -r requirements_all.txt
-RUN pip3 install --no-cache-dir mysqlclient psycopg2 uvloop cchardet cython
+RUN pip3 install --no-cache-dir psycopg2 uvloop cchardet cython tensorflow
 
 # Cleanup    
 RUN apt-get clean
 
-CMD [ "python", "-m", "homeassistant", "--config", "/config" ]
+CMD [ "python3", "-m", "homeassistant", "--config", "/config" ]

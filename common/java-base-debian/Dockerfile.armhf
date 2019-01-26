@@ -1,14 +1,15 @@
 FROM resin/rpi-raspbian:stretch
 
-ENV ARCH armhf
 ARG HOSTID=1001
+
+ENV ARCH armhf
+ENV LANG C.UTF-8
 
 ENV GRADLE_VERSION 4.3.1
 ENV GRADLE_HOME /usr/lib/gradle/gradle-${GRADLE_VERSION}
 ENV PATH ${PATH}:${GRADLE_HOME}/bin
 
 RUN apt-get update
-RUN apt-get install -y --fix-missing supervisor git
 
 # GRADLE
 RUN mkdir /usr/lib/gradle /app

@@ -1,5 +1,6 @@
 FROM common_java-base-debian:latest
 
+ENV LIBTTSPICO_VERSION 1.0+git20130326-3
 ENV INSTALLATION_PATH /usr/src/app
 
 RUN apt-get update

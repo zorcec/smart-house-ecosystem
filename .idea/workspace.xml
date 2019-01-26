@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b6bd20a-2ef5-4ba3-842a-79f1c8654049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile-official" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/python-base-debian/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/python-base-debian/Dockerfile.armhf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/sensorio.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite/pi-gpio/files/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/snips-custom-word/files/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/admin/snips-custom-word/files/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.armhf.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/java-base-debian/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base-debian/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/java-base/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base-alpine/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base-alpine/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/java-base/Dockerfile.armhf" beforeDir="false" afterPath="$PROJECT_DIR$/common/java-base-alpine/Dockerfile.armhf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/Dockerfile-official" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/Dockerfile-official" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/Snipsfile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/Snipsfile.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/a.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/a.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_0.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_0.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_1.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_1.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_2.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_2.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_3.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_3.snips" afterDir="false" />
@@ -27,57 +26,70 @@
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_5.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_5.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_6.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_6.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_7.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_7.snips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_8.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/e_8.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/0089ca95-1922-4fd0-badd-625831236d0a.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/0089ca95-1922-4fd0-badd-625831236d0a.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/1af3b919-8066-4727-9f74-635f02db9423.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/1af3b919-8066-4727-9f74-635f02db9423.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/58e169ec-0305-4715-90a3-b2be0234698d.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/58e169ec-0305-4715-90a3-b2be0234698d.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/711d004e-6675-4109-8931-3e51e00754a0.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/711d004e-6675-4109-8931-3e51e00754a0.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/89c5f072-9f20-4e59-ac1d-a8fd6bd6e1fc.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/89c5f072-9f20-4e59-ac1d-a8fd6bd6e1fc.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/b834677a-af53-4ec6-a8db-eb7b3cde6a59.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/b834677a-af53-4ec6-a8db-eb7b3cde6a59.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/07ebbea9-c37a-43b6-8469-6808c1376e67.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/07ebbea9-c37a-43b6-8469-6808c1376e67.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/07f1407f-35c5-428a-b8a6-2a24bf9826c2.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/07f1407f-35c5-428a-b8a6-2a24bf9826c2.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/279606c4-bd9d-434d-82d7-8b4d27fc8db2.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/279606c4-bd9d-434d-82d7-8b4d27fc8db2.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/4f323c3e-c64d-454b-99ac-ed88f529619d.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/4f323c3e-c64d-454b-99ac-ed88f529619d.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/933415ff-8b26-4527-a8a3-879b3a5298b7.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/933415ff-8b26-4527-a8a3-879b3a5298b7.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/95670629-b1e4-4a06-9193-80c45a2813e2.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/95670629-b1e4-4a06-9193-80c45a2813e2.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/a9e2b993-8210-4dbf-90a6-26d4eacbcf10.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/a9e2b993-8210-4dbf-90a6-26d4eacbcf10.vanilla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/c678bc43-652e-4ab6-bfa4-3d36b45045e5.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/c678bc43-652e-4ab6-bfa4-3d36b45045e5.vanilla" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/config_inj_v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/config_inj_v2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/fc314b4d-42a6-4d39-b52a-938b2c78adac.added" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/fc314b4d-42a6-4d39-b52a-938b2c78adac.vanilla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/l.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/l.snips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/d281677a-ff51-4805-83dd-5df20a6e42f6.added" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/inj_v2/d281677a-ff51-4805-83dd-5df20a6e42f6.vanilla" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/r.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/r.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/u.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/u.snips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/w.snips" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_asr/w.snips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_6/parser" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/custom_entity_parser/parser/parser_6/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword/model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword/thresholds_curve.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/deterministic_intent_parser/intent_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/deterministic_intent_parser/intent_parser.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/nlu_engine.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/nlu_engine.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_classifier/intent_classifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_classifier/intent_classifier.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/intent_parser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/modeltdILKE.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_0/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/modelGCCsgs.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_1/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/modelZw1iIu.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_10/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_10/modelI_2YNn.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_10/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_11/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_11/modelas5LIl.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_11/slot_filler.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/modelrTiv8q.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_2/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/modelEfAMd1.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/modelsPEGLh.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_3/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/modelL4mxxk.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/modelLI6kHo.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_4/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/modelMcV09Y.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/modelGrxEmz.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_5/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/modelj8nSqH.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/model16YK_e.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_6/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/modelblkMy2.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_7/slot_filler.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_8/modelPNrGmP.crfsuite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_8/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_8/slot_filler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/resources/en/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/resources/en/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/resources/en/stop_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/resources/en/stop_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/snippets/zorcec.SARAH_-_Lights_&amp;_Devices/config.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/snips-master/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/snips-master/config/snips.toml" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/config/snips.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/snips-master/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-master/config/supervisor/services.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_9/modeltoQV7O.crfsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_9/slot_filler.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/snips-base/common-config/assistant/nlu_engine/probabilistic_intent_parser/slot_filler_9/slot_filler.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/snips-base/common-config/assistant/snippets/koan.Say_it_again/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/central-tts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/central-tts/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/home-assistant/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/home-assistant/config/.HA_VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/.HA_VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/home-assistant/config/configuration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/configuration.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/mqtt-deamon/config/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/mqtt-deamon/config/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/snips-watch/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/master/snips-watch/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/prepare.amd64.sh" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/prepare.amd64.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite/prepare.armhf.sh" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/prepare.armhf.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" beforeDir="false" afterPath="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/../java-helpers/gradle/build/" />
@@ -124,11 +136,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="153">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/sensorio.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="1" selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/config/configuration.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/weather-prediction.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/config/secrets.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/home-assistant/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/satellite/prepare.amd64.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -153,13 +233,15 @@
       <find>group.</find>
       <find>ARHITECTURE</find>
       <find>LIBTTSPICO_VERSION</find>
-      <find>wget</find>
       <find>ARCH</find>
       <find>apt-get</find>
       <find>musli</find>
       <find>svox</find>
       <find>dpkg --print-architecture</find>
       <find>$(dpkg --print-architecture)</find>
+      <find>configure</find>
+      <find>apt</find>
+      <find>wget</find>
     </findStrings>
     <replaceStrings>
       <replace>${ARCH}</replace>
@@ -172,25 +254,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/home-assistant/.gitignore" />
-        <option value="$PROJECT_DIR$/main/central-tts/.gitignore" />
-        <option value="$PROJECT_DIR$/satellite/pi-gpio/config/snips.toml" />
-        <option value="$PROJECT_DIR$/main/home-assistant/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/mosquitto/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/snips-watch/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/docker-compose.yaml" />
-        <option value="$PROJECT_DIR$/main/mqtt-deamon/Dockerfile" />
-        <option value="$PROJECT_DIR$/main/central-tts/Dockerfile" />
-        <option value="$PROJECT_DIR$/satellite/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" />
-        <option value="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" />
         <option value="$PROJECT_DIR$/satellite/pi-gpio/config/service.properties" />
         <option value="$PROJECT_DIR$/main/snips-master/Dockerfile" />
-        <option value="$PROJECT_DIR$/master/home-assistant/Dockerfile" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/Dockerfile.armhf" />
         <option value="$PROJECT_DIR$/satellite/build.amd64.sh" />
         <option value="$PROJECT_DIR$/satellite/build.armhf.sh" />
-        <option value="$PROJECT_DIR$/master/central-tts/Dockerfile" />
         <option value="$PROJECT_DIR$/master/prepare.amd64.sh" />
         <option value="$PROJECT_DIR$/../pi-gpio/.gitignore" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/files/start.sh" />
@@ -211,18 +280,31 @@
         <option value="$PROJECT_DIR$/admin/snips-custom-word/files/start.sh" />
         <option value="$PROJECT_DIR$/admin/snips-custom-word/Dockerfile" />
         <option value="$PROJECT_DIR$/common/docker-compose.armhf.yaml" />
-        <option value="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" />
         <option value="$PROJECT_DIR$/satellite/prepare.amd64.sh" />
         <option value="$PROJECT_DIR$/satellite/prepare.armhf.sh" />
         <option value="$PROJECT_DIR$/satellite/snips-satellite/config/snips.toml" />
         <option value="$PROJECT_DIR$/common/snips-base/common-config/assistant/assistant.json" />
-        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile" />
-        <option value="$PROJECT_DIR$/common/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/master/snips-master/Dockerfile" />
         <option value="$PROJECT_DIR$/master/snips-master/config/supervisor/services.conf" />
         <option value="$PROJECT_DIR$/master/snips-master/config/snips.toml" />
-        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/master/snips-watch/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/master/central-tts/Dockerfile" />
         <option value="$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/common/python-base-debian/Dockerfile" />
+        <option value="$PROJECT_DIR$/satellite/pi-gpio/Dockerfile" />
+        <option value="$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf" />
+        <option value="$PROJECT_DIR$/common/python-base-debian/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/common/java-base-debian/Dockerfile" />
+        <option value="$PROJECT_DIR$/master/mqtt-deamon/config/config.xml" />
+        <option value="$PROJECT_DIR$/master/home-assistant/Dockerfile" />
+        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile.armhf" />
+        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile" />
+        <option value="$PROJECT_DIR$/satellite/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/common/snips-base/Dockerfile-official" />
+        <option value="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml" />
+        <option value="$PROJECT_DIR$/master/home-assistant/config/configuration.yaml" />
+        <option value="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/sensorio.yaml" />
       </list>
     </option>
   </component>
@@ -246,7 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,52 +338,95 @@
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base-debian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
               <item name="master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
-              <item name="pi-gpio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
-              <item name="snips-satellite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="satellite" type="462c0819:PsiDirectoryNode" />
-              <item name="snips-satellite" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="customize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="customize" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="customize" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
+              <item name="lights" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="customize" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
+              <item name="lights" type="462c0819:PsiDirectoryNode" />
+              <item name="development" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="customize" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
+              <item name="sensors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="home-assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="customize" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
+              <item name="sensors" type="462c0819:PsiDirectoryNode" />
+              <item name="development" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-house-ecosystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-house-ecosystem" type="462c0819:PsiDirectoryNode" />
+              <item name="satellite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545386238688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548519156230" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pi-gpio/build.gradle" />
@@ -312,19 +436,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development" />
+      <recent name="$PROJECT_DIR$/satellite/pi-gpio" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/common/snips-base" />
+      <recent name="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/common/snips-base/common-config/hotword/sarah" />
       <recent name="$PROJECT_DIR$/common/snips-base/common-config" />
       <recent name="$PROJECT_DIR$/main/snips-satellite/config" />
       <recent name="$PROJECT_DIR$/main/central-tts/config" />
       <recent name="$PROJECT_DIR$/main/central-tts/gradle/resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/common/snips-base" />
-      <recent name="$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword" />
-      <recent name="$PROJECT_DIR$/common" />
-      <recent name="$PROJECT_DIR$/../pi-gpio" />
-      <recent name="$PROJECT_DIR$/master" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -645,14 +769,20 @@
       <option name="project" value="LOCAL" />
       <updated>1544875518321</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Making snips work again&#10;- 2 snips common images (official, and custom latest)&#10;- should work with armhf; not fully tested&#10;- multiple updates to fix bugs&#10;- assistant updated to latest version">
+      <created>1545386359469</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1545386359469</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23242944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -666,9 +796,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.325054" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002767" side_tool="true" weight="0.32864866" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997233" weight="0.3261339" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32397407" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008301" side_tool="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4991699" weight="0.3261339" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.31965443" />
@@ -735,7 +865,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Snips satellite picotts fallback" />
     <MESSAGE value="picotts fallback for central-tts" />
     <MESSAGE value="Improvements for the picotts (central-tts will fallback)" />
     <MESSAGE value="Lets call her Sarah + voice texts added" />
@@ -760,7 +889,8 @@
     <MESSAGE value="Almost working (new assistant needed)" />
     <MESSAGE value="Correcting arch in snips-base" />
     <MESSAGE value="Adding network create into prepare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding network create into prepare" />
+    <MESSAGE value="Making snips work again&#10;- 2 snips common images (official, and custom latest)&#10;- should work with armhf; not fully tested&#10;- multiple updates to fix bugs&#10;- assistant updated to latest version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making snips work again&#10;- 2 snips common images (official, and custom latest)&#10;- should work with armhf; not fully tested&#10;- multiple updates to fix bugs&#10;- assistant updated to latest version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -837,170 +967,10 @@ return t;</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/java-base/gradle/.project" />
-    <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/Dockerfile.armhf" />
-    <entry file="file://$PROJECT_DIR$/satellite/build.amd64.sh" />
-    <entry file="file://$PROJECT_DIR$/satellite/build.armhf.sh" />
-    <entry file="file://$PROJECT_DIR$/satellite/docker-compose.armhf.yaml" />
-    <entry file="file://$PROJECT_DIR$/tools/scripts/cleanup-docker.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../central-tts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pi-gpio/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/snips-satellite/files/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/java-base-alpine/Dockerfile.armhf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FileInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zorcec/java-helpers/master/80262fa2b57855be474f585742b8c2e509008bc5/java-helpers-master.jar!/main/java/helpers/configurations/PropertiesReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pi/gpio/Service.java" />
-    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pigpio/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pigpio/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pi-gpio/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base_old/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/common/snips-base_old/Dockerfile.armhf" />
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/pulse/client.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master/snips-master/files/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/build.armhf.sh" />
-    <entry file="file://$PROJECT_DIR$/todo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master/prepare.amd64.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword/thresholds_curve.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/common-config/assistant/custom_hotword/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master/prepare.armhf.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/snips-custom-word/files/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/snips-custom-word/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="74" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/java-base-alpine/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master/central-tts/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/prepare.amd64.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1015,13 +985,6 @@ return t;</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/satellite/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1042,16 +1005,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master/snips-master/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/master/snips-master/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1066,13 +1019,6 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/docker-compose.armhf.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1080,34 +1026,265 @@ return t;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/master/prepare.armhf.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile-official">
+    <entry file="file://$PROJECT_DIR$/master/mosquitto/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/master/snips-watch/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="21" selection-end-line="48" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
+    <entry file="file://$PROJECT_DIR$/master/mqtt-deamon/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/python-base-debian/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/common/java-base-alpine/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/central-tts/config/supervisor/services.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <caret selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/config/supervisor/services.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/central-tts/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="31" selection-start-line="35" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/files/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/pi-gpio/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile.armhf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/java-base-debian/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pigpio/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/src/main/java/services/pigpio/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pi-gpio/resources/config/service.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-helpers/src/main/java/helpers/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/mqtt-deamon/config/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/python-base-debian/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/snips-master/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/python-base-debian/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile.armhf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/prepare.amd64.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/prepare.amd64.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satellite/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/snips-base/Dockerfile-official">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/mqtt.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/homeassistant.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/automation.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/customize.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/main-light.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="1" selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/development/sensorio.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/configuration.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/sensors/weather-prediction.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/main-light.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="4" selection-start-column="17" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/secrets.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/home-assistant/config/customize/devices/lights/development/ambient-light.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>

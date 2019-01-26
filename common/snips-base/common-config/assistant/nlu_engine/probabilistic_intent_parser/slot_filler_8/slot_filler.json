@@ -125,11 +125,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelPNrGmP.crfsuite", 
-  "intent": "zorcec:toggle", 
+  "crf_model_file": "modeljxAeOA.crfsuite", 
+  "intent": "zorcec:turn_on_lights", 
   "language_code": "en", 
   "slot_name_mapping": {
-    "item": "room ", 
-    "lights": "lights"
+    "item": "lights", 
+    "room": "room "
   }
 }
