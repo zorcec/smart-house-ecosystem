@@ -5,7 +5,7 @@
       "entity_parser": "parser_1"
     },
     {
-      "entity_identifier": "room ",
+      "entity_identifier": "room",
       "entity_parser": "parser_2"
     },
     {

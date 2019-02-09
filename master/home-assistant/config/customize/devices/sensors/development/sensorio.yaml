@@ -29,7 +29,7 @@
   value_template: "{{ value_json.pressure }}"
 
 - platform: mqtt
-  name: "Development: Sensorio Event"
-  state_topic: "/sensorio/development_1/EVENT"
-  value_template: "{{ value_json.name }}"
+  name: "Development: Sensorio motion"
+  state_topic: "/sensorio/development_1/EVENT/MOTION"
+  value_template: "{{ value_json.data }}"
   retain: false

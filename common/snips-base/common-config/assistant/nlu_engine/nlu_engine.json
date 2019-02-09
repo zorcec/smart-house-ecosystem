@@ -150,7 +150,7 @@
       "power_levels": {
         "automatically_extensible": false
       }, 
-      "room ": {
+      "room": {
         "automatically_extensible": false
       }, 
       "scene": {
@@ -175,32 +175,27 @@
         "brightness": "snips/percentage", 
         "item": "lights", 
         "level": "power_levels", 
-        "room": "room "
+        "room": "room"
       }, 
       "zorcec:set_color": {
         "color": "color", 
         "item": "lights", 
-        "room": "room "
+        "room": "room"
       }, 
       "zorcec:set_scene": {
-        "room": "room ", 
         "scene": "scene"
       }, 
-      "zorcec:temperature_outside": {}, 
       "zorcec:toggle": {
-        "item": "room ", 
-        "lights": "lights"
+        "item": "lights", 
+        "room": "room"
       }, 
       "zorcec:turn_off_lights": {
         "item": "lights", 
-        "room": "room "
+        "room": "room"
       }, 
       "zorcec:turn_on_lights": {
         "item": "lights", 
-        "room": "room "
-      }, 
-      "zorcec:weather_forecast": {
-        "date": "snips/datetime"
+        "room": "room"
       }
     }
   }, 

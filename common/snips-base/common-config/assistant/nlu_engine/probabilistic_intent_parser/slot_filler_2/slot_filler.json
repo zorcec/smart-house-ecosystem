@@ -71,7 +71,7 @@
         "args": {
           "entities": [
             "lights", 
-            "room ", 
+            "room", 
             "power_levels"
           ], 
           "language_code": "en", 
@@ -126,13 +126,13 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "modelzje6Wy.crfsuite", 
+  "crf_model_file": "modele9Z68m.crfsuite", 
   "intent": "zorcec:set_brightness", 
   "language_code": "en", 
   "slot_name_mapping": {
     "brightness": "snips/percentage", 
     "item": "lights", 
     "level": "power_levels", 
-    "room": "room "
+    "room": "room"
   }
 }

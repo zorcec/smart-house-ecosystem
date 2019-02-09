@@ -72,7 +72,7 @@
           "entities": [
             "color", 
             "lights", 
-            "room "
+            "room"
           ], 
           "language_code": "en", 
           "tagging_scheme_code": 2, 
@@ -126,12 +126,12 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": "model9bXchS.crfsuite", 
+  "crf_model_file": "modeli3Bp_9.crfsuite", 
   "intent": "zorcec:set_color", 
   "language_code": "en", 
   "slot_name_mapping": {
     "color": "color", 
     "item": "lights", 
-    "room": "room "
+    "room": "room"
   }
 }

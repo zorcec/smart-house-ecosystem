@@ -149,24 +149,16 @@
       "slot_filler_name": "slot_filler_4"
     }, 
     {
-      "intent": "zorcec:temperature_outside", 
+      "intent": "zorcec:toggle", 
       "slot_filler_name": "slot_filler_5"
     }, 
     {
-      "intent": "zorcec:toggle", 
+      "intent": "zorcec:turn_off_lights", 
       "slot_filler_name": "slot_filler_6"
     }, 
     {
-      "intent": "zorcec:turn_off_lights", 
-      "slot_filler_name": "slot_filler_7"
-    }, 
-    {
       "intent": "zorcec:turn_on_lights", 
-      "slot_filler_name": "slot_filler_8"
-    }, 
-    {
-      "intent": "zorcec:weather_forecast", 
-      "slot_filler_name": "slot_filler_9"
+      "slot_filler_name": "slot_filler_7"
     }
   ]
 }

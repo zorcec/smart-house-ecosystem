@@ -19,13 +19,22 @@ services:
       - ~/.config/pulse/cookie:/root/.config/pulse/cookie
       - ../common/snips-base/common-config/:/common-config
 
-  #pi-gpio:
-  #  container_name: pi-gpio
-  #  privileged: true
-  #  build:
-  #    context: ./pi-gpio
-  #  networks:
-  #    - smart-home-network
+  sound-presence:
+    container_name: sound-presence
+    privileged: true
+    build:
+      context: ./sound-presence
+    devices:
+      - "/dev/snd"
+    external_links:
+      - mosquitto:mqtt
+    networks:
+      - smart-home-network
+    volumes:
+      - /run/user/1000/pulse:/run/user/1000/pulse
+      - /etc/machine-id:/etc/machine-id
+      - ~/.config/pulse/cookie:/root/.config/pulse/cookie
+      - ./sound-presence/src:/src
 
 networks:
   smart-home-network:

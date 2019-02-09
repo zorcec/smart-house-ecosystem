@@ -2,29 +2,9 @@
   "id" : "proj_E6gMV1A3wWo0",
   "name" : "SARAH",
   "intents" : [ {
-    "id" : "zorcec:weather_forecast",
-    "type" : "registry",
-    "version" : "0.11.0",
-    "language" : "en",
-    "slots" : [ {
-      "name" : "date",
-      "id" : "0yznjRuKS",
-      "entityId" : "snips/datetime",
-      "missingQuestion" : "For when do you want to hear the weather forecast?",
-      "required" : true
-    } ],
-    "name" : "weather_forecast"
-  }, {
-    "id" : "zorcec:temperature_outside",
-    "type" : "registry",
-    "version" : "0.2.0",
-    "language" : "en",
-    "slots" : [ ],
-    "name" : "temperature_outside"
-  }, {
     "id" : "zorcec:set_color",
     "type" : "registry",
-    "version" : "0.36.0",
+    "version" : "0.38.0",
     "language" : "en",
     "slots" : [ {
       "name" : "color",
@@ -49,7 +29,7 @@
   }, {
     "id" : "zorcec:increase_light",
     "type" : "registry",
-    "version" : "0.2.0",
+    "version" : "0.4.0",
     "language" : "en",
     "slots" : [ {
       "name" : "room",
@@ -68,7 +48,7 @@
   }, {
     "id" : "zorcec:decrease_light",
     "type" : "registry",
-    "version" : "0.1.0",
+    "version" : "0.2.0",
     "language" : "en",
     "slots" : [ {
       "name" : "percent",
@@ -87,7 +67,7 @@
   }, {
     "id" : "zorcec:set_scene",
     "type" : "registry",
-    "version" : "0.8.0",
+    "version" : "0.9.0",
     "language" : "en",
     "slots" : [ {
       "name" : "scene",
@@ -106,16 +86,16 @@
   }, {
     "id" : "zorcec:toggle",
     "type" : "registry",
-    "version" : "0.51.0",
+    "version" : "0.52.0",
     "language" : "en",
     "slots" : [ {
-      "name" : "lights",
+      "name" : "item",
       "id" : "nVzOfiy8j",
       "entityId" : "entity_9xlKNYxkzr",
       "missingQuestion" : "What do you want to toggle?",
       "required" : true
     }, {
-      "name" : "item",
+      "name" : "room",
       "id" : "HL5x3grP_",
       "entityId" : "entity_W5qoY5ak8mow",
       "missingQuestion" : "",
@@ -125,7 +105,7 @@
   }, {
     "id" : "zorcec:set_brightness",
     "type" : "registry",
-    "version" : "0.74.0",
+    "version" : "0.76.0",
     "language" : "en",
     "slots" : [ {
       "name" : "brightness",
@@ -156,7 +136,7 @@
   }, {
     "id" : "zorcec:turn_on_lights",
     "type" : "registry",
-    "version" : "0.83.0",
+    "version" : "0.85.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -177,7 +157,7 @@
   }, {
     "id" : "zorcec:turn_off_lights",
     "type" : "registry",
-    "version" : "0.53.0",
+    "version" : "0.54.0",
     "language" : "en",
     "slots" : [ {
       "name" : "item",
@@ -207,5 +187,5 @@
   },
   "analyticsEnabled" : true,
   "heartbeatEnabled" : true,
-  "hotword" : "personal_hotword"
+  "hotword" : "hey_snips"
 }

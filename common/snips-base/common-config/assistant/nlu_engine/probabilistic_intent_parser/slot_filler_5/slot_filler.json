@@ -14,6 +14,7 @@
       {
         "args": {
           "common_words_gazetteer_name": "top_10000_words_stemmed", 
+          "language_code": "en", 
           "n": 1, 
           "use_stemming": true
         }, 
@@ -29,6 +30,7 @@
       {
         "args": {
           "common_words_gazetteer_name": "top_10000_words_stemmed", 
+          "language_code": "en", 
           "n": 2, 
           "use_stemming": true
         }, 
@@ -67,6 +69,11 @@
       }, 
       {
         "args": {
+          "entities": [
+            "lights", 
+            "room"
+          ], 
+          "language_code": "en", 
           "tagging_scheme_code": 2, 
           "use_stemming": true
         }, 
@@ -80,6 +87,16 @@
       }, 
       {
         "args": {
+          "entity_labels": [
+            "snips/amountOfMoney", 
+            "snips/ordinal", 
+            "snips/number", 
+            "snips/duration", 
+            "snips/percentage", 
+            "snips/temperature", 
+            "snips/datetime"
+          ], 
+          "language_code": "en", 
           "tagging_scheme_code": 1
         }, 
         "factory_name": "builtin_entity_match", 
@@ -92,6 +109,7 @@
       {
         "args": {
           "cluster_name": "brown_clusters", 
+          "language_code": "en", 
           "use_stemming": false
         }, 
         "factory_name": "word_cluster", 
@@ -107,8 +125,11 @@
     "tagging_scheme": 1, 
     "unit_name": "crf_slot_filler"
   }, 
-  "crf_model_file": null, 
-  "intent": "zorcec:temperature_outside", 
+  "crf_model_file": "modelj5LyEd.crfsuite", 
+  "intent": "zorcec:toggle", 
   "language_code": "en", 
-  "slot_name_mapping": {}
+  "slot_name_mapping": {
+    "item": "lights", 
+    "room": "room"
+  }
 }

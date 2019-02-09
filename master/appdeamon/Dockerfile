@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM common_python-base-debian
 
 COPY /files/* /src/
 RUN pip3 install --no-cache-dir -r /src/requirements_all.txt

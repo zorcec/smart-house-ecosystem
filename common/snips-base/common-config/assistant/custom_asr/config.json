@@ -1,14 +1,13 @@
 {
     "entityNameToFilename": {
-        "snips/default--percent": "e_1.snips", 
-        "room ": "e_5.snips", 
-        "color": "e_4.snips", 
+        "snips/default--percent": "e_5.snips", 
+        "room": "e_4.snips", 
+        "color": "e_0.snips", 
         "scene": "e_6.snips", 
-        "power_levels": "e_2.snips", 
-        "lights": "e_0.snips", 
-        "snips/percentage": "e_3.snips", 
-        "snips/default--room": "e_8.snips", 
-        "snips/datetime": "e_7.snips"
+        "power_levels": "e_7.snips", 
+        "lights": "e_3.snips", 
+        "snips/percentage": "e_2.snips", 
+        "snips/default--room": "e_1.snips"
     }, 
     "injectionsEngine": {
         "version": 2
@@ -32,7 +31,7 @@
         "version": "0.1.0"
     }, 
     "asrLmAdaptation": {
-        "version": "0.19.2"
+        "version": "0.19.3"
     }, 
     "endpointingRules": {
         "rule3": {
@@ -69,142 +68,121 @@
     "postprocessors": [
         {
             "Regex": {
-                "pattern": "`ENTITY`18b831f8-349a-415d-a7c3-ed0d6c104c42`START (.*?) `ENTITY`18b831f8-349a-415d-a7c3-ed0d6c104c42`END", 
+                "pattern": "`ENTITY`cb3fb75e-1630-4cd6-aafe-3f6553a99039`START (.*?) `ENTITY`cb3fb75e-1630-4cd6-aafe-3f6553a99039`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`18b831f8-349a-415d-a7c3-ed0d6c104c42`START ", 
+                "pattern": "`ENTITY`cb3fb75e-1630-4cd6-aafe-3f6553a99039`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`e2017a35-9278-4345-bc77-4b757da8e431`START (.*?) `ENTITY`e2017a35-9278-4345-bc77-4b757da8e431`END", 
+                "pattern": "`ENTITY`ae765e17-ade2-4fbd-a5bb-70a5d82cec37`START (.*?) `ENTITY`ae765e17-ade2-4fbd-a5bb-70a5d82cec37`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`e2017a35-9278-4345-bc77-4b757da8e431`START ", 
+                "pattern": "`ENTITY`ae765e17-ade2-4fbd-a5bb-70a5d82cec37`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`6f1454be-b969-4461-982d-de5e1768b190`START (.*?) `ENTITY`6f1454be-b969-4461-982d-de5e1768b190`END", 
+                "pattern": "`ENTITY`e8cdd1c5-7add-4e97-b4b5-80c2eb4b35cd`START (.*?) `ENTITY`e8cdd1c5-7add-4e97-b4b5-80c2eb4b35cd`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`6f1454be-b969-4461-982d-de5e1768b190`START ", 
+                "pattern": "`ENTITY`e8cdd1c5-7add-4e97-b4b5-80c2eb4b35cd`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`7f791ff1-25db-4bb2-a093-628362dfe8eb`START (.*?) `ENTITY`7f791ff1-25db-4bb2-a093-628362dfe8eb`END", 
+                "pattern": "`ENTITY`22bcf11e-a01c-4fad-a585-a59cdecbaaae`START (.*?) `ENTITY`22bcf11e-a01c-4fad-a585-a59cdecbaaae`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`7f791ff1-25db-4bb2-a093-628362dfe8eb`START ", 
+                "pattern": "`ENTITY`22bcf11e-a01c-4fad-a585-a59cdecbaaae`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`0bfeb3d2-89b1-4c5c-a8ff-063e38426b1b`START (.*?) `ENTITY`0bfeb3d2-89b1-4c5c-a8ff-063e38426b1b`END", 
+                "pattern": "`ENTITY`443e5e25-1d97-47b0-bea9-aa1479777164`START (.*?) `ENTITY`443e5e25-1d97-47b0-bea9-aa1479777164`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`0bfeb3d2-89b1-4c5c-a8ff-063e38426b1b`START ", 
+                "pattern": "`ENTITY`443e5e25-1d97-47b0-bea9-aa1479777164`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`bc509a59-1cc1-49d1-9a55-984ef7c6e163`START (.*?) `ENTITY`bc509a59-1cc1-49d1-9a55-984ef7c6e163`END", 
+                "pattern": "`ENTITY`c0e8792f-3bde-4bd6-ac2f-a5f7e2921161`START (.*?) `ENTITY`c0e8792f-3bde-4bd6-ac2f-a5f7e2921161`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`bc509a59-1cc1-49d1-9a55-984ef7c6e163`START ", 
+                "pattern": "`ENTITY`c0e8792f-3bde-4bd6-ac2f-a5f7e2921161`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`START (.*?) `ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`END", 
+                "pattern": "`ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`START (.*?) `ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`START ", 
+                "pattern": "`ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`START ", 
                 "flags": "i", 
                 "replacement": ""
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`START .[^`]*? `ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`BYPASSING `ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`END", 
+                "pattern": "`ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`START .[^`]*? `ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`BYPASSING `ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`END", 
                 "flags": "i", 
                 "replacement": "unknownword"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`6d3b6a90-a65b-4e99-a3ce-866519b134f6`START (.*?) `ENTITY`6d3b6a90-a65b-4e99-a3ce-866519b134f6`END", 
+                "pattern": "`ENTITY`bf7d189f-f651-4d14-abcb-ce9f56934c13`START (.*?) `ENTITY`bf7d189f-f651-4d14-abcb-ce9f56934c13`END", 
                 "flags": "i", 
                 "replacement": "$1"
             }
         }, 
         {
             "Regex": {
-                "pattern": "`ENTITY`6d3b6a90-a65b-4e99-a3ce-866519b134f6`START ", 
+                "pattern": "`ENTITY`bf7d189f-f651-4d14-abcb-ce9f56934c13`START ", 
                 "flags": "i", 
                 "replacement": ""
-            }
-        }, 
-        {
-            "Regex": {
-                "pattern": "`ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`START (.*?) `ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`END", 
-                "flags": "i", 
-                "replacement": "$1"
-            }
-        }, 
-        {
-            "Regex": {
-                "pattern": "`ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`START ", 
-                "flags": "i", 
-                "replacement": ""
-            }
-        }, 
-        {
-            "Regex": {
-                "pattern": "`ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`START .[^`]*? `ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`BYPASSING `ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`END", 
-                "flags": "i", 
-                "replacement": "unknownword"
             }
         }
     ], 
@@ -213,114 +191,102 @@
     }, 
     "entitiesFstMap": [
         [
-            592, 
+            335, 
             "__root__"
         ], 
         [
-            598, 
+            338, 
             "e_0.snips"
         ], 
         [
-            593, 
+            343, 
             "e_1.snips"
         ], 
         [
-            597, 
+            342, 
             "e_2.snips"
         ], 
         [
-            599, 
+            341, 
             "e_3.snips"
         ], 
         [
-            595, 
+            337, 
             "e_4.snips"
         ], 
         [
-            594, 
+            336, 
             "e_5.snips"
         ], 
         [
-            596, 
+            339, 
             "e_6.snips"
         ], 
         [
-            601, 
+            340, 
             "e_7.snips"
-        ], 
-        [
-            600, 
-            "e_8.snips"
         ]
     ], 
     "entityNameToDisambigs": {
         "snips/default--percent": {
-            "start": "`ENTITY`18b831f8-349a-415d-a7c3-ed0d6c104c42`START", 
-            "end": "`ENTITY`18b831f8-349a-415d-a7c3-ed0d6c104c42`END", 
+            "start": "`ENTITY`cb3fb75e-1630-4cd6-aafe-3f6553a99039`START", 
+            "end": "`ENTITY`cb3fb75e-1630-4cd6-aafe-3f6553a99039`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
-        "room ": {
-            "start": "`ENTITY`e2017a35-9278-4345-bc77-4b757da8e431`START", 
-            "end": "`ENTITY`e2017a35-9278-4345-bc77-4b757da8e431`END", 
+        "room": {
+            "start": "`ENTITY`ae765e17-ade2-4fbd-a5bb-70a5d82cec37`START", 
+            "end": "`ENTITY`ae765e17-ade2-4fbd-a5bb-70a5d82cec37`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
         "color": {
-            "start": "`ENTITY`6f1454be-b969-4461-982d-de5e1768b190`START", 
-            "end": "`ENTITY`6f1454be-b969-4461-982d-de5e1768b190`END", 
+            "start": "`ENTITY`e8cdd1c5-7add-4e97-b4b5-80c2eb4b35cd`START", 
+            "end": "`ENTITY`e8cdd1c5-7add-4e97-b4b5-80c2eb4b35cd`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
         "scene": {
-            "start": "`ENTITY`7f791ff1-25db-4bb2-a093-628362dfe8eb`START", 
-            "end": "`ENTITY`7f791ff1-25db-4bb2-a093-628362dfe8eb`END", 
+            "start": "`ENTITY`22bcf11e-a01c-4fad-a585-a59cdecbaaae`START", 
+            "end": "`ENTITY`22bcf11e-a01c-4fad-a585-a59cdecbaaae`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
         "power_levels": {
-            "start": "`ENTITY`0bfeb3d2-89b1-4c5c-a8ff-063e38426b1b`START", 
-            "end": "`ENTITY`0bfeb3d2-89b1-4c5c-a8ff-063e38426b1b`END", 
+            "start": "`ENTITY`443e5e25-1d97-47b0-bea9-aa1479777164`START", 
+            "end": "`ENTITY`443e5e25-1d97-47b0-bea9-aa1479777164`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
         "lights": {
-            "start": "`ENTITY`bc509a59-1cc1-49d1-9a55-984ef7c6e163`START", 
-            "end": "`ENTITY`bc509a59-1cc1-49d1-9a55-984ef7c6e163`END", 
+            "start": "`ENTITY`c0e8792f-3bde-4bd6-ac2f-a5f7e2921161`START", 
+            "end": "`ENTITY`c0e8792f-3bde-4bd6-ac2f-a5f7e2921161`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
         "snips/percentage": {
-            "start": "`ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`START", 
-            "end": "`ENTITY`08de2a97-7a63-474b-9918-e1da8bb13419`END", 
+            "start": "`ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`START", 
+            "end": "`ENTITY`1f4ca3bf-b4a0-4f11-be03-1a1cfc0f939f`END", 
             "empty": [
                 "", 
                 4
             ]
         }, 
         "snips/default--room": {
-            "start": "`ENTITY`6d3b6a90-a65b-4e99-a3ce-866519b134f6`START", 
-            "end": "`ENTITY`6d3b6a90-a65b-4e99-a3ce-866519b134f6`END", 
-            "empty": [
-                "", 
-                4
-            ]
-        }, 
-        "snips/datetime": {
-            "start": "`ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`START", 
-            "end": "`ENTITY`55ff9b63-61c8-4852-99b5-34f78818bb17`END", 
+            "start": "`ENTITY`bf7d189f-f651-4d14-abcb-ce9f56934c13`START", 
+            "end": "`ENTITY`bf7d189f-f651-4d14-abcb-ce9f56934c13`END", 
             "empty": [
                 "", 
                 4
