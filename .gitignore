@@ -1,3 +1,4 @@
 /**/*.log
 /**/*.pid
 .gradle
+/**/__pycache__

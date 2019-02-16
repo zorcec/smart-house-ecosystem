@@ -7,3 +7,5 @@ simplejson
 eyed3
 pydub
 pyalsaaudio
+paho-mqtt
+pyyaml
