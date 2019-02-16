@@ -1,6 +1,6 @@
 FROM common_python-base-debian
 
-RUN apt-get update && apt-get install -y libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg
+RUN apt-get update && apt-get install -y python3-tk ffmpeg libasound2-dev
 
 COPY /src/requirements_all.txt /src/requirements_all.txt
 RUN pip3 install --no-cache-dir -r /src/requirements_all.txt
