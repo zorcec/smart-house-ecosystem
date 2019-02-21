@@ -5,7 +5,7 @@ services:
     container_name: home-assistant
     build:
       context: ./home-assistant
-    restart: always
+    restart: never
     ports:
       - "0.0.0.0:8123:8123"
     external_links:
@@ -20,7 +20,7 @@ services:
     container_name: appdeamon
     build:
       context: ./appdeamon
-    restart: always
+    restart: never
     ports:
       - "0.0.0.0:5050:5050"
     external_links:
@@ -35,7 +35,7 @@ services:
     container_name: mosquitto
     build:
       context: ./mosquitto
-    restart: always
+    restart: never
     ports:
       - "0.0.0.0:1883:1883"
     networks:
@@ -47,7 +47,7 @@ services:
     container_name: snips-master
     build:
       context: ./snips-master
-    restart: always
+    restart: never
     external_links:
       - mosquitto:mqtt
     depends_on:
@@ -73,7 +73,7 @@ services:
     container_name: snips-watch
     build:
       context: ./snips-watch
-    restart: always
+    restart: never
     external_links:
       - mosquitto:mqtt
     networks:
