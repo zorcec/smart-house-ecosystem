@@ -329,7 +329,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550921802629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550921905637" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/main/central-tts/gradle" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/satellite/sound-presence/virtualEnvironment" />

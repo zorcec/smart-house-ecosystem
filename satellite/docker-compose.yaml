@@ -4,6 +4,7 @@ services:
   snips-satellite:
     container_name: snips-satellite
     privileged: true
+    restart: never
     build:
       context: ./snips-satellite
     devices:
@@ -22,6 +23,7 @@ services:
   sound-presence:
     container_name: sound-presence
     privileged: true
+    restart: never
     build:
       context: ./sound-presence
     devices:
