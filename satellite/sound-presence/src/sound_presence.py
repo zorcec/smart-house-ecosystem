@@ -5,9 +5,6 @@ import paho.mqtt.publish as publish
 import os, alsaaudio, time, audioop, numpy, scipy
 import scipy.io.wavfile as wavfile
 import audioFeatureExtraction as aF
-import audioTrainTest as aT
-import audioSegmentation as aS
-import json
 import yaml
 
 class SoundPresence():
@@ -25,6 +22,8 @@ class SoundPresence():
 		self.pwmPrevious = 0
 		self.pwmMin = 0
 		self.pwmMax = 0
+
+		print("Initialized")
 
 		while True:
 			data, minPwmValue, maxPwmValue = self.capture()
@@ -51,7 +50,10 @@ class SoundPresence():
 
 	def notifyPresence(self, target, pwm):
 		dataString = "{ \"min\":  %s, \"max\": %s, \"target\": %s, \"current\": %s }" % (self.pwmMin, self.pwmMax, target, pwm)
-		publish.single("/%s/audio-presence" % self.deviceName, dataString, hostname=self.mqttHost)
+		try:
+			publish.single("/%s/sound-presence" % self.deviceName, dataString, hostname=self.mqttHost)
+		except:
+			print("Cannot connect to MQTT")
 
 
 	def analyzePwm(self, min, max):

@@ -16,20 +16,20 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./home-assistant/config:/config
 
-  appdeamon:
-    container_name: appdeamon
-    build:
-      context: ./appdeamon
-    restart: always
-    ports:
-      - "0.0.0.0:5050:5050"
-    external_links:
-      - mosquitto:mqtt
-      - home-assistant:home-assistant
-    networks:
-      - smart-home-network
-    volumes:
-      - ./appdeamon/apps:/src/apps
+  #appdeamon:
+  #  container_name: appdeamon
+  #  build:
+  #    context: ./appdeamon
+  #  restart: always
+  #  ports:
+  #    - "0.0.0.0:5050:5050"
+  #  external_links:
+  #    - mosquitto:mqtt
+  #    - home-assistant:home-assistant
+  #  networks:
+  #    - smart-home-network
+  #  volumes:
+  #    - ./appdeamon/apps:/src/apps
 
   mosquitto:
     container_name: mosquitto

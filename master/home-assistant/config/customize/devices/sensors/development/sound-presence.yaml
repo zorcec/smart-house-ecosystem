@@ -1,0 +1,4 @@
+- platform: mqtt
+  name: "Development: Sound presence"
+  state_topic: "/development_1/sound-presence"
+  value_template: "{{ value_json.current }}"

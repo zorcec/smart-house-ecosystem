@@ -45,6 +45,13 @@ cloud:
 # Snips
 snips:
 
+logger:
+  default: warning
+  logs:
+    custom_components.smart_lights: debug
+
+smart_lights:
+
 group: !include customize/groups.yaml
 script: !include customize/scripts.yaml
 automation: !include customize/automation.yaml
